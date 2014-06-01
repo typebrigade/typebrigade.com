@@ -10,6 +10,13 @@
       "typekit": "pth8ehh",
       "analytics": "UA-51542815-1",
       "disqus": false
+    },
+    "social": {
+      "hashtag": "typebrigade",
+      "meetup": "vancouver-typography-meetup-group",
+      "twitter": "typebrigade",
+      "github": "typebrigade"
     }
+
   }
 }
