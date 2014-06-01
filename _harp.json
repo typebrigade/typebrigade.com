@@ -1,3 +1,15 @@
 {
-  
+  "domains": ["typebrigade.com"],
+  "globals": {
+    "title": "Type Brigade",
+    "description": "",
+    "name": "Type Brigade",
+    "email": "kenneth@typebrigade.com",
+    "url": "http://typebrigade.com",
+    "service": {
+      "typekit": "pth8ehh",
+      "analytics": "UA-51542815-1",
+      "disqus": false
+    }
+  }
 }

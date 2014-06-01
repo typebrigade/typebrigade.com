@@ -1,0 +1,26 @@
+doctype
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!-->
+html(lang="en")
+  <!--<![endif]-->
+  head
+    title!= tagline ? tagline + ' – ' + title : title
+    != partial("_shared/typekit")
+    link(rel="stylesheet", href="/css/main.css", type="text/css")
+    //if lt IE 10
+      //- script(src="https://html5shiv.googlecode.com/svn/trunk/html5.js")
+    meta(charset="utf-8")
+    meta(name="description", content="#{ description }")
+    meta(name="author", content="#{ name }")
+    meta(name="handheldfriendly", content="true")
+    meta(name="mobileoptimized", content="320")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="cleartype", content="on")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    != partial("_includes/typogr")
+    include _includes/font-face
+  body
+    #main.main(role="main")
+      != typogr.typogrify(yield)
+    if service.analytics
+      include _includes/analytics

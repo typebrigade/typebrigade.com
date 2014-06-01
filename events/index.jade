@@ -1,0 +1,14 @@
+h1 Events
+
+ol
+  for meetup, i in public.events._data
+    num = public.events._data.length - i
+    if meetup.title && (limit ? i <= limit : true)
+      li
+        em #{ num }
+        a(href="#{ num }")
+          h2 #{ meetup.title }
+          time.is-fuzzyDate #{ meetup.date }
+          address
+            h3 #{ meetup.location }
+            !{ meetup.address }

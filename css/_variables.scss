@@ -1,0 +1,43 @@
+// Grid Settings
+// =============
+
+$gutter: 20px;
+
+
+// Font Stacks
+// ===========
+
+$font-family-sans              : "proxima-nova", "AvenirNext-SemiBold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+$font-family-serif             : $font-family-sans;
+$font-family-display           : $font-family-sans;
+$font-family-caption           : $font-family-sans;
+$font-family-monospace         : "Source Code Pro", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$base-font-family              : $font-family-serif;
+
+
+// Font Weights
+// ============
+
+$font-weight-thin              : 100;
+$font-weight-light             : 300;
+$font-weight-normal            : 400;
+$font-weight-semibold          : 600;
+$font-weight-bold              : 700;
+$font-weight-extrabold         : 800;
+$font-weight-black             : 900;
+
+
+// Breakpoints
+// ===========
+
+// Colour Scheme
+// =============
+
+$chloi-blue: #66C7C9;
+$chloi-creme: #F1EDB5;
+$chloi-beige: #D3D0C7;
+$chloi-red: #ED1C24;
+$chloi-orange: #FDCA4F;
+$chloi-black: #404041;
+$chloi-grey: #6D6E70;
+$chloi-white: #FFFFFF;

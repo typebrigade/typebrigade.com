@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
     "serve": "harp serve",
-    "compile": "harp compile",
-    "deploy": "harp compile ~/Dropbox/harp.io/apps/typebrigade.harp.io"
+    "compile": "harp compile ~/Dropbox/harp.io/apps/typebrigade.harp.io",
+    "prefix": "autoprefixer ~/Dropbox/harp.io/apps/typebrigade.harp.io/css/main.css",
+    "deploy": "npm run compile && num run prefix"
   }
 }

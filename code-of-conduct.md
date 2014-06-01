@@ -4,7 +4,7 @@ We value the participation of each member of our community, and want all attende
 
 In an effort to make expectations clear and help mitigate potential problems, the specifics of this have been outlined in the following Code of Conduct.
 
-## Code of Conduct
+# Code of Conduct
 
 Be kind to others. Don’t be a jerk.
 
@@ -26,10 +26,10 @@ Thank you for helping make this a welcoming, friendly event for all!
 
 ## Contributing
 
-Our Code of Conduct maintained and [editable](#) by the Type Brigade community, and is based upon the [PyCon Code of Conduct](https://us.pycon.org/2012/codeofconduct/) and the [PDXNode code of Conduct](https://github.com/PDXNode/pdxnode/blob/master/code-of-conduct.md#code-of-conduct).
+Our Code of Conduct maintained and [editable](#) by the Type Brigade community, and is based upon the [PyCon Code of Conduct](https://us.pycon.org/2012/codeofconduct/), the [PDXNode code of Conduct](https://github.com/PDXNode/pdxnode/blob/master/code-of-conduct.md#code-of-conduct), and the [Conference Code of Conduct](http://confcodeofconduct.com/).
 
 ## License
 
-The MIT License (MIT)
+[The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
 Copyright © 2014 Type Brigade
