@@ -1,13 +1,20 @@
 @font-face {
   font-family: "Edmondsans";
-  src: url("../fonts/edmondsans-regular.woff") format('woff');
+  src: url("../fonts/edmondsans-n4.woff") format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Edmondsans";
-  src: url("../fonts/edmondsans-bold.woff") format('woff');
+  src: url("../fonts/edmondsans-n5.woff") format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Edmondsans";
+  src: url("../fonts/edmondsans-n7.woff") format('woff');
   font-weight: 700;
   font-style: normal;
 }

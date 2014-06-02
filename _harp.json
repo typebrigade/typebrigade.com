@@ -2,7 +2,8 @@
   "domains": ["typebrigade.com"],
   "globals": {
     "title":       "Type Brigade",
-    "description": "",
+    "description": "Vancouver’s type design and typography speaker series and meetup.",
+    "tagline":     "Vancouver’s type meetup",
     "name":        "Type Brigade",
     "email":       "kenneth@typebrigade.com",
     "url":         "http://typebrigade.com",

@@ -1,8 +1,10 @@
 {
   "name": "typebrigade.com",
   "version": "0.1.0",
-  "description": "",
+  "description": "Vancouver’s type design and typography speaker series meetup.",
   "homepage": "http://typebrigade.com",
+  "author": "Kenneth Ormandy <kenneth@chloi.io>",
+  "repository": "git@github.com:typebrigade/typebrigade.com.git",
   "keywords": [
     "type",
     "typography",
@@ -10,8 +12,6 @@
     "design",
     "meetup"
   ],
-  "author": "Kenneth Ormandy <kenneth@chloi.io>",
-  "repository": "git@github.com:typebrigade/typebrigade.com.git",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
-    "neat": "git://github.com/kennethormandy/neat"
+    "neat": "git://github.com/kennethormandy/neat#v1.5.1",
+    "autoprefixer": "~1.1.20140523"
   }
 }

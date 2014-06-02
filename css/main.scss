@@ -1,8 +1,9 @@
 // typebridgade.com
 
+@import "../node_modules/bourbon/dist/bourbon";
 @import "variables";
 @import "normalize";
-@import "grid";
+@import "../node_modules/neat/dist/neat";
 @import "mixins";
 
 // SMACSS

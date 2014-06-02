@@ -1,14 +1,22 @@
+// Base sizes
+// ==========
+
+$base-font-size: 1.25em;
+$base-line-height: 1.4;
+
 // Grid Settings
 // =============
 
-$gutter: 20px;
-$max-width: 60em;
+$column: modular-scale(1em, 3, $augmented-fourth);
+$gutter: modular-scale(1em, 1, $augmented-fourth);
+$grid-columns: 7;
+$max-width: 45em;
 
 // Font Stacks
 // ===========
 
 $font-family-sans:      "Edmondsans", "Avenir Next", "AvenirNext-SemiBold", "Futura-Medium", Futura, "Futura Std", "Trebuchet MS", Helvetica, Arial, sans-serif;
-$font-family-serif:      $font-family-sans;
+$font-family-serif:     "ff-more-web-pro", Georgia, serif;
 $font-family-display:    $font-family-sans;
 $font-family-caption:    $font-family-sans;
 $font-family-monospace: "Source Code Pro", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -21,6 +29,7 @@ $base-font-family:       $font-family-sans;
 $font-weight-thin:       100;
 $font-weight-light:      300;
 $font-weight-normal:     400;
+$font-weight-medium:     500;
 $font-weight-semibold:   600;
 $font-weight-bold:       700;
 $font-weight-extrabold:  800;
@@ -30,10 +39,24 @@ $font-weight-black:      900;
 // Breakpoints
 // ===========
 
-$media-s:  30em;
-$media-m:  40em;
-$media-l:  50em;
-$media-xl: 60em;
+// Breakpoints
+// ===========
+
+$narrow-col: 3;
+$narrow-width: em(475);
+$narrow: new-breakpoint(min-width $narrow-width $narrow-col);
+
+$mid-col: 5;
+$mid-width: em(700);
+$mid: new-breakpoint(min-width $mid-width $mid-col);
+
+$wide-col: 7;
+$wide-width: em(900);
+$wide: new-breakpoint(min-width $wide-width $wide-col);
+
+$huge-col: 7;
+$huge-width: em(1275);
+$huge: new-breakpoint(min-width $huge-width $huge-col);
 
 // Colour Scheme
 // =============
