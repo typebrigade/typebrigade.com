@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "description": "",
   "homepage": "http://typebrigade.com",
-  "keywords": ["type", "typography", "fonts", "design", "meetup"],
+  "keywords": [
+    "type",
+    "typography",
+    "fonts",
+    "design",
+    "meetup"
+  ],
   "author": "Kenneth Ormandy <kenneth@chloi.io>",
   "repository": "git@github.com:typebrigade/typebrigade.com.git",
   "private": true,
@@ -13,5 +19,9 @@
     "compile": "harp compile . ~/Dropbox/harp.io/apps/typebrigade.harp.io/public",
     "prefix": "autoprefixer ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/css/main.css",
     "deploy": "npm run compile && npm run prefix"
+  },
+  "devDependencies": {
+    "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
+    "neat": "git://github.com/kennethormandy/neat"
   }
 }

@@ -19,29 +19,29 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     //- != partial("_includes/typogr")
   body
-    nav
-      ul
+    nav.nav
+      ul.nav-list
         // Register, else events
-        li: a(href="http://meetup.com/#{ social.meetup }") Meetup
-        li: a(href="/events") Events
-        li: a(href="/blog") Blog
-        li: a(href="/about") About
+        li.nav-item: a.nav-link(href="http://meetup.com/#{ social.meetup }") Meetup
+        li.nav-item: a.nav-link(href="/events") Events
+        li.nav-item: a.nav-link(href="/blog") Blog
+        li.nav-item: a.nav-link(href="/about") About
     #main.main(role="main")
       != yield
       //- != typogr.typogrify(yield)
-    footer
-      ul
-        li: a(href="http://meetup.com/#{ social.meetup }") Meetup
-        li: a(href="http://twitter.com/#{ social.twitter }") Twitter
-        li: a(href="http://github.com/#{ social.github }") GitHub
-      ul
-        li: a(href="/events") Events
-        li: a(href="/blog") Blog
-        li: a(href="/about") About
-      ul
-        li: a(href="/code-of-conduct") Code of Conduct
-        li: a(href="/call-for-speakers") Call for Speakers
-        li: a(href="/sponsors") Sponsorship Opportunites
+    footer.footer
+      ul.footer-list
+        li.footer-item: a.footer-link(href="http://meetup.com/#{ social.meetup }") Meetup
+        li.footer-item: a.footer-link(href="http://twitter.com/#{ social.twitter }") Twitter
+        li.footer-item: a.footer-link(href="http://github.com/#{ social.github }") GitHub
+      ul.footer-list
+        li.footer-item: a.footer-link(href="/events") Events
+        li.footer-item: a.footer-link(href="/blog") Blog
+        li.footer-item: a.footer-link(href="/about") About
+      ul.footer-list
+        li.footer-item: a.footer-link(href="/code-of-conduct") Code of Conduct
+        li.footer-item: a.footer-link(href="/call-for-speakers") Call for Speakers
+        li.footer-item: a.footer-link(href="/sponsors") Sponsorship Opportunites
 
-    if service.analytics
-      include _includes/analytics
+  if service.analytics
+    include _includes/analytics

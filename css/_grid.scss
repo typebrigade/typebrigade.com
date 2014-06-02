@@ -1,6 +1,10 @@
-.grid {
+.row {
+  outline: 1px solid red;
   background: white;
-  margin: 0 0 $gutter 0;
+  margin: 0 auto $gutter auto;
+  > * {
+    outline: 1px solid blue;
+  }
 
   &:after {
     // Or @extend clearfix
@@ -13,28 +17,43 @@
 [class*='col-'] {
   float: left;
   padding-right: $gutter;
-  .grid &:last-of-type {
+  width: 100%;
+  .row &:last-of-type {
     padding-right: 0;
   }
 }
-.col-2-3 {
-  width: 66.66%;
-}
-.col-1-3 {
-  width: 33.33%;
-}
-.col-1-2 {
-  width: 50%;
-}
-.col-1-4 {
-  width: 25%;
-}
-.col-1-8 {
-  width: 12.5%;
+
+@media (min-width: $media-m) {
+
+  .col-1-of-3 {
+    width: 33.33%;
+  }
+  .col-1-of-3 {
+    width: 66.66%;
+  }
+  .col-1-of-2 {
+    width: 50%;
+  }
+  .col-1-of-4 {
+    width: 25%;
+  }
+  .col-1-of-5 {
+    width: 20%;
+  }
+  .col-2-of-5 {
+    width: 40%;
+  }
+  .col-3-of-5 {
+    width: 60%;
+  }
+  .col-1-of-8 {
+    width: 12.5%;
+  }
+
 }
 
 /* Opt-in outside padding */
-.grid-pad {
+.row--pad {
   padding: $gutter 0 $gutter $gutter;
   [class*='col-']:last-of-type {
     padding-right: $gutter;
