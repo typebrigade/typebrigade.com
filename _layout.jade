@@ -25,23 +25,24 @@ html(lang="en")
         li.nav-item: a.nav-link(href="http://meetup.com/#{ social.meetup }") Meetup
         li.nav-item: a.nav-link(href="/events") Events
         li.nav-item: a.nav-link(href="/blog") Blog
-        li.nav-item: a.nav-link(href="/about") About
+        //- li.nav-item: a.nav-link(href="/about") About
     #main.main(role="main")
       != yield
       //- != typogr.typogrify(yield)
     footer.footer
       ul.footer-list
-        li.footer-item: a.footer-link(href="http://meetup.com/#{ social.meetup }") Meetup
-        li.footer-item: a.footer-link(href="http://twitter.com/#{ social.twitter }") Twitter
-        li.footer-item: a.footer-link(href="http://github.com/#{ social.github }") GitHub
-      ul.footer-list
         li.footer-item: a.footer-link(href="/events") Events
         li.footer-item: a.footer-link(href="/blog") Blog
-        li.footer-item: a.footer-link(href="/about") About
+        //- li.footer-item: a.footer-link(href="/about") About
       ul.footer-list
         li.footer-item: a.footer-link(href="/code-of-conduct") Code of Conduct
         li.footer-item: a.footer-link(href="/call-for-speakers") Call for Speakers
         li.footer-item: a.footer-link(href="/sponsors") Sponsorship Opportunites
+      ul.footer-list
+        li.footer-item: a.footer-link(href="http://meetup.com/#{ social.meetup }") Meetup
+        li.footer-item: a.footer-link(href="http://twitter.com/#{ social.twitter }") Twitter
+        li.footer-item: a.footer-link(href="http://instagram.com/#{ social.instagram }") Instagram
+        li.footer-item: a.footer-link(href="http://github.com/#{ social.github }") GitHub
 
   if service.analytics
     include _includes/analytics

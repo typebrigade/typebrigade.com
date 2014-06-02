@@ -1,0 +1,10 @@
+.wf-loading {
+  display: none;
+  visibility: hidden;
+}
+
+.wf-active,
+.wf-inactive {
+  display: block;
+  visibility: visible;
+}

@@ -1,22 +1,22 @@
 {
   "domains": ["typebrigade.com"],
   "globals": {
-    "title": "Type Brigade",
+    "title":       "Type Brigade",
     "description": "",
-    "name": "Type Brigade",
-    "email": "kenneth@typebrigade.com",
-    "url": "http://typebrigade.com",
+    "name":        "Type Brigade",
+    "email":       "kenneth@typebrigade.com",
+    "url":         "http://typebrigade.com",
     "service": {
-      "typekit": "pth8ehh",
+      "typekit":   "pth8ehh",
       "analytics": "UA-51542815-1",
-      "disqus": false
+      "disqus":     false
     },
     "social": {
-      "hashtag": "typebrigade",
-      "meetup": "vancouver-typography-meetup-group",
-      "twitter": "typebrigade",
-      "github": "typebrigade"
+      "hashtag":   "typebrigade",
+      "meetup":    "vancouver-typography-meetup-group",
+      "twitter":   "typebrigade",
+      "instagram": "typebrigade",
+      "github":    "typebrigade"
     }
-
   }
 }
