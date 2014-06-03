@@ -1,0 +1,17 @@
+.map {
+  width: 100%;
+  height: 0;
+  margin: 0 auto;
+  padding-top: 33.33%;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%; // had to specify height/width
+	position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}

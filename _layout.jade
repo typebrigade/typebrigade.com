@@ -7,7 +7,7 @@ html(lang="en")
     meta(charset="utf-8")
     title!= tagline ? tagline + ' – ' + title : title
     include _includes/font-face
-    link(rel="stylesheet", href="/css/main.css", type="text/css")
+    link(rel="stylesheet" href="/css/main.css" type="text/css")
     //if lt IE 10
       //- script(src="https://html5shiv.googlecode.com/svn/trunk/html5.js")
     meta(name="description", content="#{ description }")
@@ -18,11 +18,19 @@ html(lang="en")
     meta(http-equiv="cleartype", content="on")
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     //- != partial("_includes/typogr")
-  body.container
-    include _includes/header
-    #main.main(role="main")
-      != yield
-      //- != typogr.typogrify(yield)
-    include _includes/footer
+  body
+    .container
+      .row
+        include _includes/header
+      #main.main(role="main")
+        //- If it’s the landing page, skip
+        //- the row for full width stuff
+        if current.source === "index" && current.path.length === 1
+          != yield
+        else
+          .row!= yield
+        //- != typogr.typogrify(yield)
+      .row
+        include _includes/footer
   if service.analytics
     include _includes/analytics
