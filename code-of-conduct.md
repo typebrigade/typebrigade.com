@@ -30,6 +30,4 @@ Our Code of Conduct maintained and [editable](#) by the Type Brigade community, 
 
 ## License
 
-[The MIT License (MIT)](http://opensource.org/licenses/MIT)
-
-Copyright © 2014 Type Brigade
+[Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0)
