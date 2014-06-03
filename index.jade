@@ -1,7 +1,7 @@
 img.banner(src="/images/typebrigade-background.svg")
 .container
   .row.row--center
-    // h1 Type Brigade
+    h1.hidden Type Brigade
 
     blockquote.blockquote--intro
      | I find, if you speak about anything for
@@ -25,55 +25,58 @@ img.banner(src="/images/typebrigade-background.svg")
         //-   a(href="https://www.google.com/maps/place/948+Homer+St/@49.2784717,-123.1194173,15z/data=!4m2!3m1!1s0x5486717e00a427ad:0x465fa83bbf8ee0d8") View Larger Map
 
       .meetup-details
-        h3 Type Brigade №20
-        time(datetime="2014-06-23T07:00:00Z") June 24<sup>th</sup> at 7:00<abbr>PM</abbr>
-        address
-          strong Mobify <abbr>HQ</abbr><br/>
-          | 3<sup>rd</sup> Floor, 948 Homer Street<br/>
-          | Vancouver, BC, Canada, V6B 2W7
-        a.button(href="#{ social.meetup }") Register for free
+        .split
+          h3 Type Brigade №20
+          time(datetime="2014-06-23T07:00:00Z") June 24<sup>th</sup> at 7:00<abbr>PM</abbr>
+        .split
+          address
+            strong Mobify <abbr>HQ</abbr><br/>
+            | 3<sup>rd</sup> Floor, 948 Homer Street<br/>
+            | Vancouver, BC, Canada, V6B 2W7
+        a.button(href="http://meetup.com/#{ social.meetup }") Register for free
 
   .button-consolation
     a(href="http://www.meetup.com/Vancouver-Typography-Meetup-Group/join") Busy? No problem, get notified next time
 
-  //- .container
-  //-   .row--center
-  //-     h2 Speakers
-  //-     p The next Type Brigade will feature two fantastic talks.
-  //-   .meetup-talk.talk
-  //-     h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
-  //-     .talk-abstract
-  //-       p Ut varius suscipit eros, et accumsan lorem lobortis at. Etiam vel metus sit amet arcu dapibus sollicitudin ac quis erat. Mauris condimentum malesuada accumsan. Nulla at nulla ornare, cursus sem id, gravida ipsum. Phasellus sed massa tincidunt, porta ligula ac, ullamcorper magna.
-  //-       p Sed commodo at nisl nec aliquet. Nullam semper, est tristique sagittis molestie, est sem dictum odio, in tincidunt enim neque ultricies dui. Nunc vel consectetur justo, sed tempor erat. Nullam ut est in leo ultrices mattis. Donec magna dolor, adipiscing eget hendrerit et, imperdiet nec ligula.
-  //-     .talk-speaker.speaker
-  //-       img.speaker-img(src="/images/speaker-neil-kandalgaonkar.jpg")
-  //-       h5.speaker-name About Neil Kandalgaonkar
-  //-       .speaker-bio
-  //-         p “Sometimes, when a typeface gets popular, I want to say ‘I loved you first.’” Before working at Flickr, Google, Wikipedia, or starting his own company, Neil Kandalgaonkar was almost a type designer. He has crushing impostor syndrome and wrote the original version of this bio under duress.
-  //-       ul.speaker-socialList
-  //-         li.speaker-socailItem: a(href="#") Web
-  //-         li.speaker-socailItem: a(href="#") Twitter
-  //-         li.speaker-socailItem: a(href="#") GitHub
-  //-         li.speaker-socailItem: a(href="#") Dribbble
-  //-         li.speaker-socailItem: a(href="#") Instagram
-  //-
-  //-   .meetup-talk.talk
-  //-     h4 Talk title
-  //-     p Donec lorem ipsum, aliquet at tortor vitae, tempus tempus urna. Aenean nec arcu eget orci scelerisque interdum. Vivamus scelerisque gravida diam aliquet egestas. Sed fermentum massa a tristique vestibulum. Proin imperdiet vitae purus at scelerisque. Curabitur viverra nisi a elementum lobortis. Vivamus odio risus, porttitor ac elit iaculis, mattis tristique mauris. Vivamus fringilla id libero quis eleifend.
-  //-     .talk-speaker.speaker
-  //-       img.speaker-img(src="/images/speaker-celeste-martin.jpg")
-  //-       h5.speaker-name About Celeste Martin
-  //-       .speaker-bio
-  //-       p Celeste Martin is an Assistant Professor at Emily Carr University of Art + Design. She has a background in communication design, and specialises in typography. Her work examines the forms of written language, the shapes of letters and their relationship to space. She leads additional projects as a research at the university’s Social + Interactive Media Centre, and as the editor of the award-winning design research journal <em>Current</em>.
-  //-       ul.speaker-socialList
-  //-         li.speaker-socailItem: a(href="#") Web
-  //-         li: a(href="http://twitter.com/CelestMartin") Twitter
-  //-         li.speaker-socailItem: a(href="#") GitHub
-  //-         li.speaker-socailItem: a(href="#") Dribbble
-  //-         li.speaker-socailItem: a(href="#") Instagram
+  .container
+    .row--center
+      h2 Speakers at Type Brigade №20
+      p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design. More details will be announced on the <a href="blog">Type Brigade blog</a> soon!
+    .meetup-list
+      .meetup-talk.talk
+        //- h4 Talk title
+        //- p Donec lorem ipsum, aliquet at tortor vitae, tempus tempus urna. Aenean nec arcu eget orci scelerisque interdum. Vivamus scelerisque gravida diam aliquet egestas. Sed fermentum massa a tristique vestibulum. Proin imperdiet vitae purus at scelerisque. Curabitur viverra nisi a elementum lobortis. Vivamus odio risus, porttitor ac elit iaculis, mattis tristique mauris. Vivamus fringilla id libero quis eleifend.
+        .talk-speaker.speaker
+          img.speaker-image(src="/images/speaker-celeste-martin.jpg")
+          h3.speaker-name Celeste Martin
+          .speaker-bio
+            p Celeste Martin is an Assistant Professor at Emily Carr University of Art + Design. She has a background in communication design, and specialises in typography, researches at the university’s Social + Interactive Media Centre, and is the editor of the award-winning design research journal&nbsp;<em>Current</em>.
+          //- ul.speaker-socialList
+          //-   li.speaker-socailItem: a(href="#") Web
+          //-   li: a(href="http://twitter.com/CelestMartin") Twitter
+          //-   li.speaker-socailItem: a(href="#") GitHub
+          //-   li.speaker-socailItem: a(href="#") Dribbble
+          //-   li.speaker-socailItem: a(href="#") Instagram
+
+      .meetup-talk.talk
+        //- h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
+        //- .talk-abstract
+        //-   p Ut varius suscipit eros, et accumsan lorem lobortis at. Etiam vel metus sit amet arcu dapibus sollicitudin ac quis erat. Mauris condimentum malesuada accumsan. Nulla at nulla ornare, cursus sem id, gravida ipsum. Phasellus sed massa tincidunt, porta ligula ac, ullamcorper magna.
+        //-   p Sed commodo at nisl nec aliquet. Nullam semper, est tristique sagittis molestie, est sem dictum odio, in tincidunt enim neque ultricies dui. Nunc vel consectetur justo, sed tempor erat. Nullam ut est in leo ultrices mattis. Donec magna dolor, adipiscing eget hendrerit et, imperdiet nec ligula.
+        .talk-speaker.speaker
+          img.speaker-image(src="/images/speaker-neil-kandalgaonkar.jpg")
+          h3.speaker-name Neil Kandalgaonkar
+          .speaker-bio
+            p “Sometimes, when a typeface I like becomes popular, I want to say ‘I loved your first.’” Neil Kandalgaonkar helped make that thing you like on the Internet. Google, Upcoming, Flickr, Wikipedia. Before that, he designed typ
+          //- ul.speaker-socialList
+          //-   li.speaker-socailItem: a(href="#") Web
+          //-   li.speaker-socailItem: a(href="#") Twitter
+          //-   li.speaker-socailItem: a(href="#") GitHub
+          //-   li.speaker-socailItem: a(href="#") Dribbble
+          //-   li.speaker-socailItem: a(href="#") Instagram
 .container
   .row--center
-      h3 Sponsors
+      h2 Sponsors
 
       p Type Brigade would not be possible without our sponsors.
   .row
@@ -84,7 +87,7 @@ img.banner(src="/images/typebrigade-background.svg")
           .sponsor-details
             h4.sponsor-title Chloi Inc.
             em Organisational Sponsor
-            p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type. Type Brigade would not be possible without their support of Type Brigade’s organisational time, and mentorship through sibling meetups CSS Brigade and Node Brigade.
+            p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type. Type Brigade would not be possible without their support, and mentorship through sibling meetups CSS Brigade and Node Brigade.
       li.sponsor-item
         a.sponsor(href="http://mobify.com")
           img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify")
@@ -107,7 +110,11 @@ img.banner(src="/images/typebrigade-background.svg")
             em Surprises Sponsor
             p We’d like Type Brigade to be an memorable meetup for attendees, even after it’s over. If you’re interested in helping to make that happen, email #{ email } for information.
   .row.row--center
-    h3 Call for Speakers
-    p
-      a(href="call-for-speakers") We are always looking for speakers.
-      |  If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.
+    h2 Call for Speakers
+    p Our call for speakers will be announced soon.
+      a(href="http://www.meetup.com/Vancouver-Typography-Meetup-Group/join") Join Type Brigade to be&nbsp;notified.
+
+    //- h3 Call for Speakers
+    //- p
+    //-   a(href="call-for-speakers") We are always looking for speakers.
+    //-   |  If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.

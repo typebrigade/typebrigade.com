@@ -21,6 +21,25 @@
   }
 }
 
+.meetup-talk {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  @include media($mid) {
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+}
+
+.speaker-image {
+  border-radius: 0.125em;
+  margin-bottom: 1em;
+}
+
+.speaker-name {
+  display: block;
+  text-align: center;
+}
+
 .meetup-map {
   display: block;
   // margin-top: $gutter / -2;

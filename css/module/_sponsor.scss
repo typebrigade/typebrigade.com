@@ -1,5 +1,23 @@
-.sponsor {
+.sponsor,
+a.sponsor {
   display: block;
+  background: transparent;
+  color: $color-grey-dark;
+  @include media($huge) {
+    font-size: 0.8em;
+  }
+  .sponsor-image {
+    opacity: 0.75;
+    @include transition(opacity 0.2s ease-in-out);
+  }
+  &:focus,
+  &:hover,
+  &:active {
+    color: #555;
+    .sponsor-image {
+      opacity: 1;
+    }
+  }
 }
 
 .sponsor-list,

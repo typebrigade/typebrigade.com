@@ -2,7 +2,7 @@
 // ==========
 
 $base-font-size: 1.25em;
-$base-line-height: 1.4;
+$base-line-height: 1.45;
 
 // Grid Settings
 // =============
@@ -50,7 +50,7 @@ $mid-width: 35em;
 $mid: new-breakpoint(min-width $mid-width $mid-col);
 
 $wide-col: 7;
-$wide-width: 45em;
+$wide-width: 40em;
 $wide: new-breakpoint(min-width $wide-width $wide-col);
 
 $huge-col: 7;
@@ -65,4 +65,5 @@ $color-beige:  #D3D0C7;
 $color-beige-dark: darken($color-beige, 20%);
 $color-black:  #333;
 $color-grey:   #E5E5E5;
+$color-grey-dark: #555;
 $color-white:  #FFFFFF;
