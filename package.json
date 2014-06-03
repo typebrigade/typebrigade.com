@@ -23,6 +23,7 @@
   "devDependencies": {
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
     "neat": "git://github.com/kennethormandy/neat#v1.5.1",
-    "autoprefixer": "~1.1.20140523"
+    "autoprefixer": "~1.1.20140523",
+    "typogr": "~0.6.3"
   }
 }

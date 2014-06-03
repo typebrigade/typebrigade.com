@@ -54,18 +54,15 @@ $wide-width: 45em;
 $wide: new-breakpoint(min-width $wide-width $wide-col);
 
 $huge-col: 7;
-$huge-width: 60em;
+$huge-width: 75em;
 $huge: new-breakpoint(min-width $huge-width $huge-col);
 
 // Colour Scheme
 // =============
 
-$color-blue:   #66C7C9;
-$color-creme:  #F1EDB5;
+$color-orange: #FDCA4F;
 $color-beige:  #D3D0C7;
 $color-beige-dark: darken($color-beige, 20%);
-$color-red:    #ED1C24;
-$color-orange: #FDCA4F;
-$color-black:  #404041;
-$color-grey:   #6D6E70;
+$color-black:  #333;
+$color-grey:   #E5E5E5;
 $color-white:  #FFFFFF;

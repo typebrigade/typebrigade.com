@@ -1,0 +1,61 @@
+.header {
+  @include media($narrow) {
+    margin-bottom: 1em;
+  }
+  @include media($huge) {
+    margin-bottom: 3em;
+  }
+}
+
+.logo {
+  background: transparent;
+}
+
+.nav {
+  text-transform: lowercase;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-item {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-link {
+  background: transparent;
+  @include media($mid) {
+    background: inherit;
+    background-position: 0 1em;
+  }
+}
+
+.banner {
+  position: absolute;
+  z-index: -1;
+  right: 0em;
+  // top: 12em;
+  // max-width: 30em;
+  // @include media($narrow) {
+    display: none;
+    visibility: hidden;
+  // }
+  // @include media($wide) {
+  //   display: block;
+  //   visibility: visible;
+  //   right: 0;
+  //   top: 55em;
+  //   max-width: 30em;
+  // }
+  @include media($huge) {
+    display: block;
+    visibility: visible;
+    top: 60em;
+    max-width: 50em;
+  }
+
+}

@@ -1,12 +1,12 @@
 .map {
-  width: 100%;
+  min-width: 100%;
   height: 0;
-  margin: 0 auto;
   padding-top: 33.33%;
   position: relative;
+
 }
 
-.map iframe {
+.map iframe, .map-canvas {
   width: 100%;
   height: 100%; // had to specify height/width
 	position: absolute;

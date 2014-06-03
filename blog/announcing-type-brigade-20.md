@@ -1,4 +1,4 @@
-# Type Brigade #20
+# Type Brigade №20
 
 The Vancouver Typography Meetup Group [has been renamed](introducing-type-brigade) to __Type Brigade__. This is a refocusing, so the previous event numbering will stay in place.
 

@@ -6,7 +6,6 @@ html(lang="en")
   head
     meta(charset="utf-8")
     title!= tagline ? tagline + ' – ' + title : title
-    include _includes/font-face
     link(rel="stylesheet" href="/css/main.css" type="text/css")
     //if lt IE 10
       //- script(src="https://html5shiv.googlecode.com/svn/trunk/html5.js")
@@ -18,6 +17,7 @@ html(lang="en")
     meta(http-equiv="cleartype", content="on")
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     //- != partial("_includes/typogr")
+    include _includes/font-face
   body
     .container
       .row
@@ -33,5 +33,11 @@ html(lang="en")
     .container
       .row
         include _includes/footer
+  //- script(src="/node_modules/typogr/typogr.min.js")
+  //- script.
+  //-   var container = document.getElementsByTagName('body');
+  //-   document.addEventListener('DOMContentLoaded', function(){
+  //-     typogr.typogrify(container);
+  //-   })
   if service.analytics
     include _includes/analytics

@@ -54,6 +54,10 @@ body {
     @include shift(2);
   }
 
+  .blockquote--intro footer {
+    @include shift(1 of 7);
+  }
+
   .footer {
   }
 
@@ -61,6 +65,58 @@ body {
     @include span-columns(2 of 7);
     &:last-child {
       @include span-columns(3 of 7);
+    }
+  }
+
+}
+
+@include media($wide) {
+
+  .row--center {
+    @include span-columns(5 of 7);
+    @include shift(1);
+  }
+
+  .blockquote--intro {
+    @include shift(-1 of 7);
+    @include span-columns(6 of 5);
+  }
+
+  .meetup-register {
+    @include span-columns(6 of 8);
+    @include shift(1);
+  }
+
+  .meetup-talk {
+    @include span-columns(3 of 7);
+  }
+
+  .sponsor-list {
+    @include span-columns(7);
+  }
+
+  .sponsor-item {
+    @include span-columns(2 of 4);
+    @include omega(2n);
+  }
+
+
+}
+
+@include media($huge) {
+
+  .sponsor-list {
+    @include span-columns(9 of 7);
+    @include shift(-1 of 7);
+  }
+
+  .sponsor-item {
+    @include span-columns(2 of 8);
+    @include omega-reset(2n);
+    &:nth-child(2n) { margin-right: flex-gutter(8, $gutter); }
+    &:nth-child(2n+1) { clear: none; }
+    &:nth-child(4n) {
+      margin-right: 0;
     }
   }
 
