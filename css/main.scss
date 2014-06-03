@@ -3,7 +3,7 @@
 @import "../node_modules/bourbon/dist/bourbon";
 @import "../node_modules/neat/dist/neat";
 @import "variables";
-@import "../node_modules/neat/dist/neat";
+@import "../node_modules/neat/dist/neat"; // Intentional reimport for variables
 @import "normalize";
 @import "mixins";
 

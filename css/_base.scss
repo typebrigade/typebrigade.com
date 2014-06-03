@@ -8,6 +8,7 @@ header,
 h1, h2, h3, h4, h5, h6,
 blockquote {
   font-family: $font-family-sans;
+  margin: 0;
 }
 
 a,
@@ -15,28 +16,27 @@ a:visited {
   text-decoration: none;
   background-repeat: repeat-x;
   background-position: 0 1.125em;
-  @include linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 75%);
+  @include linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba($color-beige-dark,0.8) 75%);
   @include background-size(2px 2px);
   text-shadow: 1px 1px 0 #FFF, -1px 1px 0 #FFF;
-
-  color: darken($color-beige, 33%);
+  color: $color-beige-dark;
   &:hover {
     color: darken($color-beige, 15%);
   }
   &:active {
-    color: darken($color-beige, 33%);
+    color: $color-beige-dark;
   }
   &:focus {
-    color: darken($color-beige, 33%);
-    text-decoration: none;
-    outline: 1px solid;
-    border-bottom: 0;
-    background: #FFF;
-    z-index: 1;
-    position: relative;
-    padding: 0.5em;
-    margin: -0.5em;
-    box-shadow: 5px 5px 0 darken($color-beige, 50%);
+    // color: $color-beige-dark;
+    // text-decoration: none;
+    // outline: 1px solid;
+    // border-bottom: 0;
+    // background: #FFF;
+    // z-index: 1;
+    // position: relative;
+    // padding: 0.5em;
+    // margin: -0.5em;
+    // box-shadow: 5px 5px 0 darken($color-beige, 50%);
   }
 }
 
@@ -44,12 +44,12 @@ img {
   width: 100%;
 }
 
+
 ol,
-ul,
-li {
+ul {
   padding-left: 0;
   margin-left: $gutter / 2;
-  @include media($narrow) {
+  @include media($mid) {
     margin-left: 0;
   }
   & > ol,
@@ -57,4 +57,8 @@ li {
     margin-left: 2em;
     margin-left: 2em;
   }
+}
+
+blockquote {
+  margin: 0;
 }

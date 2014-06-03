@@ -22,14 +22,14 @@ html(lang="en")
     .container
       .row
         include _includes/header
-    #main.main(role="main")
-      //- If it’s the landing page, skip
-      //- the row for full width stuff
-      if current.source === "index" && current.path.length === 1
-        != yield
-      else
-        .row!= yield
-      //- != typogr.typogrify(yield)
+    //- If it’s the landing page, skip
+    //- the container for full width stuff
+    if current.source === "index" && current.path.length === 1
+      #main.main(role="main")!= yield
+    else
+      #main.main.container(role="main")
+        article.row.row--narrow!= yield
+        //- != typogr.typogrify(yield)
     .container
       .row
         include _includes/footer

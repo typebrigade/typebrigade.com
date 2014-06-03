@@ -7,7 +7,7 @@ $base-line-height: 1.4;
 // Grid Settings
 // =============
 
-$visual-grid: true;
+// $visual-grid: true;
 $visual-grid-color: cornflowerblue;
 $column: modular-scale(1em, 3, $augmented-fourth);
 $gutter: modular-scale(1em, 1, $augmented-fourth);
@@ -42,15 +42,15 @@ $font-weight-black:      900;
 // ===========
 
 $narrow-col: 3;
-$narrow-width: 30em;
+$narrow-width: 28em;
 $narrow: new-breakpoint(min-width $narrow-width $narrow-col);
 
 $mid-col: 5;
-$mid-width: 44em;
+$mid-width: 35em;
 $mid: new-breakpoint(min-width $mid-width $mid-col);
 
 $wide-col: 7;
-$wide-width: 50em;
+$wide-width: 45em;
 $wide: new-breakpoint(min-width $wide-width $wide-col);
 
 $huge-col: 7;
@@ -63,6 +63,7 @@ $huge: new-breakpoint(min-width $huge-width $huge-col);
 $color-blue:   #66C7C9;
 $color-creme:  #F1EDB5;
 $color-beige:  #D3D0C7;
+$color-beige-dark: darken($color-beige, 20%);
 $color-red:    #ED1C24;
 $color-orange: #FDCA4F;
 $color-black:  #404041;
