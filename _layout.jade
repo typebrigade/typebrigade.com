@@ -22,14 +22,15 @@ html(lang="en")
     .container
       .row
         include _includes/header
-      #main.main(role="main")
-        //- If it’s the landing page, skip
-        //- the row for full width stuff
-        if current.source === "index" && current.path.length === 1
-          != yield
-        else
-          .row!= yield
-        //- != typogr.typogrify(yield)
+    #main.main(role="main")
+      //- If it’s the landing page, skip
+      //- the row for full width stuff
+      if current.source === "index" && current.path.length === 1
+        != yield
+      else
+        .row!= yield
+      //- != typogr.typogrify(yield)
+    .container
       .row
         include _includes/footer
   if service.analytics
