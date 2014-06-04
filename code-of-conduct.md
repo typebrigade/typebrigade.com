@@ -12,7 +12,7 @@ Be kind to others. Don’t be a jerk.
 
 As a design-centred event, the importance of empathy, perception and effective communication will be familiar to many attendees. Type Brigade asks that you continue using these skills during the event: please be mindful of the words you use. Exclusionary jokes—sexist, racist, or otherwise—will be offensive to those around you, and will not be considered appropriate.
 
-Communication should be appropriate for a professional audience, including people of many different backgrounds. Sexual language and imagery is not appropriate for the meetup, including during talks. Occasionally, designed visuals are described assessed using sexual language, but we ask speakers and attendees refrain from participating in this trend.
+Communication should be appropriate for a professional audience, including people of many different backgrounds. Sexual language and imagery is not appropriate for the meetup, including during talks. It is becoming more common for type or designed visuals to be described using sexual language, but we ask speakers and attendees refrain from participating in this trend.
 
 Type Brigade is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
 
