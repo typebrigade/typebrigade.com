@@ -47,7 +47,6 @@ img {
   width: 100%;
 }
 
-
 ol,
 ul {
   padding-left: 0;
@@ -69,32 +68,4 @@ blockquote {
 abbr {
   // font-size: 0.8em;
   @include font-feature-settings("liga", "pnum", "onum", "kern", "smcp", "c2sc");
-}
-
-// Temp Shame
-
-.hidden {
-  display: none;
-  visibility: hidden;
-}
-
-.blog-item {
-  list-style-type: none;
-}
-
-address {
-  margin: 1em 0;
-}
-@include media($mid) {
-  .split {
-    address {
-      margin: 0;
-    }
-    margin-bottom: 1em;
-    @include span-columns(1 of 2);
-    @include omega(2n);
-  }
-  .button {
-    clear: left;
-  }
 }
