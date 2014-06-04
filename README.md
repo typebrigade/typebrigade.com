@@ -1,13 +1,13 @@
 # Type Brigade
 
 > I find, if you speak about anything for long enough, it always comes back to type.
-> <footer>—Peter Cocking,<br/>&nbsp;&nbsp;&nbsp;&nbsp;_Designer_</footer>
+> <br/>—Peter Cocking,<br/>&nbsp;&nbsp;&nbsp;&nbsp;_Designer_
 
 [Type Brigade](http://typebrigade.com) is Vancouver’s type design and typography speaker series and meetup. It’s community-driven and completely free to attend.
 
 ## Running locally
 
-If you’d like to run the website locally, you’ll need [Node.js installed](http://nodejs.org). Then, run the following commands on your terminal. If you’re unfamiliar with the terminal, take a look at [this helpful introduction](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/) for help getting started.
+If you’d like to run the website locally, you’ll need [Node.js installed](http://nodejs.org). Then, run the following commands on your terminal. If you’re unfamiliar with the terminal, take a look at [this helpful introduction](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/).
 
 ```bash
 # Install Harp
