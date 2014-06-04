@@ -26,8 +26,10 @@ Thank you for helping make this a welcoming, friendly event for all!
 
 ## Contributing
 
-Our Code of Conduct maintained and [editable](#) by the Type Brigade community, and is based upon the [PyCon Code of Conduct](https://us.pycon.org/2012/codeofconduct/), the [PDXNode code of Conduct](https://github.com/PDXNode/pdxnode/blob/master/code-of-conduct.md#code-of-conduct), and the [Conference Code of Conduct](http://confcodeofconduct.com/).
+Our Code of Conduct [is editable and maintained](https://github.com/typebrigade/typebrigade.com/edit/master/code-of-conduct.md) by the Type Brigade community. You’ll need a [GitHub account](https://github.com/typebrigade/typebrigade.com/edit/master/code-of-conduct.md) to make changes, and can [email the organisers](mailto:kenneth@typebrigade.com) if you’d like any help setting this up.
 
 ## License
 
 [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0)
+
+This document is based upon the [PyCon Code of Conduct](https://us.pycon.org/2012/codeofconduct/), the [PDXNode code of Conduct](https://github.com/PDXNode/pdxnode/blob/master/code-of-conduct.md#code-of-conduct), and the [Conference Code of Conduct](http://confcodeofconduct.com/).
