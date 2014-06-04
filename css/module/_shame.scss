@@ -11,8 +11,10 @@
   list-style-type: none;
 }
 
-.sponsor-list {
-  margin-left: 0;
+@media (max-width: $narrow-width) {
+  .sponsor-list {
+    margin-left: 0;
+  }
 }
 
 address {
