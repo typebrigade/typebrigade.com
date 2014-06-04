@@ -9,6 +9,21 @@
 
 .blog-item {
   list-style-type: none;
+  @include span-columns(7 of 7);
+  @include shift(-3 of 7);
+  @include media($wide) {
+    time {
+      @include span-columns(3 of 7);
+      // @include shift(-2);
+      text-align: right;
+      margin-top: 0.6em; // Would be better if this didn’t have to get eyeballed
+    }
+    h2 {
+      @include shift(3);
+      width: 100%;
+    }
+
+  }
 }
 
 @media (max-width: $narrow-width) {

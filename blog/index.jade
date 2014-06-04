@@ -4,7 +4,7 @@ ul.blog-list
   for article, slug in public.blog._data
     li.blog-item
       a(href="#{ slug }")
-        time(datetime="#{ new Date(article.date }")= article.date
+        time(datetime="#{ new Date(article.date) }")= article.date
         h2 #{ article.title }
         if service.disqus
           a(href="/blog/#{ article.slug }#disqus_thread") Comments
