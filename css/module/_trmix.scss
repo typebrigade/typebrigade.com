@@ -1,0 +1,26 @@
+// Text Rasterizer
+// ===============
+
+// OS X and iOS
+.tr-coretext {
+  // Causes other bugs in Chrome on Windows and Linux for now
+  text-rendering: optimizeLegibility;
+  // Only use font-smoothing on knockout elements
+  // http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/
+  .footer,
+  .button {
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+// Windows XP and Vista SP1
+.tr-gdi {
+}
+
+// Windows Vista SP2+
+.tr-directwrite {
+}
+
+// Android and Linux
+.tr-freetype {
+}
