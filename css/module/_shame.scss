@@ -11,9 +11,14 @@
   list-style-type: none;
 }
 
+.sponsor-list {
+  margin-left: 0;
+}
+
 address {
   margin: 1em 0;
 }
+
 @include media($mid) {
   .split {
     address {
