@@ -13,6 +13,9 @@ ol
         a(href="#{ meetup.url ? meetup.url : num }")
           h2 #{ meetup.title }
           time.is-fuzzyDate #{ meetup.date }
+          if public.images._contents.indexOf('event-' + num + '.jpg') !== -1
+            img(src="/images/#{ 'event-' + num + '.jpg' }" alt="")
+          // else if greater than 19 show speaker images or something
           address
             h3 #{ meetup.location }
             !{ meetup.address }
