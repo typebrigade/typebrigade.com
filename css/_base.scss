@@ -69,3 +69,7 @@ abbr {
   // font-size: 0.8em;
   @include font-feature-settings("liga", "pnum", "onum", "kern", "smcp", "c2sc");
 }
+
+iframe {
+  border: 0;
+}
