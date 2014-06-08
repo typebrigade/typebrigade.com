@@ -7,11 +7,17 @@
   visibility: hidden;
 }
 
+// Blog index page
+
+.blog-list {
+  margin-left: 0;
+}
+
 .blog-item {
   list-style-type: none;
-  @include span-columns(7 of 7);
-  @include shift(-3 of 7);
   @include media($wide) {
+    @include span-columns(7 of 7);
+    @include shift(-3 of 7);
     time {
       @include span-columns(3 of 7);
       // @include shift(-2);
