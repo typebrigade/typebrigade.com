@@ -2,6 +2,9 @@
 // it goes here. We’ll figure it
 // out later.™
 
+// Hidden helper, currently
+// only used on global <h1>
+
 .hidden {
   display: none;
   visibility: hidden;
@@ -32,11 +35,60 @@
   }
 }
 
+// About page list, so
+// we can keep it Markdown
+
+.about {
+  .row {
+    & > h2 {
+      @include shift(1 of 5);
+      @include media($wide) {
+        @include shift(0);
+      }
+    }
+    & > ul {
+      list-style-type: none;
+      margin-left: 0;
+
+      & > li {
+        display: block;
+        @include span-columns(4 of 5);
+        @include shift(1);
+        font-size: 0.8em;
+        margin-bottom: 1.25em; // 1 / 0.8
+        img {
+          @include span-columns(1 of 5);
+          @include shift(-1);
+          position: relative;
+          border-radius: 0.15625em; // 0.125 / 0.8
+        }
+        @include media($wide) {
+          @include span-columns(5 of 5);
+          @include shift(0);
+          font-size: 1em;
+          margin-bottom: 1em;
+          img {
+            @include span-columns(1 of 5);
+            @include shift(-1);
+            border-radius: 0.125em;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+// Override default list
+// styles on sponsors
+
 @media (max-width: $narrow-width) {
   .sponsor-list {
     margin-left: 0;
   }
 }
+
+// Meetup feature block
 
 address {
   margin: 1em 0;
