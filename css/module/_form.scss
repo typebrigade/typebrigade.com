@@ -1,0 +1,42 @@
+form {
+  ul {
+    list-style-type: none;
+    > li {
+      display: block;
+      margin-bottom: $base-line-height * 1em;
+    }
+  }
+}
+
+label {
+  display: block;
+  small {
+    display: block;
+  }
+}
+
+textarea,
+#{$all-text-inputs} {
+  @include appearance(none);
+  width: 100%;
+  resize: vertical;
+  border: 1px solid $color-grey-dark;
+  border-radius: $base-border-radius;
+  font-family: $font-family-sans;
+  line-height: $base-line-height;
+  padding: $gutter / 2 $gutter / 2;
+  font-weight: $font-weight-normal;
+
+  &:hover {
+  }
+
+  &:focus {
+  }
+}
+
+input {
+}
+
+select {
+  width: auto;
+}

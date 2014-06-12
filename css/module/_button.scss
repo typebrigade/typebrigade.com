@@ -1,15 +1,23 @@
+button,
+input[type="submit"],
 .button,
 .button:visited {
+  @include appearance(none);
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
   background: $color-orange;
   display: block;
   text-shadow: none;
   font-family: $font-family-sans;
-  padding: $gutter / 2;
+  padding: $gutter / 2 $gutter * 2;
   color: #FFF;
   text-shadow: 0 1px 2px darken($color-orange, 25%);
   font-weight: $font-weight-bold;
   border-radius: 0.125em;
   text-align: center;
+  border: 0;
   border-bottom: 0.125em solid darken($color-orange, 25%);
   letter-spacing: 0.0075em;
   font-size: 1.125em;
