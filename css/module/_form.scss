@@ -1,6 +1,7 @@
 form {
   ul {
     list-style-type: none;
+    margin-left: 0;
     > li {
       display: block;
       margin-bottom: $base-line-height * 1em;
@@ -11,7 +12,31 @@ form {
 label {
   display: block;
   small {
+    font-weight: $font-weight-normal;
     display: block;
+    color: $color-grey-dark;
+    text-align: left;
+    @include hyphens(auto);
+    margin-top: $base-line-height * 0.5em;
+    margin-bottom: $base-line-height * 0.5em;
+    @include media($huge) {
+      margin-top: $base-line-height * 1.25em;
+      border-top: 1px solid $color-grey;
+      padding-top: $gutter / 2;
+    }
+  }
+  &[required="required"] {
+    font-weight: $font-weight-bold;
+    &:after {
+      font-weight: $font-weight-normal;
+      content: "required";
+      display: inline-block;
+      // float: right;
+      margin-left: 0.25em;
+      font-style: italic;
+      // font-size: 0.8em;
+      color: $color-grey-dark;
+    }
   }
 }
 
@@ -26,11 +51,15 @@ textarea,
   line-height: $base-line-height;
   padding: $gutter / 2 $gutter / 2;
   font-weight: $font-weight-normal;
+  color: $color-grey-dark;
 
   &:hover {
+    border-color: $color-beige-dark;
   }
 
   &:focus {
+    color: $color-black;
+    border-color: $color-beige-dark;
   }
 }
 
