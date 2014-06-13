@@ -23,23 +23,12 @@ a:visited,
   text-shadow: 1px 1px 0 #FFF, -1px 1px 0 #FFF;
   color: $color-beige-dark;
   @include transition(opacity 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out);
-  &:hover {
+  &:hover,
+  &:focus {
     color: darken($color-beige, 15%);
   }
   &:active {
     color: $color-beige-dark;
-  }
-  &:focus {
-    // color: $color-beige-dark;
-    // text-decoration: none;
-    // outline: 1px solid;
-    // border-bottom: 0;
-    // background: #FFF;
-    // z-index: 1;
-    // position: relative;
-    // padding: 0.5em;
-    // margin: -0.5em;
-    // box-shadow: 5px 5px 0 darken($color-beige, 50%);
   }
 }
 
