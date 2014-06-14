@@ -57,8 +57,14 @@ blockquote {
 abbr {
   // font-size: 0.8em;
   @include font-feature-settings("liga", "pnum", "onum", "kern", "smcp", "c2sc");
-}
-
 iframe {
   border: 0;
+}
+
+hr {
+  margin-top: 2em * $base-line-height;
+  margin-bottom: 2em * $base-line-height;
+  width: 50%;
+  border: 0;
+  border-bottom: 1px solid $color-grey-dark;
 }
