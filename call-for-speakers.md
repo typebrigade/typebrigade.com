@@ -2,7 +2,7 @@
 
 Type Brigade is now accepting presentation proposals for future events.
 
-Whether you’re an experienced type designer with a talk you’ve given before or have yet to present an idea you’re still working through, we welcome your proposal. We firmly believe you have something worthwhile to share, and you certainly don’t need to know everything type to teach us something.
+Whether you’re an experienced type designer with a talk you’ve given before, or have recently become interested in typography and are still working on your idea, we welcome your proposal. We firmly believe you have something worthwhile to share, and you certainly don’t need to know everything type to teach us something.
 
 ## Format
 
