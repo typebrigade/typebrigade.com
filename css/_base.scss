@@ -2,7 +2,6 @@ html {
   font-family: $font-family-serif;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  @include font-feature-settings("liga", "pnum", "onum", "kern");
 }
 
 header,
@@ -54,9 +53,6 @@ blockquote {
   margin: 0;
 }
 
-abbr {
-  // font-size: 0.8em;
-  @include font-feature-settings("liga", "pnum", "onum", "kern", "smcp", "c2sc");
 iframe {
   border: 0;
 }

@@ -1,3 +1,7 @@
+_The following license applies to the Type Brigade website. Blog posts, documents, graphic assets, speakers’ resources, etc. are copyright their respective owners unless otherwise specified, and have not been released under the same terms._
+
+***
+
 The MIT License (MIT)
 
 Copyright © 2014 Type Brigade
