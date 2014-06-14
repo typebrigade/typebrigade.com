@@ -21,9 +21,11 @@
     "deploy": "npm run compile && npm run prefix"
   },
   "devDependencies": {
+    "autoprefixer": "~1.2.0",
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
-    "neat": "git://github.com/kennethormandy/neat#v1.5.1",
-    "autoprefixer": "~1.1.20140523",
+    "chaser": "git://github.com/kennethormandy/chaser",
+    "neat": "git://github.com/kennethormandy/neat",
+    "normalize-opentype": "git://github.com:kennethormandy/normalize-opentype.css",
     "typogr": "~0.6.3"
   }
 }

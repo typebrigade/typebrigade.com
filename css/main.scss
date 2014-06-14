@@ -4,8 +4,8 @@
 @import "../node_modules/neat/dist/neat";
 @import "variables";
 @import "../node_modules/neat/dist/neat"; // Intentional reimport for variables
+@import "../node_modules/chaser/src/chaser";
 @import "normalize";
-@import "mixins";
 
 // SMACSS
 
