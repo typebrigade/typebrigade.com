@@ -75,22 +75,22 @@ img.banner(src="/images/typebrigade-background.svg")
           //-   li.speaker-socailItem: a(href="#") Dribbble
           //-   li.speaker-socailItem: a(href="#") Instagram
 .container
-  .row--center
-      h2 Sponsors
+  .row.row--center
 
-      p Type Brigade would not be possible without our sponsors.
+    h2 Sponsors
+    p Type Brigade is free to attend, which would not be possible without our sponsors.
   .row
     ul.sponsor-list
       li.sponsor-item
         a.sponsor(href="http://chloi.io")
-          img.sponsor-image(src="/images/sponsor-chloi.svg" alt="Chloi Inc.")
+          img.sponsor-image(src="/images/sponsor-chloi.svg" alt="Chloi’s logo")
           .sponsor-details
             h4.sponsor-title Chloi Inc.
             em Organisational Sponsor
             p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type. Type Brigade would not be possible without their support, and mentorship through sibling meetups CSS Brigade and Node Brigade.
       li.sponsor-item
         a.sponsor(href="http://mobify.com")
-          img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify")
+          img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
           .sponsor-details
             h4.sponsor-title Mobify
             em Space Sponsor
@@ -103,17 +103,41 @@ img.banner(src="/images/typebrigade-background.svg")
             em Refreshments Sponsor
             p Refreshments are available at Type Brigade. If your company is interested in sponsoring this, email <span class="a-faux">#{ email }</span> for more information.
       li.sponsor-item
+        a.sponsor(href="http://blackstonepress.ca")
+          img.sponsor-image(src="/images/sponsor-black-stone-press.png" alt="Black Stone Press’s logo")
+          .sponsor-details
+            h4.sponsor-title Black Stone Press
+            em Surprises Sponsor
+            p Black Stone Press is a beautiful print studio with even better work. They’ve been providing fine letterpress printing and graphic design services on Granville Island since 1996.
+      li.sponsor-item
         a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
           img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
           .sponsor-details
             h4.sponsor-title Interested in sponsoring?
             em Surprises Sponsor
             p We’d like Type Brigade to be a memorable meetup for attendees, even after it’s over. If you’re interested in helping to make that happen, email <span class="a-faux">#{ email }</span> for information.
+
   .row.row--center
+
     h2 Call for Speakers
     p
       a(href="call-for-speakers") The Call for Speakers is currently open.
       |  If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.
+
+
+  //- .row.row--center
+  //-
+  //-   h2 Blog
+  //-
+  //-   ul.blog-list
+  //-     for article, slug in public.blog._data
+  //-       li.blog-item
+  //-         a(href="blog/#{ slug }")
+  //-           time(datetime="#{ new Date(article.date) }")
+  //-             span.a-faux= article.date
+  //-           h2
+  //-             span.a-faux #{ article.title }
+  //-       -break
 
 script(src="//maps.googleapis.com/maps/api/js?sensor=FALSE").
 script.

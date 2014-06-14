@@ -3,7 +3,8 @@
 // out later.™
 
 // Hidden helper, currently
-// only used on global <h1>
+// used on global <h1> and
+// one other thing
 
 .hidden {
   display: none;
@@ -82,9 +83,17 @@
 // Override default list
 // styles on sponsors
 
-@media (max-width: $narrow-width) {
-  .sponsor-list {
+.sponsor-list {
+  margin-bottom: 2em * $base-line-height;
+  @media (max-width: $narrow-width) {
     margin-left: 0;
+  }
+}
+
+.sponsor-item {
+  margin-bottom: 2em * $base-line-height;
+  img {
+    margin-bottom: 1em * $base-line-height;
   }
 }
 

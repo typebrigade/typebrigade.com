@@ -122,13 +122,9 @@ body {
   }
 
   .sponsor-item {
-    @include span-columns(2 of 8);
     @include omega-reset(2n);
-    &:nth-child(2n) { margin-right: flex-gutter(8, $gutter); }
-    &:nth-child(2n+1) { clear: none; }
-    &:nth-child(4n) {
-      margin-right: 0;
-    }
+    @include span-columns(2.33 of 7);
+    @include omega(3n);
   }
 
   form small {
@@ -141,18 +137,15 @@ body {
 @include media($massive) {
 
   .sponsor-list {
-    @include span-columns(10 of 7);
-    @include shift(-1.5 of 7);
+    @include span-columns(11 of 7);
+    @include shift(-2 of 7);
   }
 
-  // .sponsor-item {
-  //   @include span-columns(2 of 8);
-  //   @include omega-reset(2n);
-  //   &:nth-child(2n) { margin-right: flex-gutter(8, $gutter); }
-  //   &:nth-child(2n+1) { clear: none; }
-  //   &:nth-child(4n) {
-  //     margin-right: 0;
-  //   }
-  // }
+  .sponsor-item {
+    @include omega-reset(2n, 11);
+    @include omega-reset(3n, 11);
+    @include span-columns(2.2 of 11);
+    @include omega(5n);
+  }
 
 }
