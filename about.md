@@ -8,7 +8,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Shelley Gruendler
 
-  [![Shelley Gruendler’s profile picture](http://avatars.io/twitter/dr_shelley?size=large)](http://typecamp.org)
+  [![Shelley Gruendler’s profile picture](/images/team-shelley.jpg)](http://typecamp.org)
 
   _Founder_
 
@@ -16,7 +16,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Kenneth Ormandy
 
-  [![Kenneth Ormandy’s profile picture](http://avatars.io/twitter/kennethormandy?size=large)](http://kennethormandy.com)
+  [![Kenneth Ormandy’s profile picture](/images/team-kenneth.jpg)](http://kennethormandy.com)
 
   _Organiser_
 
@@ -26,7 +26,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Andrea Husky
 
-  [![Andrea Husky’s profile picture](http://avatars.io/twitter/andreahusky?size=large)](http://andreahusky.com)
+  [![Andrea Husky’s profile picture](/images/team-andrea.jpg)](http://andreahusky.com)
 
   _Assistant Organiser & Resident Letterer_
 
@@ -36,7 +36,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Riley Cran
 
-  [![Riley Cran’s profile picture](http://avatars.io/twitter/rileycran?size=large)](http://rileycran.com)
+  [![Riley Cran’s profile picture](/images/team-riley.jpg)](http://rileycran.com)
 
   _Assistant Organiser_
 
@@ -46,7 +46,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Cody Jones
 
-  [![Cody Jones’ profile picture](http://avatars.io/twitter/mediumjones?size=large)](http://mediumjones.com)
+  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
 
   _Assistant Organiser_
 
@@ -70,7 +70,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Jorge Pedret
 
-  [![Jorge Pedret’s profile picture](http://avatars.io/twitter/jorgepedret?size=large)](http://jorgepedret.com)
+  [![Jorge Pedret’s profile picture](/images/team-jorge.jpg)](http://jorgepedret.com)
 
   _Mentor_
 
