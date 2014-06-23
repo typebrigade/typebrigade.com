@@ -15,7 +15,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
-    "serve": "harp serve",
+    "start": "harp server",
     "compile": "harp compile . ~/Dropbox/harp.io/apps/typebrigade.harp.io/public",
     "prefix": "autoprefixer ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/css/main.css",
     "deploy": "npm run compile && npm run prefix"
@@ -24,7 +24,7 @@
     "autoprefixer": "~1.2.0",
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
     "chaser": "git://github.com/kennethormandy/chaser",
-    "neat": "git://github.com/kennethormandy/neat",
+    "neat": "git://github.com/kennethormandy/neat#v1.5.2",
     "normalize-opentype": "git://github.com:kennethormandy/normalize-opentype.css",
     "typogr": "~0.6.3"
   }
