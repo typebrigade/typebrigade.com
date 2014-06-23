@@ -15,65 +15,44 @@ img.banner(src="/images/typebrigade-background.svg")
 
     h2 Register for Type Brigade
 
-.meetup.row.row--breakout
-  .container
-    .meetup-register
-      a.meetup-map.map(href="https://www.google.com/maps/place/948+Homer+St/@49.2780571,-123.119061,17z")
-        #map-canvas.map-canvas(width="600px" height="250px")
-        //- iframe(width="600px" height="250px" frameborder="0" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.9123997934707!2d-123.119061!3d49.278057099999906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486717e00a427ad%3A0x465fa83bbf8ee0d8!2s948+Homer+St!5e0!3m2!1sen!2s!4v1401754706985")
-        //- small
-        //-   a(href="https://www.google.com/maps/place/948+Homer+St/@49.2784717,-123.1194173,15z/data=!4m2!3m1!1s0x5486717e00a427ad:0x465fa83bbf8ee0d8") View Larger Map
+include _includes/register
 
-      .meetup-details
-        .split
-          h3 Type Brigade №20
-          time(datetime="2014-06-23T07:00:00Z") June 24<sup>th</sup> at 7:00<abbr>PM</abbr>
-        .split
-          address
-            strong Mobify <abbr>HQ</abbr><br/>
-            | 3<sup>rd</sup> Floor, 948 Homer Street<br/>
-            | Vancouver, BC, Canada, V6B 2W7
-        a.button(href="http://www.meetup.com/typebrigade/events/186884552/") Join for free
+.container
+  .row--center
+    h2 Speakers at Type Brigade №20
+    p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design. More details will be announced on the <a href="blog">Type Brigade blog</a> soon!
+  .meetup-list
+    .meetup-talk.talk
+      //- h4 Talk title
+      //- p Donec lorem ipsum, aliquet at tortor vitae, tempus tempus urna. Aenean nec arcu eget orci scelerisque interdum. Vivamus scelerisque gravida diam aliquet egestas. Sed fermentum massa a tristique vestibulum. Proin imperdiet vitae purus at scelerisque. Curabitur viverra nisi a elementum lobortis. Vivamus odio risus, porttitor ac elit iaculis, mattis tristique mauris. Vivamus fringilla id libero quis eleifend.
+      .talk-speaker.speaker
+        img.speaker-image(src="/images/speaker-celeste-martin.jpg")
+        h3.speaker-name Celeste Martin
+        .speaker-bio
+          p Celeste Martin is an Assistant Professor at Emily Carr University of Art + Design. She has a background in communication design, and specialises in typography, researches at the university’s Social + Interactive Media Centre, and is the editor of the award-winning design research journal&nbsp;<em>Current</em>.
+        //- ul.speaker-socialList
+        //-   li.speaker-socailItem: a(href="#") Web
+        //-   li: a(href="http://twitter.com/CelestMartin") Twitter
+        //-   li.speaker-socailItem: a(href="#") GitHub
+        //-   li.speaker-socailItem: a(href="#") Dribbble
+        //-   li.speaker-socailItem: a(href="#") Instagram
 
-  .button-consolation
-    a(href="http://www.meetup.com/Vancouver-Typography-Meetup-Group/join") Busy? No problem, get notified next time
-
-  .container
-    .row--center
-      h2 Speakers at Type Brigade №20
-      p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design. More details will be announced on the <a href="blog">Type Brigade blog</a> soon!
-    .meetup-list
-      .meetup-talk.talk
-        //- h4 Talk title
-        //- p Donec lorem ipsum, aliquet at tortor vitae, tempus tempus urna. Aenean nec arcu eget orci scelerisque interdum. Vivamus scelerisque gravida diam aliquet egestas. Sed fermentum massa a tristique vestibulum. Proin imperdiet vitae purus at scelerisque. Curabitur viverra nisi a elementum lobortis. Vivamus odio risus, porttitor ac elit iaculis, mattis tristique mauris. Vivamus fringilla id libero quis eleifend.
-        .talk-speaker.speaker
-          img.speaker-image(src="/images/speaker-celeste-martin.jpg")
-          h3.speaker-name Celeste Martin
-          .speaker-bio
-            p Celeste Martin is an Assistant Professor at Emily Carr University of Art + Design. She has a background in communication design, and specialises in typography, researches at the university’s Social + Interactive Media Centre, and is the editor of the award-winning design research journal&nbsp;<em>Current</em>.
-          //- ul.speaker-socialList
-          //-   li.speaker-socailItem: a(href="#") Web
-          //-   li: a(href="http://twitter.com/CelestMartin") Twitter
-          //-   li.speaker-socailItem: a(href="#") GitHub
-          //-   li.speaker-socailItem: a(href="#") Dribbble
-          //-   li.speaker-socailItem: a(href="#") Instagram
-
-      .meetup-talk.talk
-        //- h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
-        //- .talk-abstract
-        //-   p Ut varius suscipit eros, et accumsan lorem lobortis at. Etiam vel metus sit amet arcu dapibus sollicitudin ac quis erat. Mauris condimentum malesuada accumsan. Nulla at nulla ornare, cursus sem id, gravida ipsum. Phasellus sed massa tincidunt, porta ligula ac, ullamcorper magna.
-        //-   p Sed commodo at nisl nec aliquet. Nullam semper, est tristique sagittis molestie, est sem dictum odio, in tincidunt enim neque ultricies dui. Nunc vel consectetur justo, sed tempor erat. Nullam ut est in leo ultrices mattis. Donec magna dolor, adipiscing eget hendrerit et, imperdiet nec ligula.
-        .talk-speaker.speaker
-          img.speaker-image(src="/images/speaker-neil-kandalgaonkar.jpg")
-          h3.speaker-name Neil Kandalgaonkar
-          .speaker-bio
-          p Neil Kandalgaonkar is a technologist who says “Sometimes, when a typeface I like becomes popular, I want to say ‘I loved you first.’” He's worked on sites like Google, Flickr, and Wikipedia, often with a focus on usability. He'll talk about the secret history of Native American typesetting and typeface design, and how he designed a Cherokee font that broke with 200 years of tradition.
-          //- ul.speaker-socialList
-          //-   li.speaker-socailItem: a(href="#") Web
-          //-   li.speaker-socailItem: a(href="#") Twitter
-          //-   li.speaker-socailItem: a(href="#") GitHub
-          //-   li.speaker-socailItem: a(href="#") Dribbble
-          //-   li.speaker-socailItem: a(href="#") Instagram
+    .meetup-talk.talk
+      //- h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
+      //- .talk-abstract
+      //-   p Ut varius suscipit eros, et accumsan lorem lobortis at. Etiam vel metus sit amet arcu dapibus sollicitudin ac quis erat. Mauris condimentum malesuada accumsan. Nulla at nulla ornare, cursus sem id, gravida ipsum. Phasellus sed massa tincidunt, porta ligula ac, ullamcorper magna.
+      //-   p Sed commodo at nisl nec aliquet. Nullam semper, est tristique sagittis molestie, est sem dictum odio, in tincidunt enim neque ultricies dui. Nunc vel consectetur justo, sed tempor erat. Nullam ut est in leo ultrices mattis. Donec magna dolor, adipiscing eget hendrerit et, imperdiet nec ligula.
+      .talk-speaker.speaker
+        img.speaker-image(src="/images/speaker-neil-kandalgaonkar.jpg")
+        h3.speaker-name Neil Kandalgaonkar
+        .speaker-bio
+        p Neil Kandalgaonkar is a technologist who says “Sometimes, when a typeface I like becomes popular, I want to say ‘I loved you first.’” He's worked on sites like Google, Flickr, and Wikipedia, often with a focus on usability. He'll talk about the secret history of Native American typesetting and typeface design, and how he designed a Cherokee font that broke with 200 years of tradition.
+        //- ul.speaker-socialList
+        //-   li.speaker-socailItem: a(href="#") Web
+        //-   li.speaker-socailItem: a(href="#") Twitter
+        //-   li.speaker-socailItem: a(href="#") GitHub
+        //-   li.speaker-socailItem: a(href="#") Dribbble
+        //-   li.speaker-socailItem: a(href="#") Instagram
 .container
   .row.row--center
 
@@ -138,36 +117,3 @@ img.banner(src="/images/typebrigade-background.svg")
   //-           h2
   //-             span.a-faux #{ article.title }
   //-       -break
-
-script(src="//maps.googleapis.com/maps/api/js?sensor=FALSE").
-script.
-  var map;
-  var meetup;
-  var marker;
-  var mapOptions;
-  function initialize() {
-    meetup = new google.maps.LatLng(49.2778192,-123.1194332);
-    mapOptions = {
-      zoom: 14,
-      center: meetup,
-      disableDefaultUI: true,
-      draggable: false,
-      disableDoubleClickZoom: true,
-      zoomControl: false,
-      scrollwheel: false
-    };
-    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    marker = new google.maps.Marker({
-      position: meetup,
-      map: map,
-      title: 'Mobify'
-    });
-  };
-
-  google.maps.event.addDomListener(window, 'load', initialize);
-  google.maps.event.addDomListener(window, 'resize', function(){
-      map.setCenter(meetup);
-      if (!window.matchMedia("(min-width: 768px)").matches) {
-          map.setZoom(13);
-      }
-  });
