@@ -36,6 +36,12 @@
   }
 }
 
+// Blog nest
+
+.blog-author {
+  font-style: italic;
+}
+
 // About page list, so
 // we can keep it Markdown
 
@@ -114,5 +120,37 @@ address {
   }
   .button {
     clear: left;
+  }
+}
+
+// Move into seperate library
+// Also figure--breakout in _layout
+
+.figure--border {
+  img {
+    border: 1px solid $color-grey;
+  }
+}
+
+article {
+  blockquote {
+    font-size: 1.25em;
+    border-left: 0.25em solid;
+    padding-left: 2em;
+    p:last-child {
+      strong:only-child {
+        font-style: italic;
+        font-weight: 400;
+        font-family: $font-family-serif;
+        color: $color-grey-dark;
+        display: block;
+        &:before {
+          content: "\2014";
+        }
+        a {
+          display: inline-block;
+        }
+      }
+    }
   }
 }

@@ -86,6 +86,23 @@ body {
     @include shift(1);
   }
 
+  .row--narrow {
+    .figure--breakout {
+      @include span-columns(7 of 5);
+      @include shift(-2 of 5);
+      figcaption {
+        overflow: hidden;
+        @include span-columns(2 of 7);
+        height: 15em;
+        margin-bottom: -15em;
+      }
+    }
+    figure {
+      margin-top: $base-line-height * 1em;
+      margin-bottom: $base-line-height * 0.9em;
+    }
+  }
+
   .blockquote--intro {
     @include shift(-1 of 7);
     @include span-columns(6 of 5);

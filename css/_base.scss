@@ -64,3 +64,15 @@ hr {
   border: 0;
   border-bottom: 1px solid $color-grey-dark;
 }
+
+figure {
+  margin: 0;
+  font-style: italic;
+  color: $color-grey-dark;
+  @include media($mid) {
+    font-size: 0.8em;
+  }
+  a {
+    background: transparent;
+  }
+}
