@@ -30,7 +30,7 @@ The Pentagram wordmark
 </figure>
 
 <figure class="figure--border">
-[![Pentagram Remixed exhibition photos](../images/blog-our-number-twenty-pentagram-ps.jpg)](http://pentagram.com)
+[![Pentagram Remixed exhibition photos](../images/blog-our-number-twenty-pentagram-ps.jpg)](http://new.pentagram.com/2013/06/pentagram-remixed-opens-at-ningbo-design-biennial)
 <figcaption>
 A piece from the [<cite>Pentagram Remixed</cite>](http://new.pentagram.com/2013/06/pentagram-remixed-opens-at-ningbo-design-biennial/) exhibition.
 </figcaption>
