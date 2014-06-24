@@ -2,9 +2,15 @@
 
 Type Brigade, formerly the Vancouver Typography Meetup Group, is Vancouver’s free type design and typography meetup and speaker series.
 
-All contributors and speakers hope to bring the type and design community in Vancouver a little closer together.
+## Contact
+
+Email [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com)<br/>
+Tweet [@typebrigade](http://twitter.com/typebrigade)<br/>
+Call [778 722 1587](tel:7787221587)
 
 ## Contributors
+
+All contributors and speakers hope to bring the type and design community in Vancouver a little closer together.
 
 - ### Shelley Gruendler
 
