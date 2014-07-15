@@ -4,7 +4,12 @@ header.header
   nav.nav
     ul.nav-list
       // Register, else events
-      li.nav-item: a.nav-link(href="http://meetup.com/#{ social.meetup }") Meetup
+      li.nav-item: a.nav-link.nav-link--primary.button.button--small(href="http://meetup.com/#{ social.meetup }") Join the Meetup
       //- li.nav-item: a.nav-link(href="/events") Events
       li.nav-item: a.nav-link(href="/blog") Blog
+      li.nav-item: a.nav-link(href="http://twitter.com#{ social.typebrigade }") Twitter
       //- li.nav-item: a.nav-link(href="/code-of-conduct") Code of Conduct
+  //- .header-feature
+  //-   img(src="http://placehold.it/300x150")
+  //-   h2 Type Brigade №20
+  //-   p Event tomorrow

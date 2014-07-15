@@ -11,7 +11,7 @@ img.banner(src="/images/typebrigade-background.svg")
 
     p All the more reason to speak about it sooner.
 
-    p Introducing <strong>Type Brigade</strong>: Vancouver’s type design and typography speaker series and meetup. It’s community-driven and completely free to&nbsp;attend.
+    p Introducing <a href="http://meetup.com/typebrigade"><strong>Type Brigade</strong>: Vancouver’s type design and typography speaker series meetup</a>. It’s community-driven and completely free to&nbsp;attend.
 
     h2 Register for Type Brigade
 
@@ -54,6 +54,14 @@ include _includes/register
             //-   li.speaker-socailItem: a(href="#") GitHub
             //-   li.speaker-socailItem: a(href="#") Dribbble
             //-   li.speaker-socailItem: a(href="#") Instagram
+  .row.row--center
+
+    h2 Call for Speakers
+    p
+      a(href="call-for-speakers") The Call for Speakers is currently open.
+      |  If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.
+
+
 .container
   .row.row--center
 
@@ -76,45 +84,28 @@ include _includes/register
             em Space Sponsor
             p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to take care of space, whether it’s getting type to look great on small screens, or taking care of our space for Type Brigade. Thanks to Mobify for letting us use their wonderful headquarters.
       li.sponsor-item
+        a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
+          img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
+          .sponsor-details
+            h4.sponsor-title Interested in sponsoring?
+            em Sponsor Type Brigade
+            p Type Brigade has an active membership of amazing designers and type enthusiasts. If you’re looking to be move involved with design in Vancouver, email <span class="a-faux">#{ email }</span> for more information about sponsoring.
+
+      li.sponsor-item
         a.sponsor(href="http://blackstonepress.ca")
           img.sponsor-image(src="/images/sponsor-black-stone-press.svg" alt="Black Stone Press’s logo")
           .sponsor-details
             h4.sponsor-title Black Stone Press
-            em Surprises Sponsor
+            em Letterpress Sponsor
             p Black Stone Press is a beautiful print studio with even better work. They’ve been providing fine letterpress printing and graphic design services on Granville Island since 1996.
       li.sponsor-item
         a.sponsor(href="https://www.harp.io")
           img.sponsor-image(src="/images/sponsor-harp-platform.svg" alt="Sponsorship slot available")
           .sponsor-details
             h4.sponsor-title Harp Platform
-            em Drinks & Deployment
+            em Deployment Sponsor
             p Harp Platform provides effortless publishing through Dropbox, and we’re using it to power the Type Brigade website through <span class="a-faux">www.harp.io</span>. In addition, they’re covering the drinks at Type Brigade! Thanks to the Harp Platform.
-      li.sponsor-item
-        a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
-          img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
-          .sponsor-details
-            h4.sponsor-title Interested in sponsoring?
-            em Surprises Sponsor
-            p We’d like Type Brigade to be a memorable meetup for attendees, even after it’s over. If you’re interested in helping to make that happen, email <span class="a-faux">#{ email }</span> for information.
+
 
   .row.row--center
-
-    h2 Call for Speakers
-    p
-      a(href="call-for-speakers") The Call for Speakers is currently open.
-      |  If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.
-
-
-  //- .row.row--center
-  //-
-  //-   h2 Blog
-  //-
-  //-   ul.blog-list
-  //-     for article, slug in public.blog._data
-  //-       li.blog-item
-  //-         a(href="blog/#{ slug }")
-  //-           time(datetime="#{ new Date(article.date) }")
-  //-             span.a-faux= article.date
-  //-           h2
-  //-             span.a-faux #{ article.title }
-  //-       -break
+    != partial("blog/index").replace('h1', 'h2')

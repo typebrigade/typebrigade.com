@@ -28,9 +28,20 @@
 
 .nav-link {
   background: transparent;
+  display: block;
+  padding-left: 0.5em;
   @include media($mid) {
+    padding-left: 0;
+    display: inline-block;
     background: inherit;
     background-position: 0 1em;
+  }
+  &.button {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    @include media($mid) {
+      margin-left: -$gutter;
+    }
   }
 }
 

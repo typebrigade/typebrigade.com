@@ -43,3 +43,11 @@ input[type="submit"],
   font-style: italic;
   font-size: 0.8em;
 }
+
+.button--small {
+  font-size: 1em;
+  padding: $gutter / 2 $gutter * 1;
+  @include media($mid) {
+    display: inline-block;
+  }
+}
