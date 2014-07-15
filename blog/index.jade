@@ -2,11 +2,12 @@ h1 Blog
 
 ul.blog-list
   for article, slug in public.blog._data
-    li.blog-item
-      a(href="#{ slug }")
-        time(datetime="#{ new Date(article.date) }")
-          span.a-faux= article.date
-        h2
-          span.a-faux #{ article.title }
-        if service.disqus
-          a(href="/blog/#{ article.slug }#disqus_thread") Comments
+    unless article.published === false
+      li.blog-item
+        a(href="#{ slug }")
+          time(datetime="#{ new Date(article.date) }")
+            span.a-faux= article.date
+          h2
+            span.a-faux #{ article.title }
+          if service.disqus
+            a(href="/blog/#{ article.slug }#disqus_thread") Comments

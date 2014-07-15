@@ -1,7 +1,9 @@
 //- TODO Don’t hard-code this
 //- a.blog-author(href="http://twitter.com/kennethormandy") Kenneth Ormandy
 
-!= yield
-
-hr
-include ../_includes/register
+if published === false
+  != partial("../404")
+else
+  != yield
+  hr
+  include ../_includes/register
