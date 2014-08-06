@@ -4,7 +4,7 @@ ul.blog-list
   for article, slug in public.blog._data
     unless article.published === false
       li.blog-item
-        a(href="#{ slug }")
+        a(href="/blog/#{ slug }")
           time(datetime="#{ new Date(article.date) }")
             span.a-faux= article.date
           h2
