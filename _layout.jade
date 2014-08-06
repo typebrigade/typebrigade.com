@@ -6,6 +6,7 @@ html(lang="en")
   head
     meta(charset="utf-8")
     title!= tagline ? tagline + ' – ' + title : title
+    include _includes/font-face
     link(rel="stylesheet" href="/css/main.css")
     //if lt IE 10
       //- script(src="https://html5shiv.googlecode.com/svn/trunk/html5.js")
@@ -33,7 +34,6 @@ html(lang="en")
       meta(name="twitter:creator" content="@#{ author }")
 
     //- != partial("_includes/typogr")
-    include _includes/font-face
   body(class=current.source === 'index' && current.path.length >= 2 ? current.path[current.path.length - 2] : current.source)
     .container
       .row
