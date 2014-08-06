@@ -6,7 +6,7 @@ Type Brigade, formerly the Vancouver Typography Meetup Group, is Vancouver’s f
 
 Email [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com)<br/>
 Tweet [@typebrigade](http://twitter.com/typebrigade)<br/>
-Call [778 722 1587](tel:7787221587)
+<!-- Call [778 722 1587](tel:7787221587) -->
 
 ## Contributors
 
