@@ -2,18 +2,23 @@
   "why-we-adopted-a-code-of-conduct": {
     "title": "Why we adopted a Code of Conduct",
     "date": "2014-07-08",
-    "published": false
+    "published": false,
+    "author": "kennethormandy"
   },
   "our-number-twenty": {
     "title": "Our number twenty",
-    "date": "2014-06-22"
+    "date": "2014-06-22",
+    "description": "For our twentieth meetup, the first under our new name Type Brigade, we’ve been planning something a little unconventional. We now have completely custom event numerals, lettered by Type Brigade’s Assistant Organiser Andrea Husky.",
+    "author": "kennethormandy"
   },
   "the-call-for-speakers-is-open": {
     "title": "The Call for Speakers is now open",
-    "date": "2014-06-13"
+    "date": "2014-06-13",
+    "author": "kennethormandy"
   },
   "introducing-type-brigade": {
     "title": "Introducing Type Brigade",
-    "date": "2014-06-03"
+    "date": "2014-06-03",
+    "author": "kennethormandy"
   }
 }
