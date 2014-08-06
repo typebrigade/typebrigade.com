@@ -23,9 +23,9 @@
   "devDependencies": {
     "autoprefixer": "~1.2.0",
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
-    "chaser": "git://github.com/kennethormandy/chaser",
+    "chaser": "git://github.com/kennethormandy/chaser#v0.2.1",
     "neat": "git://github.com/kennethormandy/neat#v1.5.2",
-    "normalize-opentype": "git://github.com:kennethormandy/normalize-opentype.css",
+    "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.1.2",
     "typogr": "~0.6.3"
   }
 }
