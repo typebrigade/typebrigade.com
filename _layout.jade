@@ -21,12 +21,12 @@ html(lang="en")
     //- Facebook
     meta(property="og:side_name" content="#{ name }")
     meta(property="og:title" content="#{ title }")
-    meta(property="og:url" content="#{ url + '/' + current.path.join('/') }")
+    meta(property="og:url" content="#{ url + '/' + current.path.join('/').replace('index', '') }")
     meta(property="og:description" content="#{ description }")
 
     //- Twitter
     meta(name="twitter:card" content="summary")
-    meta(name="twitter:url" content="#{ url + '/' + current.path.join('/') }")
+    meta(name="twitter:url" content="#{ url + '/' + current.path.join('/').replace('index', '') }")
     meta(name="twitter:title" content="#{ title }")
     meta(name="twitter:description" content="#{ description }")
     meta(name="twitter:site" content="@#{ social.twitter }")
