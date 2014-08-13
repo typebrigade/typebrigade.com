@@ -17,7 +17,7 @@
     "test": "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
     "start": "harp server",
     "compile": "harp compile . ~/Dropbox/harp.io/apps/typebrigade.harp.io/public",
-    "typogrify": "typogr ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/*.html ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/",
+    "typogrify": "typogr -f ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/*.html ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/",
     "prefix": "autoprefixer ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/css/main.css",
     "deploy": "npm run compile && npm run typogrify && npm run prefix"
   },
