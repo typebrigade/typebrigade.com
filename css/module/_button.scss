@@ -1,7 +1,6 @@
 button,
 input[type="submit"],
-.button,
-.button:visited {
+.button {
   @include appearance(none);
   cursor: pointer;
   user-select: none;
