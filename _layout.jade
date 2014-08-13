@@ -59,6 +59,7 @@ html(lang="en")
   //-     typogr.typogrify(container);
   //-   })
   block scripts
+    script(async defer src="/js/vendor/trmix.js")
     script(src="//maps.googleapis.com/maps/api/js?sensor=FALSE").
     script.
       var map;
@@ -90,6 +91,5 @@ html(lang="en")
               map.setZoom(13);
           }
       });
-    script(src="/js/vendor/trmix.js")
     if service.analytics
       include _includes/analytics
