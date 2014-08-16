@@ -1,6 +1,11 @@
 [
-  { "title": "Refocus"
-  , "location": "Mobidy HQ"
+  { "title": "Looking Locally"
+  , "location": "Mobify HQ"
+  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
+  , "date": "2014-08-26T06:30:00Z"
+  },
+  { "title": "Relaunch"
+  , "location": "Mobify HQ"
   , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
   , "date": "2014-06-23T07:00:00Z"
   },

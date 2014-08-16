@@ -1,0 +1,39 @@
+{
+  "celeste-martin": {
+    "name": "Celeste Martin",
+    "bio": "Celeste Martin is an Assistant Professor at Emily Carr University of Art + Design. She has a background in communication design, and specialises in typography, researches at the university’s Social Interactive Media Centre, and is the editor of the award-winning design research journal <em>Current</em>",
+    "20": {
+      "title": "Dynamic typography in digital publication design"
+    },
+    "social": {
+      "twitter": "CelestMartin"
+    }
+  },
+  "neil-kandalgaonkar": {
+    "name": "Neil Kandalgaonkar",
+    "bio": "“Sometimes, when a typeface I like becomes popular, I want to say ‘I loved you first.’” Neil Kandalgaonkar helped make that thing you like on the Internet. Google, Upcoming, Flickr, Wikipedia. Before that, he designed type.",
+    "20": {
+      "title": "Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system"
+    },
+    "social": {
+      "url": "http://neilk.net",
+      "twitter": "flipzagging",
+      "github": "flipzagging"
+    }
+  },
+  "example": {
+    "name": "Jane Doe",
+    "bio": "A person",
+    "0": {
+      "title": "This is my talk",
+      "abstract": "It is pretty good\n\nThere is some more info here"
+    },
+    "social": {
+      "url": "http://example.com",
+      "twitter": "jane",
+      "github": "jane",
+      "dribbble": "jane",
+      "instagram": "jane"
+    }
+  }
+}

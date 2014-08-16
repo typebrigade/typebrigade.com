@@ -1,0 +1,48 @@
+if published === false
+  != partial("../404")
+else
+
+  event = public.events._data[public.events._data.length - parseInt(current.source)]
+
+  if public.images._contents.indexOf('event-' + current.source + '.jpg') !== -1
+    figure.figure.figure--breakout
+      img(src="/images/#{ 'event-' + current.source + '.jpg' }" alt="")
+      figcaption
+        :markdown
+          Celeste Martin on _Dynamic typography in digital publication design_ at Type Brigade. [Photo CC BY 2.0 Stephen Bau](https://www.flickr.com/photos/bauhouse/14506354242/in/set-72157645407658123).
+
+  em #{ name } №#{ current.source }
+  h1 #{ event.title }
+
+  time(datetime="#{ new Date(event.date) }") #{ event.date.split('T') }
+  address
+    strong #{ event.location }
+    br
+    != event.address
+
+  != yield.split('<!--more-->')[0]
+
+  h2 Program
+
+  for speaker, slug in public.speakers._data
+    if speaker[current.source]
+      talk = speaker[current.source]
+      h3.speaker-name #{ speaker.name }, #{ talk.title }
+      if talk.abstract
+        p!= talk.abstract.replace('\n\n', '</p><p>')
+      img.speaker-image(src="/images/speaker-#{ slug }.jpg" alt="A photo of #{ speaker.name }")
+      em About #{ speaker.name }
+      p !{ speaker.bio.replace('\n\n', '</p><p>') }
+      if speaker.social
+        ul.social-list
+          for link, loc in speaker.social
+              li.social-item
+                if loc === 'url'
+                  a(href="#{ link }") #{ link.split('//')[1]  }
+                else
+                  a(class="social social--#{ loc }" href="http://#{ loc }.com/#{ link }") @#{ link.toLowerCase() } on #{ loc.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();}) }
+
+  != yield.split('<!--more-->')[1]
+
+  hr
+  include ../_includes/register
