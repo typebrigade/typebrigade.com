@@ -19,14 +19,12 @@ git clone https://github.com/typebrigade/typebrigade.com
 # Move into the folder you just downloaded
 cd typebrigade.com
 
-# Install Bourbon and Neat through npm
+# Install dependencies the project uses
 npm install
 
 # Serve the project with Harp
 harp server
 ```
-
-Node the display font Edmondsans is not included in this repository. Hopefully the fallback font will suffice until the WOFFs are on a CDN.
 
 ## Deploying to the [Harp Platform](http://harp.io)
 
@@ -41,6 +39,8 @@ Now, just press “Publish” on the [Harp Platform](http://harp.io).
 
 ## Licenses
 
-Code is available under [the MIT License (MIT)](LICENSE.md), Copyright © 2014 Type Brigade.
+Copyright © 2014 [Type Brigade](http://typebrigade.com).
+
+Code is available under [the MIT License (MIT)](LICENSE.md).
 
 Blog posts, documents, graphic assets, speakers’ resources, etc. are copyright their respective owners unless otherwise specified.
