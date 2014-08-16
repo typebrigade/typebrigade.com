@@ -32,8 +32,6 @@ html(lang="en")
     meta(name="twitter:site" content="@#{ social.twitter }")
     if author
       meta(name="twitter:creator" content="@#{ author }")
-
-    //- != partial("_includes/typogr")
   body(class=current.source === 'index' && current.path.length >= 2 ? current.path[current.path.length - 2] : current.source)
     .container
       .row
@@ -87,3 +85,8 @@ html(lang="en")
       });
     if service.analytics
       include _includes/analytics
+    if environment === 'development'
+      script(src="/node_modules/typogr/typogr.min.js")
+      script.
+        var el = document.getElementsByTagName('body')[0]
+        el.innerHTML = typogr.typogrify(el.innerHTML)

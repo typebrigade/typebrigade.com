@@ -23,10 +23,10 @@
   },
   "devDependencies": {
     "autoprefixer": "~1.2.0",
-    "typogr": "~0.6.4",
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.2.1",
     "neat": "git://github.com/kennethormandy/neat#v1.5.2",
-    "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.1.2"
+    "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.1.2",
+    "typogr": "~0.6.4"
   }
 }
