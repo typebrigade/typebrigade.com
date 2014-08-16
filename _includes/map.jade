@@ -1,0 +1,34 @@
+script.
+  function initialize() {
+    var map;
+    var mapEl;
+    var meetup;
+    var marker;
+    var mapOptions;
+    meetup = new google.maps.LatLng(49.2778192,-123.1194332);
+    mapOptions = {
+      zoom: 14,
+      center: meetup,
+      disableDefaultUI: true,
+      draggable: false,
+      disableDoubleClickZoom: true,
+      zoomControl: false,
+      scrollwheel: false
+    };
+    mapEl = document.getElementById('js-map');
+    if(typeof mapEl !== 'undefined') {
+      map = new google.maps.Map(mapEl, mapOptions);
+      marker = new google.maps.Marker({
+        position: meetup,
+        map: map,
+        title: 'Mobify'
+      });
+      google.maps.event.addDomListener(window, 'resize', function(){
+          map.setCenter(meetup);
+          if (!window.matchMedia("(min-width: 768px)").matches) {
+              map.setZoom(13);
+          }
+      });
+    }
+  };
+script(async defer src="//maps.googleapis.com/maps/api/js?v=3.exp&callback=initialize")
