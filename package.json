@@ -14,7 +14,6 @@
   ],
   "private": true,
   "scripts": {
-    "postinstall": "mv node_modules/*.css node_modules/*.scss",
     "test": "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
     "start": "harp server",
     "compile": "harp compile . ~/Dropbox/harp.io/apps/typebrigade.harp.io/public && rm -rf ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/node_modules",
@@ -27,7 +26,7 @@
     "bourbon": "git://github.com/thoughtbot/bourbon#v3.2.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.2.1",
     "neat": "git://github.com/kennethormandy/neat#v1.5.2",
-    "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.1.2",
+    "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.1.4",
     "typogr": "~0.6.4"
   }
 }
