@@ -1,17 +1,21 @@
 # Why we adopted a Code of&nbsp;Conduct
 
+When we re-launched Vancouver’s typography and type design meetup as Type Brigade, we adopted a Code of Conduct. Your meetup can too.
+
+## On expectations
+
 “It was great hanging out with everyone, and I learned a lot too!”
 
 This is how many attendees expect to feel when they leave a design, development, technology, or art meetup here in Vancouver. It’s a reaction organisers are hoping for, too. And it is the experience that many of us have—but not everyone.
 
-It’s worthwhile __explicitly defining these community expectations__. This is why Type Brigade, Vancouver’s type design and typography meetup, adopted [a Code of Conduct](http://typebrigade.com/code-of-conduct) for our first event under our new name last month. 
+It’s worthwhile __explicitly defining these community expectations__. This is why Type Brigade, Vancouver’s type design and typography meetup, adopted [a Code of Conduct](http://typebrigade.com/code-of-conduct) for our first event under our new name last month.
 
 <figure>
 ![A photo of the Code of Conduct slides at the first event](../images/blog-intro-code-of-conduct.jpg)
 <figcaption>Introducing the Code of Conduct at Type Brigade №20. [Photo CC BY 2.0 Stephen Bau.](https://www.flickr.com/photos/bauhouse/14527580863/in/set-72157645407658123)</figcaption>
 </figure>
 
-It’s a commitment to welcoming potential participants and all attendees, creating a positive, professional experience at our events, and take a clear stance against harassment which is [all too common](http://adainitiative.org/what-we-do/conference-policies/) at technology-related conferences.
+It’s a commitment to welcoming potential participants and all attendees, creating a positive, professional experience at our events, and take a clear stance against harassment which is [all too common](http://adainitiative.org/what-we-do/conference-policies/) at technology and related conferences.
 
 ## Our Code of Conduct
 
@@ -34,26 +38,28 @@ The current class of Vancovuer meetups are rapidly growing in size, which brings
 <figcaption>Celeste Martin at Type Brigade №20. [Photo CC BY 2.0 Stephen Bau.](https://www.flickr.com/photos/bauhouse/14527580863/in/set-72157645407658123)</figcaption>
 </figure>
 
-This is especially true as many meetups see as many first-timers as regulars. Student attendees—including me—and recent grads are increasingly common, from [Kwantlen](http://www.kpu.ca/), [Langara](http://www.langara.bc.ca/), [Emily Carr](http://ecuad.ca/), [CodeCore](http://codecore.ca/), [Lighthouse Labs](http://codecore.ca/), [SFU](http://www.sfu.ca/), [UBC](http://www.ubc.ca/), [Capilano](http://www.capilanou.ca/), and more.
+This is especially true as many meetups see as many first-timers as regulars. Student attendees—including me—and recent grads are increasingly common, from [Kwantlen](http://www.kpu.ca/), [Langara](http://www.langara.bc.ca/), [Emily Carr](http://ecuad.ca/), [CodeCore](http://codecore.ca/), [Lighthouse Labs](http://www.lighthouselabs.ca/), [SFU](http://www.sfu.ca/), [UBC](http://www.ubc.ca/), [Capilano](http://www.capilanou.ca/), [BCIT](http://www.bcit.ca), and more.
 
-Meetups larger than Type Brigade have an opportunity to share their values through a Code of Conduct, and help define the community we wish it was now.
+Attendees without formal training are equally qualified and welcome at our events, and creating a welcoming environment for them is important, too.
+
+Meetups larger and smaller than Type Brigade have the opportunity to share their values through a Code of Conduct, and help define the community we wish it was now.
 
 ### Meetups we look up to
 
-My co-workers and friends at [Chloi](http://chloi.io) run Type Brigade’s sibling meetups, where __[Node Brigade](http://meetup.com/node-brigade-vancouver)__ has 400 members, and __[CSS Brigade](http://cssbrigade.com)__ surpassed 500 in one year.
+My co-workers and friends through [Chloi](http://chloi.io) run Type Brigade’s sibling meetups, where __[Node Brigade](http://meetup.com/node-brigade-vancouver)__ has 400 members, and __[CSS Brigade](http://cssbrigade.com)__ surpassed 500 in one year.
 
-__[Style & Class](http://www.meetup.com/styleandclass)__ have clearly tapped into something special, too. Their event this past week had over 180 people hoping to attend—understandable after the prior event, where [Stephanie Hobson](https://twitter.com/stephaniehobson), now of Mozilla, and [Steve Mynett of Hootsuite](https://twitter.com/SteveMynett) both gave seriously impressive, conference-quality talks.
+__[Style & Class](http://www.meetup.com/styleandclass)__ have clearly tapped into something special, too. Recent events had over 180 people hoping to attend—understandable after a prior event, where [Stephanie Hobson](https://twitter.com/stephaniehobson), now of Mozilla, and [Steve Mynett of Hootsuite](https://twitter.com/SteveMynett) both gave seriously impressive, conference-quality talks.
 
 <figure>
 ![Stephanie presents on accessibility at Style & Class](../images/blog-style-and-class.jpg)
 <figcaption>
-Stephanie presents on the value of making the web for everyone, at Style & Class. [Photo by Steve Fisher](http://www.meetup.com/styleandclass/photos/21879542/#363398412) 
+Stephanie presents on the value of making the web for everyone, at Style & Class. [Photo by Steve Fisher](http://www.meetup.com/styleandclass/photos/21879542/#363398412)
 </figcaption>
 </figure>
 
-Somehow, our friends at [Brewhouse](http://brewhouse.io) run up to three __[#vanruby](http://vanruby.org)__ events a month for over 1,100 members! [Steamclock](http://www.steamclock.com/) accomplishes similar feats through  __[VanCocoa](http://www.vancocoa.com/)__ and __[VanJS](http://www.meetup.com/vancouver-javascript-developers/)__. On the other end of the spectrum, great meetups like __[HxDVacouver](http://www.meetup.com/HXD-Vancouver/)__ are much smaller but still run every month.
+Somehow, our friends at [Brewhouse](http://brewhouse.io) run up to three __[#vanruby](http://vanruby.org)__ events a month for over 1,100 members! [Steamclock](http://www.steamclock.com/) accomplishes similar feats through  __[VanCocoa](http://www.vancocoa.com/)__ and __[VanJS](http://www.meetup.com/vancouver-javascript-developers/)__. Expanding beyond specific languages or technologies, the __[HxD Vacouver](http://www.meetup.com/HXD-Vancouver/)__ runs every month, too.
 
-From HTML5 to health design, there’s clearly sustainable interest in these meetups across a very wide range of subjects. 
+From HTML5 to health design, there’s clearly sustainable interest in these meetups across a very wide range of subjects.
 
 We can make a further impact across these events through a Code of Conduct, making it known that we continuing to try and get better at welcoming people, and that exclusionary behaviour or harassment will not be tolerated.
 
@@ -64,6 +70,7 @@ As part of this maturation, some Vancouver meetup venues have new legal requirem
 A Code of Conduct is a conceivable extension of these requirements. Outside of Vancouver, some companies like [Heroku](https://blog.heroku.com/archives/2013/12/11/code_of_conduct) or MailChimp have made submitting their Code of Conduct part of the sponsorship application process:
 
 > we try to help out with great ideas that align with our values. … If you’d like to tell us about your event, please also consider pointing us to your code of conduct. It’s important.
+> __MailChimp__
 
 I’d be happy to see local meetup sponsors and venues make similar requests.
 
