@@ -18,8 +18,7 @@
     "start": "harp server",
     "compile": "harp compile . ~/Dropbox/harp.io/apps/typebrigade.harp.io/public && rm -rf ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/node_modules",
     "typogrify": "typogr -f ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/*.html ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/",
-    "prefix": "autoprefixer ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/css/main.css",
-    "deploy": "npm run compile && npm run typogrify && npm run prefix"
+    "deploy": "npm run compile && npm run typogrify"
   },
   "devDependencies": {
     "chasers": "git://github.com/kennethormandy/chasers#v0.2.1",
