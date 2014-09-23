@@ -22,7 +22,7 @@
 
   a,
   a:visited {
-    @include linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(255,255,255,0.8) 75%);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(255,255,255,0.8) 75%);
     text-shadow: 1px 1px 0 $color-beige-dark, -1px 1px 0 $color-beige-dark;
     color: lighten($color-beige, 8%);
     // color: #000;

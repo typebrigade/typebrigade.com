@@ -32,7 +32,6 @@ body {
   .logo {
     @include span-columns(2 of 5);
   }
-
 }
 
 @include media($mid) {
@@ -68,15 +67,6 @@ body {
     }
   }
 
-  .sponsor-list {
-    @include span-columns(5);
-  }
-
-  .sponsor-item {
-    @include span-columns(2 of 4);
-    @include omega(2n);
-  }
-
 }
 
 @include media($wide) {
@@ -108,6 +98,15 @@ body {
     @include span-columns(6 of 5);
   }
 
+  .sponsor-list {
+    @include span-columns(6);
+    @include shift(1);
+  }
+
+  .sponsor-item {
+    @include span-columns(3 of 7);
+  }
+
   .meetup-register {
     @include span-columns(6 of 8);
     @include shift(1);
@@ -134,19 +133,18 @@ body {
 
 @include media($huge) {
 
-  .sponsor-list {
-    @include span-columns(7);
-  }
-
-  .sponsor-item {
-    @include omega-reset(2n);
-    @include span-columns(2.33 of 7);
-    @include omega(3n);
-  }
-
   form small {
     @include span-columns(3 of 7);
     @include shift(-3);
+  }
+
+  .sponsor-list {
+    @include span-columns(7);
+    @include shift(0);
+  }
+
+  .sponsor-item {
+    @include span-columns(2 of 8);
   }
 
 }
@@ -155,14 +153,11 @@ body {
 
   .sponsor-list {
     @include span-columns(9 of 7);
-    @include shift(-1 of 7);
+    @include shift(-1);
   }
 
   .sponsor-item {
-    @include omega-reset(2n, 9);
-    @include omega-reset(3n, 9);
-    @include span-columns(2.2 of 9);
-    @include omega(5n);
+    @include span-columns(2 of 8);
   }
 
 }

@@ -86,24 +86,6 @@
 
 }
 
-// Override default list
-// styles on sponsors
-
-.sponsor-list {
-  margin-bottom: 2em * $base-line-height;
-  @media (max-width: $narrow-width) {
-    margin-left: 0;
-  }
-}
-
-.sponsor-item {
-  margin-bottom: 2em * $base-line-height;
-  img {
-    margin-bottom: 1em * $base-line-height;
-    padding: $gutter / 2;
-  }
-}
-
 // Meetup feature block
 
 address {
@@ -159,8 +141,5 @@ article {
 // Fix with Typogr or Normalize-OpenType PR
 .caps {
   // text-transform: lowercase;
-  -webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
-  -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
-  -ms-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
   font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
 }

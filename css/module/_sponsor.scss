@@ -8,7 +8,7 @@ a.sponsor {
   }
   .sponsor-image {
     opacity: 0.75;
-    @include transition(opacity 0.2s ease-in-out);
+    transition: opacity 0.2s ease-in-out;
   }
   &:focus,
   &:hover,
@@ -23,6 +23,14 @@ a.sponsor {
 .sponsor-list,
 .sponsor-item {
   list-style-type: none;
-  // margin-left: 0;
+  margin-bottom: 2em * $base-line-height;
   padding-left: 0;
+}
+
+.sponsor-item {
+  margin-bottom: 2em * $base-line-height;
+  img {
+    margin-bottom: 1em * $base-line-height;
+    padding: $gutter / 2;
+  }
 }

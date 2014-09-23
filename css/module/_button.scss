@@ -1,7 +1,7 @@
 button,
 input[type="submit"],
 .button {
-  @include appearance(none);
+  appearance: none;
   cursor: pointer;
   user-select: none;
   vertical-align: middle;
