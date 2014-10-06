@@ -113,21 +113,18 @@ body {
   }
 
   .meetup-list {
-    @include span-columns(5 of 7);
-    @include shift(1);
+    @include span-columns(7 of 7);
+    // @include shift(1);
   }
 
   .meetup-talk {
     @include span-columns(2 of 4);
   }
 
-  // .speaker-bio {
-  //   @include shift(0);
-  //   @include span-columns(3 of 2);
-  //   &:nth-child(1n) {
-  //     @include shift(-2);
-  //   }
-  // }
+  .speaker-bio {
+    @include shift(0);
+    // @include span-columns(3 of 2);
+  }
 
 }
 
