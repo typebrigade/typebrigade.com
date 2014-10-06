@@ -118,4 +118,4 @@ include _includes/register
 
 
   .row.row--center
-    != partial("blog/index").replace('h1', 'h2')
+    != partial("blog/index", { "limit": 3 }).replace("h1", "h2")
