@@ -11,3 +11,9 @@ ul.blog-list
             span.a-faux #{ article.title }
           if service.disqus
             a(href="/blog/#{ article.slug }#disqus_thread") Comments
+      -limit--
+      if limit === 0
+        -break
+
+//- if limit === 0
+//-   a(href="/blog") Read more

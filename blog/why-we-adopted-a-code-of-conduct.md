@@ -1,8 +1,8 @@
 # Why we adopted a Code of&nbsp;Conduct
 
-When we re-launched Vancouver’s typography and type design meetup as Type Brigade, we adopted a Code of Conduct. Your meetup can too.
+<p class="epigraph">When we re-launched Vancouver’s typography and type design meetup as Type Brigade, we adopted a Code of Conduct. Your meetup can too.</p>
 
-## On expectations
+## Setting expectations
 
 “It was great hanging out with everyone, and I learned a lot too!”
 
@@ -31,20 +31,12 @@ We’d rather Type Brigade wasn’t notable for adopting a Code of Conduct, and 
 
 ## Why adopt one now?
 
-The current class of Vancovuer meetups are rapidly growing in size, which brings new opportunities to help communicate what we’d like to see happening in our wider community, beyond the subject of the meetup itself.
+The current class of Vancouver meetups are rapidly growing in size, which brings new opportunities to help communicate what we’d like to see happening in our wider community, beyond the subject of the meetup itself.
 
 <figure class="figure--breakout">
 ![Celeste Martin at Type Brigade №20](../images/blog-celeste-at-type-brigade.jpg)
 <figcaption>Celeste Martin at Type Brigade №20. [Photo CC BY 2.0 Stephen Bau.](https://www.flickr.com/photos/bauhouse/14527580863/in/set-72157645407658123)</figcaption>
 </figure>
-
-This is especially true as many meetups see as many first-timers as regulars. Student attendees—including me—and recent grads are increasingly common, from [Kwantlen](http://www.kpu.ca/), [Langara](http://www.langara.bc.ca/), [Emily Carr](http://ecuad.ca/), [CodeCore](http://codecore.ca/), [Lighthouse Labs](http://www.lighthouselabs.ca/), [SFU](http://www.sfu.ca/), [UBC](http://www.ubc.ca/), [Capilano](http://www.capilanou.ca/), [BCIT](http://www.bcit.ca), and more.
-
-Attendees without formal training are equally qualified and welcome at our events, and creating a welcoming environment for them is important, too.
-
-Meetups larger and smaller than Type Brigade have the opportunity to share their values through a Code of Conduct, and help define the community we wish it was now.
-
-### Meetups we look up to
 
 My co-workers and friends through [Chloi](http://chloi.io) run Type Brigade’s sibling meetups, where __[Node Brigade](http://meetup.com/node-brigade-vancouver)__ has 400 members, and __[CSS Brigade](http://cssbrigade.com)__ surpassed 500 in one year.
 
@@ -59,30 +51,33 @@ Stephanie presents on the value of making the web for everyone, at Style & Class
 
 Somehow, our friends at [Brewhouse](http://brewhouse.io) run up to three __[#vanruby](http://vanruby.org)__ events a month for over 1,100 members! [Steamclock](http://www.steamclock.com/) accomplishes similar feats through  __[VanCocoa](http://www.vancocoa.com/)__ and __[VanJS](http://www.meetup.com/vancouver-javascript-developers/)__. Expanding beyond specific languages or technologies, the __[HxD Vacouver](http://www.meetup.com/HXD-Vancouver/)__ runs every month, too.
 
-From HTML5 to health design, there’s clearly sustainable interest in these meetups across a very wide range of subjects.
+From HTML5 to health design, there’s clearly sustainable interest in these meetups across a very wide range of subjects. Many of the meetups I have an equal number of first-time and regulars attendees. Meeting student and recent learners is are increasingly common. With so many people ready to learn, we can make a further impact across these events through a Code of Conduct. We’d like to make it known that
 
-We can make a further impact across these events through a Code of Conduct, making it known that we continuing to try and get better at welcoming people, and that exclusionary behaviour or harassment will not be tolerated.
+1. We are actively trying to improve how we welcoming people.
+2. Exclusionary behaviour and harassment will not be tolerated.
+
+Meetups larger and smaller than Type Brigade have the opportunity to share their values through a Code of Conduct. We can help define the community we wish it was now.
 
 ### Sponsoring values
 
 As part of this maturation, some Vancouver meetup venues have new legal requirements we need to meet when hosting events in their space. This is completely understandable: they are taking on a lot of responsibility.
 
-A Code of Conduct is a conceivable extension of these requirements. Outside of Vancouver, some companies like [Heroku](https://blog.heroku.com/archives/2013/12/11/code_of_conduct) or MailChimp have made submitting their Code of Conduct part of the sponsorship application process:
+A Code of Conduct is a resonable extension of these requirements. Outside of Vancouver, some companies like [Heroku](https://blog.heroku.com/archives/2013/12/11/code_of_conduct) or [MailChimp](http://mailchimp.com/about/sponsorship/) have made submitting their Code of Conduct part of the sponsorship application process:
 
 > we try to help out with great ideas that align with our values. … If you’d like to tell us about your event, please also consider pointing us to your code of conduct. It’s important.
-> __MailChimp__
+> __MailChimp, [MailChimp Sponsorship](http://mailchimp.com/about/sponsorship/)__
 
-I’d be happy to see local meetup sponsors and venues make similar requests.
+It would send a strong message to see local meetup sponsors and venues make similar requests.
 
 ## Improve how we meet up
 
 Ultimately, these meetups are professional events. A Code of Conduct is one way to help mitigate issues, define expectations, and communicate that, “Yes, you are welcome here.”
 
-I’d like to see other meetups to adopt a Code of Conduct between now and their next event.
+I’d like to see other peer meetups in Vancouver to adopt a Code of Conduct between now and their next event.
 
-I will continue to share our Code of Conduct at the beginning of every Type Brigade. If you’d like to do the same at your meetup or one you attend, borrow from the liberally licensed resources below—that’s what we did—or send me an email at [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com) anytime.
+I will continue to share our Code of Conduct at the beginning of every Type Brigade. If you’d like to do the same at your meetup or one you attend, borrow from the [liberally licensed resources](#resources) below—that’s what we did—or send me an email at [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com).
 
-## Adopt a Code of Conduct
+<h2 id="resources">Resource for adopting a Code of Conduct</h2>
 
 - [List of Codes of Conduct examples](http://indiewebcamp.com/code-of-conduct-examples)
 - [JS Conf introduces their Code of Conduct](http://2012.jsconf.us/#/about) in 2012
