@@ -26,10 +26,11 @@ include _includes/register
         talk = speaker['22']
         if(typeof talk === 'object')
           .meetup-talk.talk
-            h4= talk.title
-            p= talk.abstract
+            //- h4= talk.title
+            //- p= talk.abstract
             .talk-speaker.speaker
-              img.speaker-image(src="/images/speaker-#{ key }.jpg")
+              //- img.speaker-image(src="/images/speaker-#{ key }.jpg")
+              //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
               h3.speaker-name= speaker.name
               .speaker-bio
                 p!= speaker.bio
@@ -83,16 +84,16 @@ include _includes/register
           .sponsor-details
             h4.sponsor-title Mobify
             em Space Sponsor
-            p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to take care of space, whether it’s getting type to look great on small screens, or taking care of our space for Type Brigade.
+            p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
             p Thanks to Mobify for letting us use their wonderful headquarters.
       li.sponsor-item
         a.sponsor(href="http://louderthanten.com")
-          img.sponsor-image(src="/images/sponsor-louder-than-ten.svg" alt="Louder Than Ten’s logo")
+          img.sponsor-image(src="/images/sponsor-port-paper-co.svg" alt="Port Paper Co.’s logo")
           .sponsor-details
-            h4.sponsor-title Louder Than Ten
-            em Surprises Sponsor
-            p Louder Than Ten helps freelancers and design studios get back to the parts of the job they love. Learn how to manage projects and clients more effectively through their workshops and training.
-            p Louder Than Ten cares about fine details, and helps us with surprises for Type Brigade.
+            h4.sponsor-title Port Paper Co.
+            em Print Sponsor
+            p Port Paper Co. are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again!
+            p Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
       li.sponsor-item
         a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
           img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
