@@ -59,7 +59,6 @@ input[type="time"],
 input[type="week"] {
   appearance: none;
   width: 100%;
-  resize: vertical;
   border: 1px solid $color-grey-dark;
   border-radius: $base-border-radius;
   font-family: $font-family-sans;
@@ -76,6 +75,10 @@ input[type="week"] {
     color: $color-black;
     border-color: $color-beige-dark;
   }
+}
+
+textarea {
+  resize: vertical;
 }
 
 input {

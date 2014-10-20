@@ -87,8 +87,9 @@ __Abstract__ It’s 1556, and Pierre Haultin is finishing punching a metal lette
           <label class="desc" for="Field17" id="title17">Location
             <small class="instruct" id="instruct17">We don’t have the resources
             to bring in remote speakers ourselves, but are very open to scheduling
-            events around visitors, or having your employer sponsor. Submit your
-            talk and we’ll try to figure something out!</small>
+            events around visitors, or giving your employer the main sponsorship slot
+            in exchange for covering your travel. Submit and we’ll try to figure
+            something out!</small>
           </label>
           <input class="field text medium" id="Field17" maxlength="255" name=
           "Field17" tabindex="5" type="text" placeholder=
@@ -104,12 +105,14 @@ __Abstract__ It’s 1556, and Pierre Haultin is finishing punching a metal lette
                     spellcheck="true"
                     tabindex="6"
                     placeholder="twitter.com/examplename
-                                 github.com/examplename
-                                 dribbble.com/exampename"></textarea>
+github.com/examplename
+dribbble.com/exampename"></textarea>
         </li>
 
         <li>
-          <label class="desc" for="Field13" id="title13" required="required">Presentation title</label>
+          <label class="desc" for="Field13" id="title13" required="required">Presentation title
+          <small class="instruct" id="instruct17">You can update this later if you need to.</small>
+          </label>
           <input class="field text medium" id="Field13" maxlength="255" name=
           "Field13" required="required" tabindex="7" type="text" value="">
         </li>
@@ -117,7 +120,8 @@ __Abstract__ It’s 1556, and Pierre Haultin is finishing punching a metal lette
         <li>
           <label class="desc" for="Field14" id="title14" required="required">Abstract
             <small class="instruct" id="instruct14">This would be used on the
-            site and meetup group. Aim for three to five sentences.</small>
+            site and meetup group. Aim for three to five sentences. (You can update
+            this later, too.)</small>
           </label>
           <textarea class="field textarea medium"
                     id="Field14"
