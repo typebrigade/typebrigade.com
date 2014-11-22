@@ -5,6 +5,7 @@
   "homepage": "http://typebrigade.com",
   "author": "Kenneth Ormandy <kenneth@typebrigade.com>",
   "repository": "git@github.com:typebrigade/typebrigade.com.git",
+  "private": true,
   "keywords": [
     "type",
     "typography",
@@ -12,18 +13,19 @@
     "design",
     "meetup"
   ],
-  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
-    "start": "harp server",
-    "compile": "harp compile . ~/Dropbox/harp.io/apps/typebrigade.harp.io/public && rm -rf ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/node_modules",
-    "typogrify": "typogr -f ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/*.html ~/Dropbox/harp.io/apps/typebrigade.harp.io/public/",
-    "deploy": "npm run compile && npm run typogrify"
+    "test":      "echo \"Error: no test specified…yet! Pull requests on typetester/typetester.com are greatly appriciated.\" && exit 1",
+    "start":     "harp server",
+    "typogrify": "typogr -f ./www/*.html ./www/",
+    "compile":   "harp compile && rm -rf ./www/node_modules/ && npm run typogrify",
+    "stage":     "npm run compile && surge ./www --domain staging.typebrigade.com",
+    "deploy":    "npm run compile && surge ./www --domain typebrigade.com"
   },
   "devDependencies": {
     "chasers": "git://github.com/kennethormandy/chasers#v0.2.1",
-    "straight-up": "git://github.com/kennethormandy/straight-up#v0.1.0",
     "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.1.4",
+    "straight-up": "git://github.com/kennethormandy/straight-up#v0.1.0",
+    "surge": "~0.3.3",
     "typogr": "~0.6.4"
   }
 }
