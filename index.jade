@@ -19,11 +19,11 @@ include _includes/register
 
 .container
   .row--center
-    h2 Speakers at Type Brigade №22
+    h2 Speakers at Type Brigade №23
     p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
     .meetup-list
       for speaker, key in public.speakers._data
-        talk = speaker['22']
+        talk = speaker['23']
         if(typeof talk === 'object')
           .meetup-talk.talk
             //- h4= talk.title
@@ -34,10 +34,11 @@ include _includes/register
               h3.speaker-name= speaker.name
               .speaker-bio
                 p!= speaker.bio
-                if speaker.social.twitter
-                  .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
-                else if speaker.social.url
-                  .speaker-socailItem: a(href=speaker.social.url) Web
+                if speaker.social
+                  if speaker.social.twitter
+                    .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
+                  else if speaker.social.url
+                    .speaker-socailItem: a(href=speaker.social.url) Web
       //-
         .meetup-talk.talk
           h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
@@ -78,16 +79,17 @@ include _includes/register
             em Organisational Sponsor
             p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type.
             p Type Brigade would not be possible without Chloi’s support and mentorship.
+      //-
+        li.sponsor-item
+          a.sponsor(href="http://mobify.com")
+            img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
+            .sponsor-details
+              h4.sponsor-title Mobify
+              em Space Sponsor
+              p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
+              p Thanks to Mobify for letting us use their wonderful headquarters.
       li.sponsor-item
-        a.sponsor(href="http://mobify.com")
-          img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
-          .sponsor-details
-            h4.sponsor-title Mobify
-            em Space Sponsor
-            p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
-            p Thanks to Mobify for letting us use their wonderful headquarters.
-      li.sponsor-item
-        a.sponsor(href="http://louderthanten.com")
+        a.sponsor(href="http://portpaperco.com")
           img.sponsor-image(src="/images/sponsor-port-paper-co.svg" alt="Port Paper Co.’s logo")
           .sponsor-details
             h4.sponsor-title Port Paper Co.
@@ -101,22 +103,13 @@ include _includes/register
             h4.sponsor-title Interested in sponsoring?
             em Sponsor Type Brigade
             p Type Brigade has an active membership of amazing designers and type enthusiasts. If you’re looking to be move involved with design in Vancouver, email <span class="a-faux">#{ email }</span> for more information about sponsoring.
-    //-
       li.sponsor-item
-        a.sponsor(href="http://blackstonepress.ca")
-          img.sponsor-image(src="/images/sponsor-black-stone-press.svg" alt="Black Stone Press’s logo")
+        a.sponsor(href="mailto:#{ email }?subject=Info about collaborating with Type Brigade")
+          img.sponsor-image(src="/images/sponsor-open.svg" alt="Collaboration slot available")
           .sponsor-details
-            h4.sponsor-title Black Stone Press
-            em Letterpress Sponsor
-            p Black Stone Press is a beautiful print studio with even better work. They’ve been providing fine letterpress printing and graphic design services on Granville Island since 1996.
-      li.sponsor-item
-        a.sponsor(href="https://www.harp.io")
-          img.sponsor-image(src="/images/sponsor-harp-platform.svg" alt="Sponsorship slot available")
-          .sponsor-details
-            h4.sponsor-title Harp Platform
-            em Deployment Sponsor
-            p Harp Platform provides effortless publishing through Dropbox, and we’re using it to power the Type Brigade website through <span class="a-faux">www.harp.io</span>. In addition, they’re covering the drinks at Type Brigade! Thanks to the Harp Platform.
-
+            h4.sponsor-title Interested in collabs?
+            em Work with Type Brigade
+            p We’ve worked with Emily Carr University, Mobify, Vancouver Design Week, and more. Let us know if you’d like to collaborate.  
 
   .row.row--center
     != partial("blog/index", { "limit": 3 }).replace("h1", "h2")
