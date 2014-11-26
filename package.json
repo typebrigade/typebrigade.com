@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "test":      "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\" && exit 1",
+    "postinstall": "trash node_modules/chasers/test && trash node_modules/straight-up/test",
     "start":     "harp server",
     "typogrify": "typogr -f ./www/*.html ./www/",
     "compile":   "rm -rf ./www && harp compile && rm -rf ./www/node_modules/ && npm run typogrify",
@@ -22,6 +23,7 @@
     "deploy":    "npm run compile && surge ./www --domain typebrigade.com"
   },
   "devDependencies": {
+    "trash": "*",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
     "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.2.1",
     "straight-up": "git://github.com/kennethormandy/straight-up#v0.1.3",
