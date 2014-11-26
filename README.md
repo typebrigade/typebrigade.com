@@ -26,16 +26,17 @@ npm install
 harp server
 ```
 
-## Deploying to the [Harp Platform](http://harp.io)
+## Deploying
 
-Type Brigade uses a somewhat unconventional method of deploying to the Harp Platform. You’ll need to have access to the project on the Harp Platform and the Dropbox shared with you to deploy. Follow the [Running locally](#running-locally) instructions, and then:
+To deploy, you’ll need to have access to the project. Follow the [Running locally](#running-locally) instructions, and then:
 
 ```bash
-# Compile to your Dropbox
+# Deploy to staging
+npm run stage
+
+# Deploy to production
 npm run deploy
 ```
-
-Now, just press “Publish” on the [Harp Platform](http://harp.io).
 
 ## Licenses
 
