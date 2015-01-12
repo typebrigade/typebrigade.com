@@ -9,9 +9,11 @@ form {
   }
 }
 
-label {
+label,
+legend {
   display: block;
   small {
+    font-family: $font-family-serif;
     font-weight: $font-weight-normal;
     display: block;
     color: $color-grey-dark;
@@ -86,4 +88,33 @@ input {
 
 select {
   width: auto;
+}
+
+legend {
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  border-radius: $base-border-radius;
+
+  label {
+    float: left;
+    line-height: 1;
+    margin-bottom: $base-line-height * 0.33em;
+  }
+
+  input {
+    margin-left: -$gutter;
+    float: left;
+    clear: left;
+    appearance: none;
+    width: auto;
+    &:focus {
+      color: $color-black;
+      border-color: $color-beige-dark;
+    }
+  }
 }
