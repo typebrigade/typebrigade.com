@@ -10,9 +10,6 @@
 If you’d like to run the website locally, you’ll need [Node.js installed](http://nodejs.org). Then, run the following commands on your terminal. If you’re unfamiliar with the terminal, take a look at [this helpful introduction](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/).
 
 ```bash
-# Install Harp
-npm install -g harp
-
 # Clone the repository
 git clone https://github.com/typebrigade/typebrigade.com
 
@@ -22,8 +19,8 @@ cd typebrigade.com
 # Install dependencies the project uses
 npm install
 
-# Serve the project with Harp
-harp server
+# Serve the project with [Harp](http://harpjs.com)
+npm start
 ```
 
 ## Deploying
@@ -40,7 +37,7 @@ npm run deploy
 
 ## Licenses
 
-Copyright © 2014 [Type Brigade](http://typebrigade.com).
+Copyright © 2014–2015 [Type Brigade](http://typebrigade.com).
 
 Code is available under [the MIT License (MIT)](LICENSE.md).
 
