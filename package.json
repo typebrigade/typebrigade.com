@@ -14,20 +14,19 @@
     "meetup"
   ],
   "scripts": {
-    "test":      "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\" && exit 1",
-    "postinstall": "trash node_modules/chasers/test && trash node_modules/straight-up/test",
-    "start":     "harp server",
+    "test": "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\" && exit 1",
+    "start": "harp server",
     "typogrify": "typogr -f ./www/*.html ./www/",
-    "compile":   "rm -rf ./www && harp compile && rm -rf ./www/node_modules/ && npm run typogrify",
-    "stage":     "npm run compile && surge ./www --domain staging.typebrigade.com",
-    "deploy":    "npm run compile && surge ./www --domain typebrigade.com"
+    "compile": "rm -rf ./www && harp compile && rm -rf ./www/node_modules/ && npm run typogrify",
+    "stage": "npm run compile && surge ./www --domain staging.typebrigade.com",
+    "deploy": "npm run compile && surge ./www --domain typebrigade.com"
   },
   "devDependencies": {
-    "trash": "*",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
-    "normalize-opentype": "git://github.com/kennethormandy/normalize-opentype.css#v0.2.1",
+    "harp": "^0.14.0",
+    "normalize-opentype.css": "0.2.3",
     "straight-up": "git://github.com/kennethormandy/straight-up#v0.1.3",
-    "surge": "~0.4.0",
+    "surge": "^0.5.2",
     "typogr": "~0.6.4"
   }
 }
