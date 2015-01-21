@@ -12,7 +12,12 @@ We’re open to straying from this format, however. Feel free to send us your id
 
 ## Topics
 
-This meetup recognises the importance of type at any stage of its development or use. Whether your talk focuses on the historical design of a alternate character in a non-Latin language, or looks at typography in user interfaces across a wide range of popular mobile devices—if it’s about type, chances are you’ll fit right in.
+This meetup recognises the importance of type at any stage of its development or use. Whether your talk focuses on the historical design of a alternate character in a non-Latin language, or looks at typography in user interfaces across a wide range of popular mobile devices—if it’s about type, chances are you’ll fit right in. Some examples of topics explored at previous events:
+
+- Typography in interactive ebooks
+- Type and architecture
+- Wayfinding signage in airports
+- [Local Lettering in Vancouver](http://locallettering.com)
 
 ## We Can Help
 
@@ -32,7 +37,7 @@ Make sure you take a look at Tiffany Conroy’s site, [We Are All Awesome](http:
 
 Type Brigade offers
 
-- An audience of type fans, enthusiastic about your project or story
+- An audience of type fans and members of Vancouver’s design community, enthusiastic about your project or story
 - The chance to practice your talk for real before taking it to a larger conference
 
 
@@ -164,7 +169,7 @@ dribbble.com/exampename"></textarea>
 Here are some useful tools and guides for speakers.
 
 - [Keynote](http://www.apple.com/ca/mac/keynote/)
-- [zeke/slideshow](https://github.com/zeke/harp-slideshow-template), a slide deck template for [Harp](http://harpjs.com)
+- [zeke/slideshow](https://github.com/zeke/harp-slideshow-template), a web-base slide deck template for [Harp](http://harpjs.com)
 - [Slides](http://slides.com)
 
 

@@ -162,7 +162,7 @@ We have one microphone for you to use while you present, and we have one remote 
 
 We maintain a [Code of Conduct](http://typebrigade.com/code-of-conduct) for Type Brigade, which establishes expectations for all organisers, speakers, sponsors, and attendees. It’s a continuos work in progress, with the goal of ensuring Type Brigade is a safe and welcoming community event with clearly established anti-harassment and anti-intimidation considerations.
 
-It’s a record based upon on the work of other events we admire. Running a safe and welcoming event is something we take very seriously, so if you have any positive or negative comments on the Code of Conduct or our approach in general, please let either [Kenneth](mailto:kenneth@typebrigade.com), [Andrea](mailto:andrea@typebrigade.com), or [Alanna](mailto:alanna@typebrigade.com).
+It’s a record based upon on the work of other events we admire. Running a safe and welcoming event is something we take very seriously, so if you have any positive or negative comments on the Code of Conduct or our approach in general, please let either [Kenneth](mailto:kenneth@typebrigade.com) or [Alanna](mailto:alanna@typebrigade.com) know.
 
 ## Attendees
 
