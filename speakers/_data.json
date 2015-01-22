@@ -1,4 +1,25 @@
 {
+  "ross-milne": {
+    "name": "Ross Milne",
+    "bio": "Ross Milne is a type designer and founding member of the design studio Working Format. He completed his postgraduate studies at the Type & Media program at the KABK in The Hauge, Netherlands, and has gone onto regularly work with Typotheque there, and Commercial Type in New York. He currently teaches type design at Emily Carr University.",
+    "24": {
+      "title": "When is a typeface done? The process of development of Charlie & Echo",
+      "abstract": "For now, Ross Milne’s new typefaces Charlie & Echo are done. Recently release through the Typotheque, with support for over 140 languages across Latin, Cyrillic and Greek scripts, eleven weights with corresponding italics, numerous figure styles, expanded icons, arrows and too many currency symbols to count, it’s fair to say that Charlie has grown bigger than ever envisioned. He’ll share some of the process in getting to that point at Type Brigade №24."
+    },
+    "social": {
+      "url": "http://workingformat.com",
+      "twitter": "sincerelyross"
+    }
+
+  },
+  "emma-metcalfe-hurst-and-ingrid-olauson": {
+    "name": "Emma Metcalfe Hurst & Ingrid Olauson",
+    "bio": "Emma Metcalfe Hurst and Ingrid Olauson are artists in Vancouver.",
+    "24": {
+      "title": "Cult Typography: The Harlequin Romance as Critical Aesthetic",
+      "abstract": "Looking back historically at type as a form of branding and voice, the cult typography of the Harlequin Romance novel will be revived in conversation. Topics such as myth, desire, fantasy and projection will serve as a basis to reflect on the collaborative and research based project Ingrid and Emma undertook for their photo and text based Harlequin Novel project Paradise Passes Through Here. By mimicking the poetic affectiveness of the pulp aesthetic, a connection will be drawn in relation to the politics of Feminist discourse and it's recognition in conceptual art."
+    }
+  },
   "peter-cocking": {
     "name": "Peter Cocking",
     "bio": "Peter Cocking is one of Canada’s most celebrated book designers. He’s spoken on typography and design across the US & Canada, from Pecha Kucha Vancouver to the Type Directors Club in New York. Our first talk of the evening will see him introduce and explore the typographic thinking behind the exhibition.",
