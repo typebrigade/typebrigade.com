@@ -60,6 +60,16 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [mediumjones.com](http://mediumjones.com)
 
+- ### Alanna Munro
+
+  [![Alanna Munro’s profile picture](images/team-alanna.png)](http://alannamunro.com)
+
+  _Assistant Organiser_
+
+  Alanna is a freelance interaction designer, typographer, letter-maker and code explorer.
+
+  [alannamunro.com](http://alannamunro.com)
+
 <!--
 
 - ### Tracy Abrahms
@@ -72,8 +82,6 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [hackygolucky.com](http://hackygolucky.com)
 
--->
-
 - ### Jorge Pedret
 
   [![Jorge Pedret’s profile picture](/images/team-jorge.jpg)](http://jorgepedret.com)
@@ -83,3 +91,5 @@ All contributors and speakers hope to bring the type and design community in Van
   Jorge is a Software Engineer at Chloi Inc. He helps mentor Type Brigade as the organiser of it sibling meetup, [CSS Brigade](http://cssbrigade.com).
 
   [jorgepedret.com](http://jorgepedret.com)
+
+-->
