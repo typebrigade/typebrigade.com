@@ -19,26 +19,27 @@ include _includes/register
 
 .container
   .row--center
-    h2 Speakers at Type Brigade №24
-    p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
-    .meetup-list
-      for speaker, key in public.speakers._data
-        talk = speaker['24']
-        if(typeof talk === 'object')
-          .meetup-talk.talk
-            h4= talk.title
-            p= talk.abstract
-            .talk-speaker.speaker
-              //- img.speaker-image(src="/images/speaker-#{ key }.jpg")
-              //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
-              h3.speaker-name= speaker.name
-              .speaker-bio
-                p!= speaker.bio
-                if speaker.social
-                  if speaker.social.twitter
-                    .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
-                  else if speaker.social.url
-                    .speaker-socailItem: a(href=speaker.social.url) Web
+    //- h2 Speakers at Type Brigade №24
+    //- p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
+    //- 
+      .meetup-list
+        for speaker, key in public.speakers._data
+          talk = speaker['24']
+          if(typeof talk === 'object')
+            .meetup-talk.talk
+              h4= talk.title
+              p= talk.abstract
+              .talk-speaker.speaker
+                //- img.speaker-image(src="/images/speaker-#{ key }.jpg")
+                //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
+                h3.speaker-name= speaker.name
+                .speaker-bio
+                  p!= speaker.bio
+                  if speaker.social
+                    if speaker.social.twitter
+                      .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
+                    else if speaker.social.url
+                      .speaker-socailItem: a(href=speaker.social.url) Web
       //-
         .meetup-talk.talk
           h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
