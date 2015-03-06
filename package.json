@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
-    "harp": "~0.15.2",
     "normalize-opentype.css": "~0.2.4",
     "straight-up": "git://github.com/kennethormandy/straight-up#v0.1.4",
     "surge": "~0.7.4",

@@ -7,5 +7,5 @@ Headings and pullquotes are set in [James T. Edmondson](http://jamestedmondson.c
 Custom event numerals have been contributed by Type Brigade’s Resident Letterer [Andrea Husky](http://instagram.com/andreahusky) and [Riley Cran](http://twitter.com/rileycran).
 
 <small>
-Copyright © 2014 <a href="http://typebrigade.com">Type Brigade</a>. Code <a href="https://github.com/typebrigade/typebrigade.com">available</a> under the [MIT License](/LICENSE).
+Copyright © 2014–2015 <a href="http://typebrigade.com">Type Brigade</a>. Code <a href="https://github.com/typebrigade/typebrigade.com">available</a> under the [MIT License](/LICENSE).
 </small>

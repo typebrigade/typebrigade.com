@@ -1,7 +1,8 @@
 .meetup.row.row--breakout
   .container
     .meetup-register
-      a.meetup-map.map(href="http://meetup.com/#{ social.meetup }")
+      a.meetup-map.map(href="http://bruno-maag-talks-type.eventbrite.com/")
+        //- a.meetup-map.map(href="http://meetup.com/#{ social.meetup }")
         #js-map.map-canvas(width="600px" height="250px")
         //- iframe(width="600px" height="250px" frameborder="0" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.9123997934707!2d-123.119061!3d49.278057099999906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486717e00a427ad%3A0x465fa83bbf8ee0d8!2s948+Homer+St!5e0!3m2!1sen!2s!4v1401754706985")
         //- small
@@ -9,17 +10,33 @@
 
       .meetup-details
         .split
-          h3 Type Brigade No25
-          time(datetime="2014-03-31T6:30:00Z") March 31
-          |  at 6:30<abbr>PM</abbr>
+          h3 Type Brigade Present:<br/>Bruno Maag Talks Type
+          time(datetime="2014-03-31T6:30:00Z") March 26
+          |  at 7:00<abbr>PM</abbr>
         .split
           address
-            strong Mobify <abbr>HQ<abbr>
+            strong Emily Carr University of Art + Design
             br
-            | 3<sup>rd</sup> Floor, 948 Homer Street
+            | Lecture Hall (Room 301),<br/>1400 Johnston Street,
             br
-            | Vancouver, <abbr>BC</abbr>
-        a.button(href="http://meetup.com/#{ social.meetup }") Join the meetup
+            | Granville Island, Vancouver, <abbr>BC</abbr>
+        //- a.button(href="http://meetup.com/#{ social.meetup }") Join the meetup
+        a.button(href="http://bruno-maag-talks-type.eventbrite.com/") Join the event
+
+
+      //- .meetup-details
+      //-   .split
+      //-     h3 Type Brigade No25
+      //-     time(datetime="2014-03-31T6:30:00Z") March 31
+      //-     |  at 6:30<abbr>PM</abbr>
+      //-   .split
+      //-     address
+      //-       strong Mobify <abbr>HQ<abbr>
+      //-       br
+      //-       | 3<sup>rd</sup> Floor, 948 Homer Street
+      //-       br
+      //-       | Vancouver, <abbr>BC</abbr>
+      //-   a.button(href="http://meetup.com/#{ social.meetup }") Join the meetup
 
   .button-consolation
     a(href="http://www.meetup.com/#{ social.meetup }/join") Busy? No problem, get notified next time

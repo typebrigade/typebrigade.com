@@ -18,7 +18,7 @@ img.banner(src="/images/typebrigade-background.svg")
 include _includes/register
 
 .container
-  .row--center
+  //- .row--center
     //- h2 Speakers at Type Brigade №24
     //- p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
     //- 
@@ -66,51 +66,52 @@ include _includes/register
 
 
 .container
-  .row.row--center
+  //-
+    .row.row--center
 
-    h2 Sponsors
-    p Type Brigade is free to attend, which would not be possible without our sponsors.
-  .row
-    ul.sponsor-list
-      li.sponsor-item
-        a.sponsor(href="http://chloi.io")
-          img.sponsor-image(src="/images/sponsor-chloi.svg" alt="Chloi’s logo")
-          .sponsor-details
-            h4.sponsor-title Chloi Inc.
-            em Organisational Sponsor
-            p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type.
-            p Type Brigade would not be possible without Chloi’s support and mentorship.
-      li.sponsor-item
-        a.sponsor(href="http://mobify.com")
-          img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
-          .sponsor-details
-            h4.sponsor-title Mobify
-            em Space Sponsor
-            p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
-            p Thanks to Mobify for letting us use their wonderful headquarters.
-      li.sponsor-item
-        a.sponsor(href="http://portpaperco.com")
-          img.sponsor-image(src="/images/sponsor-port-paper-co.svg" alt="Port Paper Co.’s logo")
-          .sponsor-details
-            h4.sponsor-title Port Paper Co.
-            em Print Sponsor
-            p Port Paper Co. are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again!
-            p Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
-      li.sponsor-item
-        a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
-          img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
-          .sponsor-details
-            h4.sponsor-title Interested in sponsoring?
-            em Sponsor Type Brigade
-            p Type Brigade has an active membership of amazing designers and type enthusiasts. If you’re looking to be move involved with design in Vancouver, email <span class="a-faux">#{ email }</span> for more information about sponsoring.
-      //-
+      h2 Sponsors
+      p Type Brigade is free to attend, which would not be possible without our sponsors.
+    .row
+      ul.sponsor-list
         li.sponsor-item
-          a.sponsor(href="mailto:#{ email }?subject=Info about collaborating with Type Brigade")
-            img.sponsor-image(src="/images/sponsor-open.svg" alt="Collaboration slot available")
+          a.sponsor(href="http://chloi.io")
+            img.sponsor-image(src="/images/sponsor-chloi.svg" alt="Chloi’s logo")
             .sponsor-details
-              h4.sponsor-title Interested in collabs?
-              em Work with Type Brigade
-              p We’ve worked with Emily Carr University, Mobify, Vancouver Design Week, and more. Let us know if you’d like to collaborate.  
+              h4.sponsor-title Chloi Inc.
+              em Organisational Sponsor
+              p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type.
+              p Type Brigade would not be possible without Chloi’s support and mentorship.
+        li.sponsor-item
+          a.sponsor(href="http://mobify.com")
+            img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
+            .sponsor-details
+              h4.sponsor-title Mobify
+              em Space Sponsor
+              p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
+              p Thanks to Mobify for letting us use their wonderful headquarters.
+        li.sponsor-item
+          a.sponsor(href="http://portpaperco.com")
+            img.sponsor-image(src="/images/sponsor-port-paper-co.svg" alt="Port Paper Co.’s logo")
+            .sponsor-details
+              h4.sponsor-title Port Paper Co.
+              em Print Sponsor
+              p Port Paper Co. are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again!
+              p Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
+        li.sponsor-item
+          a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
+            img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
+            .sponsor-details
+              h4.sponsor-title Interested in sponsoring?
+              em Sponsor Type Brigade
+              p Type Brigade has an active membership of amazing designers and type enthusiasts. If you’re looking to be move involved with design in Vancouver, email <span class="a-faux">#{ email }</span> for more information about sponsoring.
+        //-
+          li.sponsor-item
+            a.sponsor(href="mailto:#{ email }?subject=Info about collaborating with Type Brigade")
+              img.sponsor-image(src="/images/sponsor-open.svg" alt="Collaboration slot available")
+              .sponsor-details
+                h4.sponsor-title Interested in collabs?
+                em Work with Type Brigade
+                p We’ve worked with Emily Carr University, Mobify, Vancouver Design Week, and more. Let us know if you’d like to collaborate.  
 
   .row.row--center
     != partial("blog/index", { "limit": 3 }).replace("h1", "h2")

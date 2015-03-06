@@ -10,6 +10,6 @@ Type Brigade is Vancouver, Canada’s typography and type design speaker series 
 
 [Mobify](http://mobify.com) makes the web a fast and responsive experience on all mobile devices. They know how to take care of space, whether it’s getting type to look great on small screens, or taking care of our space for Type Brigade. Thanks to Mobify for letting us use their wonderful headquarters.
 
-[![Black Stone Press’ logo](../images/sponsor-black-stone-press.png)](http://blackstonepress.ca)
+[![Port Paper Co.’s logo](../images/sponsor-port-paper-co.svg)](http://mobify.com)
 
-[Black Stone Press](http://blackstonepress.ca) is a beautiful print studio with even better work. They’ve been providing fine letterpress printing and graphic design services on Granville Island since 1996.
+[Mobify](http://portpaperco.com)  are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again! Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
