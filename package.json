@@ -25,6 +25,7 @@
     "bourbon": "^4.2.3",
     "bourbon-neat": "^1.7.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
+    "figment": "kennethormandy/figment",
     "normalize-opentype.css": "~0.2.4",
     "straight-up": "git://github.com/kennethormandy/straight-up#v0.1.4",
     "surge": "~0.8.1",
