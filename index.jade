@@ -37,9 +37,9 @@ include _includes/register
                 p!= speaker.bio
                 if speaker.social
                   if speaker.social.twitter
-                    .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
-                  else if speaker.social.url
-                    .speaker-socailItem: a(href=speaker.social.url) Web
+                    .speaker-socailItem: a(href="https://twitter.com/#{ speaker.social.twitter}") @#{ speaker.social.twitter }
+                  if speaker.social.url
+                    .speaker-socailItem: a(href=speaker.social.url)= speaker.social.url.split('//')[1]
       //-
         .meetup-talk.talk
           h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
@@ -79,7 +79,7 @@ include _includes/register
             h4.sponsor-title Chloi Inc.
             em Organisational Sponsor
             p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type.
-            p Type Brigade would not be possible without Chloi’s support and mentorship.
+            p Type Brigade is much easier to run thanks to overhead covered by Chloi.
       li.sponsor-item
         a.sponsor(href="http://mobify.com")
           img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
