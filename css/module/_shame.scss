@@ -56,7 +56,6 @@
     & > ul {
       list-style-type: none;
       margin-left: 0;
-
       & > li {
         display: block;
         @include span-columns(4 of 5);
@@ -70,13 +69,13 @@
           border-radius: 0.15625em; // 0.125 / 0.8
         }
         @include media($wide) {
-          @include span-columns(5 of 5);
+          @include span-columns(5 of 7);
           @include shift(0);
           font-size: 1em;
           margin-bottom: 1em;
           img {
-            @include span-columns(1 of 5);
-            @include shift(-1);
+            @include span-columns(2 of 7);
+            @include shift(-2);
             border-radius: 0.125em;
           }
         }
