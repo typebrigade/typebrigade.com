@@ -1,4 +1,33 @@
 {
+  "travis-gertz": {
+    "name": "Travis Gertz",
+    "bio": "The co-founder of Louder Than Ten, Travis Gertz has been designing user interfaces, editorial publications, and encouraging smart design for over a decade. He grew up swinging hammers, spinning wrenches, building cabins, and tearing down motorcycles. Maybe it was the elation of manipulating machine and material into something greater. Maybe it was the fear of one day losing a finger with a skill saw. Somehow this lead him to a career working the less metallic, but equally raw materials of the internet.",
+    "26": {
+      "title": "Breakpoints"
+    },
+    "social": {
+      "url": "http://travisgertz.com",
+      "twitter": "travisgertz"
+    }
+  },
+  "ivana-mcconnell": {
+    "name": "Ivana McConnell",
+    "bio": "Ivana McConnell is an interaction designer in Vancouver, making things at Myplanet. When not working, she sometimes teaches people about the wonders of interaction design and code, but most of her free time is spent rambling around the city and mountains with her wife and her jack russell terrier in search of good rock climbing and good food.",
+    "26": {
+      "title": "Flashpoints",
+      "abstract": "Ellen Lupton wrote, “Typography is the art of designing letterforms and arranging them in space and time.” Cyrillic letterforms are associated with a time and space of great conflict, irrevocably tied up with language and identity. This talk will explore how we can look to history, be inspired by it and learn from it, but also take into account what effect our decisions will have in the future—typography is often more powerful than we give it credit for."
+    },
+    "social": {
+      "url": "http://ivanamcconnell.com",
+      "twitter": "ivanamcconnell"
+    }
+  },
+  "riley-cran": {
+  },
+  "david-cran": {
+  },
+  "cade-cran": {
+  },
   "ross-milne": {
     "name": "Ross Milne",
     "bio": "Ross Milne is a type designer and founding member of the design studio Working Format. He completed his postgraduate studies at the Type & Media program at the KABK in The Hauge, Netherlands, and has gone onto regularly work with Typotheque there, and Commercial Type in New York. He currently teaches type design at Emily Carr University.",
@@ -10,7 +39,6 @@
       "url": "http://workingformat.com",
       "twitter": "sincerelyross"
     }
-
   },
   "emma-metcalfe-hurst-and-ingrid-olauson": {
     "name": "Emma Metcalfe Hurst & Ingrid Olauson",
