@@ -2,11 +2,11 @@ h1 Events
 
 ol
   for meetup, i in public.events._data
-    num = public.events._data.length - i
+    - var num = public.events._data.length - i
     if num > 19
-      eventName = 'Type Brigade'
+      -var eventName = 'Type Brigade'
     else
-      eventName = 'Vancouver Typography Meetup Group'
+      - var eventName = 'Vancouver Typography Meetup Group'
     if meetup.title && (limit ? i <= limit : true)
       li
         em #{ eventName } №#{ num }
@@ -18,4 +18,4 @@ ol
           // else if greater than 19 show speaker images or something
           address
             h3 #{ meetup.location }
-            !{ meetup.address }
+            | !{ meetup.address }
