@@ -8,8 +8,9 @@ html(lang="en")
     title!= tagline ? tagline + ' – ' + title : title
     include _includes/font-face
     link(rel="stylesheet" href="/css/main.css")
-    //if lt IE 10
-      //- script(src="https://html5shiv.googlecode.com/svn/trunk/html5.js")
+    != partial("node_modules/typogr/typogr.jade")
+
+    <!--[if lt IE 10]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"><![endif]-->
     meta(name="description", content="#{ description }")
     meta(name="author", content="#{ author || name }")
     meta(name="handheldfriendly", content="true")
