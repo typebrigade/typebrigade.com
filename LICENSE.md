@@ -4,7 +4,7 @@ _The following license applies to the Type Brigade website. Blog posts, document
 
 The MIT License (MIT)
 
-Copyright © 2014 [Type Brigade](http://typebrigade.com)
+Copyright © 2014–2015 [Type Brigade](http://typebrigade.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the “Software”), to deal in
