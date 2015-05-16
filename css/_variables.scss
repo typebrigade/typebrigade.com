@@ -42,11 +42,11 @@ $font-weight-black:      900;
 // Breakpoints
 // ===========
 
-$narrow-col: 3;
+$narrow-col: 5;
 $narrow-width: 28em;
 $narrow: new-breakpoint(min-width $narrow-width $narrow-col);
 
-$mid-col: 5;
+$mid-col: 7;
 $mid-width: 35em;
 $mid: new-breakpoint(min-width $mid-width $mid-col);
 

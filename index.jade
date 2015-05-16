@@ -18,28 +18,28 @@ img.banner(src="/images/typebrigade-background.svg")
 include _includes/register
 
 .container
-  //- .row--center
-    //- h2 Speakers at Type Brigade №24
-    //- p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
-    //- 
-      .meetup-list
-        for speaker, key in public.speakers._data
-          talk = speaker['24']
-          if(typeof talk === 'object')
-            .meetup-talk.talk
-              h4= talk.title
-              p= talk.abstract
-              .talk-speaker.speaker
-                //- img.speaker-image(src="/images/speaker-#{ key }.jpg")
-                //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
-                h3.speaker-name= speaker.name
-                .speaker-bio
-                  p!= speaker.bio
-                  if speaker.social
-                    if speaker.social.twitter
-                      .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
-                    else if speaker.social.url
-                      .speaker-socailItem: a(href=speaker.social.url) Web
+  .row--center
+    h2 Speakers at Type Brigade №24
+    p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
+    
+    .meetup-list
+      for speaker, key in public.speakers._data
+        - var talk = speaker['26']
+        if(typeof talk === 'object')
+          .meetup-talk.talk
+            //- h4= talk.title
+            //- p= talk.abstract
+            .talk-speaker.speaker
+              img.speaker-image(src="/images/speaker-#{ key }.jpg")
+              //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
+              h3.speaker-name= speaker.name
+              .speaker-bio
+                p!= speaker.bio
+                if speaker.social
+                  if speaker.social.twitter
+                    .speaker-socailItem: a(href=speaker.social.twitter) @#{ speaker.social.twitter }
+                  else if speaker.social.url
+                    .speaker-socailItem: a(href=speaker.social.url) Web
       //-
         .meetup-talk.talk
           h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
@@ -62,56 +62,56 @@ include _includes/register
     h2 Call for Speakers
     p
       a(href="call-for-speakers") The Call for Speakers is currently open.
-      |  If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.
+      | If you don’t think you’re a presenter, we’d like the opportunity to prove you wrong.
 
 
 .container
-  //-
-    .row.row--center
+  .row.row--center
 
-      h2 Sponsors
-      p Type Brigade is free to attend, which would not be possible without our sponsors.
-    .row
-      ul.sponsor-list
+    h2 Sponsors
+    p Type Brigade is free to attend, which would not be possible without our sponsors.
+  .row
+    ul.sponsor-list
+      li.sponsor-item
+        a.sponsor(href="http://chloi.io")
+          img.sponsor-image(src="/images/sponsor-chloi.svg" alt="Chloi’s logo")
+          .sponsor-details
+            h4.sponsor-title Chloi Inc.
+            em Organisational Sponsor
+            p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type.
+            p Type Brigade would not be possible without Chloi’s support and mentorship.
+      li.sponsor-item
+        a.sponsor(href="http://mobify.com")
+          img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
+          .sponsor-details
+            h4.sponsor-title Mobify
+            em Space Sponsor
+            p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
+            p Thanks to Mobify for letting us use their wonderful headquarters.
+      li.sponsor-item
+        a.sponsor(href="http://portpaperco.com")
+          img.sponsor-image(src="/images/sponsor-port-paper-co.svg" alt="Port Paper Co.’s logo")
+          .sponsor-details
+            h4.sponsor-title Port Paper Co.
+            em Print Sponsor
+            p Port Paper Co. are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again!
+            p Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
+      li.sponsor-item
+        a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
+          img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
+          .sponsor-details
+            h4.sponsor-title Interested in sponsoring?
+            em Sponsor Type Brigade
+            p Type Brigade has an active membership of amazing designers and type enthusiasts. If you’re looking to be move involved with design in Vancouver, email <span class="a-faux">#{ email }</span> for more information about sponsoring.
+
+      //-
         li.sponsor-item
-          a.sponsor(href="http://chloi.io")
-            img.sponsor-image(src="/images/sponsor-chloi.svg" alt="Chloi’s logo")
+          a.sponsor(href="mailto:#{ email }?subject=Info about collaborating with Type Brigade")
+            img.sponsor-image(src="/images/sponsor-open.svg" alt="Collaboration slot available")
             .sponsor-details
-              h4.sponsor-title Chloi Inc.
-              em Organisational Sponsor
-              p Chloi Inc. builds next-generation web and mobile experiences, and loves working with designers that care about type.
-              p Type Brigade would not be possible without Chloi’s support and mentorship.
-        li.sponsor-item
-          a.sponsor(href="http://mobify.com")
-            img.sponsor-image(src="/images/sponsor-mobify.svg" alt="Mobify’s logo")
-            .sponsor-details
-              h4.sponsor-title Mobify
-              em Space Sponsor
-              p Mobify makes the web a fast and responsive experience on all mobile devices. They know how to work with small spaces on screens, and also take care of our space for Type Brigade.
-              p Thanks to Mobify for letting us use their wonderful headquarters.
-        li.sponsor-item
-          a.sponsor(href="http://portpaperco.com")
-            img.sponsor-image(src="/images/sponsor-port-paper-co.svg" alt="Port Paper Co.’s logo")
-            .sponsor-details
-              h4.sponsor-title Port Paper Co.
-              em Print Sponsor
-              p Port Paper Co. are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again!
-              p Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
-        li.sponsor-item
-          a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
-            img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
-            .sponsor-details
-              h4.sponsor-title Interested in sponsoring?
-              em Sponsor Type Brigade
-              p Type Brigade has an active membership of amazing designers and type enthusiasts. If you’re looking to be move involved with design in Vancouver, email <span class="a-faux">#{ email }</span> for more information about sponsoring.
-        //-
-          li.sponsor-item
-            a.sponsor(href="mailto:#{ email }?subject=Info about collaborating with Type Brigade")
-              img.sponsor-image(src="/images/sponsor-open.svg" alt="Collaboration slot available")
-              .sponsor-details
-                h4.sponsor-title Interested in collabs?
-                em Work with Type Brigade
-                p We’ve worked with Emily Carr University, Mobify, Vancouver Design Week, and more. Let us know if you’d like to collaborate.  
+              h4.sponsor-title Interested in collabs?
+              em Work with Type Brigade
+              p We’ve worked with Emily Carr University, Mobify, Vancouver Design Week, and more. Let us know if you’d like to collaborate.  
 
   .row.row--center
     != partial("blog/index", { "limit": 3 }).replace("h1", "h2")

@@ -108,15 +108,6 @@ address {
   }
 }
 
-// Move into seperate library
-// Also figure--breakout in _layout
-
-.figure--border {
-  img {
-    border: 1px solid $color-grey;
-  }
-}
-
 article {
   blockquote {
     font-size: 1.25em;

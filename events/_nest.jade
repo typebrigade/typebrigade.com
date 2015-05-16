@@ -2,7 +2,7 @@ if published === false
   != partial("../404")
 else
 
-  event = public.events._data[public.events._data.length - parseInt(current.source)]
+  - var event = public.events._data[public.events._data.length - parseInt(current.source)]
 
   if public.images._contents.indexOf('event-' + current.source + '.jpg') !== -1
     figure.figure.figure--breakout
@@ -26,7 +26,7 @@ else
 
   for speaker, slug in public.speakers._data
     if speaker[current.source]
-      talk = speaker[current.source]
+      - var talk = speaker[current.source]
       h3.speaker-name #{ speaker.name }, #{ talk.title }
       if talk.abstract
         p!= talk.abstract.replace('\n\n', '</p><p>')
