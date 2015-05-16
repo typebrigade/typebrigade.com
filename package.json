@@ -14,11 +14,10 @@
     "meetup"
   ],
   "scripts": {
-    "postinstall": "trash node_modules/bourbon-neat/test",
+    "postinstall": "trash --force node_modules/bourbon-neat/test && cp ./node_modules/normalize.css/normalize.css ./node_modules/normalize.css/normalize.scss && cat ./_includes/prefix.jade ./node_modules/typogr/typogr.min.js | tr -d \"\r\n\" > ./node_modules/typogr/typogr.jade",
     "test": "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\" && exit 1",
     "start": "harp server",
-    "typogrify": "typogr -f ./www/*.html ./www/",
-    "compile": "rm -rf ./www && harp compile && rm -rf ./www/node_modules/ && npm run typogrify",
+    "compile": "trash ./www && harp compile && trash ./www/node_modules/",
     "stage": "npm run compile && surge ./www --domain staging.typebrigade.com",
     "deploy": "npm run compile && surge ./www --domain typebrigade.com"
   },
