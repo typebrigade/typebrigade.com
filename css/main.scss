@@ -6,7 +6,6 @@
 @import "../node_modules/bourbon-neat/app/assets/stylesheets/neat"; // Intentional reimport for variables
 @import "../node_modules/chasers/src/chasers";
 @import "../node_modules/normalize.css/normalize";
-@import "../node_modules/normalize-opentype/normalize-opentype.scss";
 
 // SMACSS
 
@@ -14,3 +13,5 @@
 @import "layout";
 @import "module";
 @import "state";
+
+@import "../node_modules/normalize-opentype/normalize-opentype.scss";
