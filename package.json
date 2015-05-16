@@ -27,14 +27,15 @@
     }
   },
   "devDependencies": {
-    "bourbon": "^4.2.3",
-    "bourbon-neat": "^1.7.2",
+    "bourbon": "4.2.3",
+    "bourbon-neat": "1.7.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
     "figment": "kennethormandy/figment",
-    "git-scripts": "^0.2.1",
-    "normalize-opentype.css": "~0.2.4",
-    "surge": "~0.12.0",
-    "trash": "^1.4.1",
-    "typogr": "~0.6.5"
+    "git-scripts": "0.2.1",
+    "normalize.css": "3.0.3",
+    "normalize-opentype.css": "0.2.4",
+    "surge": "0.12.0",
+    "trash": "1.4.1",
+    "typogr": "0.6.5"
   }
 }
