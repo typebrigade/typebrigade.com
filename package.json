@@ -4,6 +4,13 @@
   "description": "Vancouver’s type design and typography speaker series meetup.",
   "homepage": "http://typebrigade.com",
   "author": "Kenneth Ormandy <kenneth@typebrigade.com>",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@typebrigade.com> (http://kennethormandy.com)",
+    "Cody Jones      <cody@typebrigade.com>    (http://mediumjones.com)",
+    "Andrea Husky    <andrea@typebrigade.com>  (http://andreahusky.com)",
+    "Riley Cran      <riley@typebrigade.com>   (http://rileycran.com)",
+    "Alanna Munro    <alanna@typebrigade.com>  (http://alannamun.com)"
+  ],
   "repository": "git@github.com:typebrigade/typebrigade.com.git",
   "private": true,
   "keywords": [
