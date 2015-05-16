@@ -6,6 +6,8 @@ html {
   font-family: $font-family-serif;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 header,
