@@ -16,13 +16,13 @@ The Type Brigade №26 event numerals, designed by [Alanna Munro](https://twitte
 [Ivana McConnell](https://twitter.com/ivanamcconnell) is an interaction designer in Vancouver, making things at [Myplanet](https://www.myplanet.com/). She’ll show us the larger cultural impact typographic decisions can create—flashpoints, where typography was more powerful than we gave it credit for.
 
 <figure>
-![](/images/speaker-travis-gertz.jpg)
-![](/images/speaker-ivana-mcconnell.jpg)
+[![](/images/speaker-travis-gertz.jpg)](https://twitter.com/travisgertz)
+[![](/images/speaker-ivana-mcconnell.jpg)](https://twitter.com/ivanamcconnell)
 </figure>
 
 ## Our sponsors
 
-Our good friends at [Mobify](http://mobify.com/careers) and [Port Paper Co.](http://portpaperco.com) us make Type Brigade possible by sponsoring space for the event, and our gorgeous letterpress prints, respectively. We like to provide drinks for attendees as well, if you’re interested in sponsoring this Type Brigade or a future event, [please get in touch](mailto:kenneth@typebrigade.com?subject=Sponsorships).
+Our good friends at [Mobify](http://mobify.com/careers) and [Port Paper Co.](http://portpaperco.com) help make Type Brigade possible by sponsoring space for the event, and our gorgeous letterpress prints, respectively. We like to provide drinks for attendees as well—if you’re interested in sponsoring this Type Brigade or a future event, [please get in touch](mailto:kenneth@typebrigade.com?subject=Sponsorships).
 
 ## Our Code of Conduct
 
@@ -34,4 +34,4 @@ Another thing important to us are our custom event numerals. Every Type Brigade 
 
 ## Join the waitlist
 
-We’re overwhelmed at the support for Type Brigade and at the time of writing, we only have two slots left open. A waitlist is available, and we will open more closer to the event. [Follow us on Twitter](https://twitter.com/typebrigade) for more updates.
+A waitlist is available for the next Type Brigade, and we will open more spots closer to the event. [Follow us on Twitter](https://twitter.com/typebrigade) for more updates.
