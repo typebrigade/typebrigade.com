@@ -1,7 +1,7 @@
 //- TODO Don’t hard-code this
 //- a.blog-author(href="http://twitter.com/kennethormandy") Kenneth Ormandy
 
-if published === false
+if published === false && environment !== 'development'
   != partial("../404")
 else
   != yield.replace('</h1>', '</h1><em>by <a href="http://twitter.com/' + author + '">@' + author + '</a></em>')

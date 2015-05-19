@@ -2,7 +2,7 @@ h1 Blog
 
 ul.blog-list
   for article, slug in public.blog._data
-    unless article.published === false
+    unless article.published === false && environment !== 'development'
       li.blog-item
         a(href="/blog/#{ slug }")
           time(datetime="#{ new Date(article.date) }")
