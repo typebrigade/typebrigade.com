@@ -120,7 +120,7 @@ Following the form, [there’s more details](#more-details) about what to expect
 
 ## Venue
 
-Type Brigade №24 will take place at Mobify HQ, on the 3rd floor of the Chintz & Company building in Yaletown. The address is:
+Type Brigade takes place at Mobify HQ, on the 3rd floor of the Chintz & Company building in Yaletown. The address is:
 
 [<address>948 Homer Street, Vancouver, <span class="caps">V6B 2W7</span></address>](https://www.google.com/maps?f=q&hl=en&q=%23300+-+948+Homer+St,+Vancouver,+BC,+ca)
 
@@ -148,11 +148,10 @@ The optimal slide resolutions for the projector is either 1280×720, or 1920×10
 We prefer if speakers [email Kenneth slides](mailto:kenneth@typebrigade.com) sometime during or before the day of the event. He’ll set them up on his computer so they’re already ready for you at Mobify HQ. This way, we don’t have to find additional cables or connectors and don’t have to change anything over between talks. Formats we’ve used without trouble:
 
 - PDF
-- Keynote
-- Keynote (iWork ‘09)
-- Anything web based (Google Docs, etc.)
+- Keynote (latest and ‘09)
+- Anything web based (Slid.es, Google Docs, etc.)
 
-If you have another format, just let us know and we’ll do our best to accommodate it. You are also welcome to present using your own computer.
+We don’t use mirrored displays, so you can use speaker notes if you’d like. If you have another format, just let us know and we’ll do our best to accommodate it. You are also welcome to present using your own computer.
 
 ### Other equipment
 
@@ -160,7 +159,7 @@ We have one microphone for you to use while you present, and we have one remote 
 
 ## Code of Conduct
 
-We maintain a [Code of Conduct](http://typebrigade.com/code-of-conduct) for Type Brigade, which establishes expectations for all organisers, speakers, sponsors, and attendees. It’s a continuos work in progress, with the goal of ensuring Type Brigade is a safe and welcoming community event with clearly established anti-harassment and anti-intimidation considerations.
+We maintain a [Code of Conduct](http://typebrigade.com/code-of-conduct) for Type Brigade, which establishes expectations for all organisers, speakers, sponsors, and attendees. It’s a continuous work in progress, with the goal of ensuring Type Brigade is a safe and welcoming community event with clearly established anti-harassment and anti-intimidation considerations.
 
 It’s a record based upon on the work of other events we admire. Running a safe and welcoming event is something we take very seriously, so if you have any positive or negative comments on the Code of Conduct or our approach in general, please let either [Kenneth](mailto:kenneth@typebrigade.com) or [Alanna](mailto:alanna@typebrigade.com) know.
 
@@ -168,13 +167,13 @@ It’s a record based upon on the work of other events we admire. Running a safe
 
 We average 80 attendees per event but have been steadily growing since June 2014. It’s about one half professional and student graphic and interaction designers, a small group of aspiring type designers and letterers, and the remainder work outside of the industry but have a strong interest in typography.
 
-(If you’re interested, you can also see [our full member list](http://www.meetup.com/typebrigade/members/).)
+(If you’re interested, you can also see [our full member list](http://www.meetup.com/typebrigade/members/) to get a sense of who will be there.)
 
 ### Promotion
 
 If there’s anyone you’d like us to promote the event to on your behalf (a specific blog, emailing a local designer, etc.) we’d be more than happy to do what we can. Just email [Kenneth](mailto:kenneth@typebrigade.com) with any details.
 
-We have pretty solid attendance for the event, but any promotion you’re willing to help us out with ([retweeting @typebrigade](http://twitter.com/typebrigade), telling co-workers, etc.) is always appreciated.
+We have pretty solid attendance for the event, but any on-going promotion you’re willing to help us out with ([retweeting @typebrigade](http://twitter.com/typebrigade), telling co-workers, listing your talk with us on your site, etc.) is always appreciated.
 
 ## Questions?
 
