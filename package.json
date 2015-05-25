@@ -28,11 +28,6 @@
     "stage": "npm run compile && surge ./www --domain staging.typebrigade.com",
     "deploy": "npm run compile && surge ./www --domain typebrigade.com"
   },
-  "git": {
-    "scripts": {
-      "pre-push": "npm run deploy"
-    }
-  },
   "devDependencies": {
     "bourbon": "4.2.3",
     "bourbon-neat": "1.7.2",
