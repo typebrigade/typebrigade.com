@@ -1,4 +1,11 @@
 {
+  "type-brigade-26-has-moved": {
+    "title": "Type Brigade No26 has moved",
+    "date": "2015-06-03",
+    "description": "The meetup has moved from Mobify HQ to Hootsuite HQ.",
+    "published": true,
+    "author": "kennethormandy"
+  },
   "follow-our-speakers": {
     "title": "Follow our speakers",
     "date": "2015-05-22",
@@ -9,7 +16,7 @@
   "announcing-type-brigade-26": {
     "title": "Announcing Type Brigade No26",
     "date": "2015-05-19",
-    "description": "Our 26th typography and type design meetup will be at Mobify HQ in Vancouver, on June 4th, 2015.",
+    "description": "Our 26th typography and type design meetup will be at Hootsuite HQ in Vancouver, on June 4th, 2015.",
     "published": true,
     "author": "kennethormandy"
   },
