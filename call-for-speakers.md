@@ -175,6 +175,7 @@ Here are some useful tools and guides for speakers.
 
 - [We Are All Awesome](http://weareallaweso.me)
 - [Speaking.io](http://speaking.io)
+- [The Rectangle Behind You](https://medium.com/the-rectangle-behind-you)
 - [Passion Projects](http://passion-projects.is/)
 
 
