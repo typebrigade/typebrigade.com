@@ -32,7 +32,7 @@
     "bourbon": "4.2.3",
     "bourbon-neat": "1.7.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
-    "figment": "kennethormandy/figment",
+    "figment": "kennethormandy/figment#v0.6.2",
     "normalize-opentype.css": "0.2.4",
     "normalize.css": "3.0.3",
     "surge": "latest",
