@@ -4,7 +4,7 @@ Type Brigade is Vancouver, Canada’s typography and type design speaker series 
 
 ## Open Sponsorship
 
-We have one sponsorship spot left for $250 our event on [Thursday, May 26th](http://www.meetup.com/typebrigade/events/222545955/), which will be used to make a selection of beer and sodas available for free to attendees during the event.
+We have one sponsorship spot left for $250 our next event, which will be used to make a selection of beer and sodas available for free to attendees during the event. If you’re interested in signing up to sponsor three or more events, we can offer a discount.
 
 If you are:
 
