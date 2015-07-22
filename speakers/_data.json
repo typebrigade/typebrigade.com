@@ -1,4 +1,17 @@
 {
+  "commercial-type": {
+    "name": "Commercial Type",
+    "bio": "",
+    "special-commercial-type": {
+      "title": "It’s not just about the money, it’s not just about the art.",
+      "abstract": "For the past five years Paul Barnes and Christian Schwartz have been running one of the most exciting and influential type foundries, Commercial Type, with offices in New York and London. They have managed to create both popular and critically acclaimed typefaces for a diverse range of organisations, from the Guardian Newspaper, Vanity Fair magazine, to shirt numbers for Puma at the FIFA 2010 World Cup. Their designs vary from the utilitarian Graphik and Stag, through to the playful and expressive Dala Floda and Marian. They will talk about the processes behind their designs, balancing the needs for expression, self expression and functionalism."
+    },
+    "social": {
+      "url": "http://commercialtype.com",
+      "twitter": "commercialtype",
+      "instagram": "commercialtype"
+    }
+  },
   "travis-gertz": {
     "name": "Travis Gertz",
     "bio": "The co-founder of Louder Than Ten, Travis Gertz has been designing user interfaces, editorial publications, and encouraging smart design for over a decade. He grew up swinging hammers, spinning wrenches, building cabins, and tearing down motorcycles. Maybe it was the elation of manipulating machine and material into something greater. Maybe it was the fear of one day losing a finger with a skill saw. Somehow this lead him to a career working the less metallic, but equally raw materials of the internet.",

@@ -18,28 +18,35 @@ img.banner(src="/images/typebrigade-background.svg")
 include _includes/register
 
 .container
-  .row--center
-    h2 Speakers at Type Brigade №24
-    p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
-    
-    .meetup-list
-      for speaker, key in public.speakers._data
-        - var talk = speaker['26']
-        if(typeof talk === 'object')
-          .meetup-talk.talk
-            //- h4= talk.title
-            //- p= talk.abstract
-            .talk-speaker.speaker
-              img.speaker-image(src="/images/speaker-#{ key }.jpg")
-              //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
-              h3.speaker-name= speaker.name
-              .speaker-bio
-                p!= speaker.bio
-                if speaker.social
-                  if speaker.social.twitter
-                    .speaker-socailItem: a(href="https://twitter.com/#{ speaker.social.twitter}") @#{ speaker.social.twitter }
-                  if speaker.social.url
-                    .speaker-socailItem: a(href=speaker.social.url)= speaker.social.url.split('//')[1]
+  .row.row--center
+    section
+      != partial("blog/index", { "limit": 1 })
+    //-
+      .row--center
+      
+      //- h2 Speakers at Type Brigade №24
+      h2 Type Brigade Special
+
+      p The next Type Brigade will feature two fantastic talks. One talk will focus on typography, and the other on type design.
+      
+      .meetup-list
+        for speaker, key in public.speakers._data
+          - var talk = speaker['special-commercial-type']
+          if(typeof talk === 'object')
+            .meetup-talk.talk
+              h4= talk.title
+              p= talk.abstract
+              .talk-speaker.speaker
+                img.speaker-image(src="/images/speaker-#{ key }.jpg")
+                //- img.speaker-image(src="http://avatars.io/twitter/#{ speaker.social.twitter }?size=large")
+                h3.speaker-name= speaker.name
+                .speaker-bio
+                  p!= speaker.bio
+                  if speaker.social
+                    if speaker.social.twitter
+                      .speaker-socailItem: a(href="https://twitter.com/#{ speaker.social.twitter}") @#{ speaker.social.twitter }
+                    if speaker.social.url
+                      .speaker-socailItem: a(href=speaker.social.url)= speaker.social.url.split('//')[1]
       //-
         .meetup-talk.talk
           h4.talk-title Undesigning Cherokee syllabary: Restoring the usability of a Native American writing system
@@ -57,8 +64,8 @@ include _includes/register
               li.speaker-socailItem: a(href="#") GitHub
               li.speaker-socailItem: a(href="#") Dribbble
               li.speaker-socailItem: a(href="#") Instagram
+  
   .row.row--center
-
     h2 Call for Speakers
     p
       a(href="call-for-speakers") The Call for Speakers is currently open.
@@ -97,7 +104,7 @@ include _includes/register
             p Port Paper Co. are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again!
             p Type Brigade’s custom-lettered print is carefully letterpressed by the impressive Port Paper Co.
       li.sponsor-item
-        a.sponsor(href="mailto:#{ email }?subject=Info about sponsoring Type Brigade")
+        a.sponsor(href="/sponsor")
           img.sponsor-image(src="/images/sponsor-open.svg" alt="Sponsorship slot available")
           .sponsor-details
             h4.sponsor-title Interested in sponsoring?
@@ -112,6 +119,3 @@ include _includes/register
               h4.sponsor-title Interested in collabs?
               em Work with Type Brigade
               p We’ve worked with Emily Carr University, Mobify, Vancouver Design Week, and more. Let us know if you’d like to collaborate.  
-
-  .row.row--center
-    != partial("blog/index", { "limit": 3 }).replace("h1", "h2")
