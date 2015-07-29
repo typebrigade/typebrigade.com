@@ -1,31 +1,38 @@
 # Commercial Type at Type Brigade
 
-Paul Barnes & Christian Schwartz of Commercial Type, the highly respected, New York-based type design studio, kick-off their North American tour in Vancouver.
+[Commercial Type](https://commercialtype.com/), the highly respected type design studio based in London and New York, are touring North America this fall. On September 1st, 2015, Vancouver will be their first stop for [a very special Type Brigade!](http://www.meetup.com/typebrigade/events/224125426/)
 
-## It’s not just about the money, it’s not just about the art.
-Five years of Commercial Type.
+Type Brigade is [Vancouver’s type design and typography meetup](http://meetup.com/typebrigade), where we host speakers every other month. The event is completely __free to attend__ as long as you [register soon](http://www.meetup.com/typebrigade/events/224125426/).
 
-> For the past five years Paul Barnes and Christian Schwartz have been running one of the most exciting and influential type foundries, Commercial Type, with offices in New York and London. They have managed to create both popular and critically acclaimed typefaces for a diverse range of organisations, from the Guardian Newspaper, Vanity Fair magazine, to shirt numbers for Puma at the FIFA 2010 World Cup. Their designs vary from the utilitarian Graphik and Stag, through to the playful and expressive Dala Floda and Marian. They will talk about the processes behind their designs, balancing the needs for expression, self expression and functionalism.
+Commercial Type was formed by designers Paul Barnes and Christian Schwartz. They have been collaborating since 2004 on various
+projects, including the award winning [Guardian family](http://showcase.commercialtype.com/guardian).
 
-- CodeCore
-- Date
-- Register on Meetup, we anticipate being able to have enough space for everyone, and then you’ll get an email when we post the event
-
-Type Brigade is [Vancouver’s type design and typography meetup](http://meetup.com/typebrigade), where we host speakers every other month.
-
-<figure class="figure--embed figure--square figure--aside figure--border">
-  <div class="embed-container">
-    <iframe async src="https://instagram.com/p/5XJ3yJuGQC/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-  </div>
-  <figcaption>The Commercial Type tour announcement.</figcaption>
+<figure class="figure--aside figure--breakout">
+![](/images/blog-commercial-type-1.png)
+<figcaption><p><cite>Dala Prisma</cite><br/>
+Designed by Paul Barnes &<br/>
+Ben Kiel, 2014</p>
 </figure>
 
-<figure class="figure--embed figure--square figure--aside figure--border">
-<div class="embed-container">
-<blockquote class="instagram-media" data-instgrm-version="4"><a href="https://instagram.com/p/5XJ3yJuGQC/" target="_top"></a></blockquote>
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-</div>
-<figcaption>The Commercial Type tour announcement.</figcaption>
-</figure>
+The talk is about their past five years as Commercial Type:
 
-Thanks to our increasingly frequent collaborator Ross Milne, for helping Type Brigade host this event.
+> ## It’s not just about the money, it’s not just about the art.
+
+> For the past five years Paul Barnes and Christian Schwartz have been running one of the most exciting and influential type foundries, [Commercial Type](https://commercialtype.com/), with offices in New York and London. They have managed to create both popular and critically acclaimed typefaces for a diverse range of organisations, from the Guardian Newspaper, Vanity Fair magazine, to shirt numbers for Puma at the <abbr class="caps">FIFA</abbr> 2010 World Cup. Their designs vary from the utilitarian [Graphik](https://commercialtype.com/typefaces/graphik) and [Stag](https://commercialtype.com/typefaces/stag), through to the playful and expressive [Dala Floda](https://commercialtype.com/typefaces/dala_floda) and [Marian](https://commercialtype.com/typefaces/marian). They will talk about the processes behind their designs, balancing the needs for expression, self expression and functionalism.
+
+## Location
+
+This Type Brigade Special is sponsored by [CodeCore](http://codecore.ca/), who is kindly sharing their space for the event:
+
+<address>
+<a href="https://www.google.ca/maps/place/142+W+Hastings+St,+Vancouver,+BC+V6B/@49.2821585,-123.1086794,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717984d4ef63:0x695af2b5a31aca7b?hl=en">
+142 W Hastings St.<br/>
+Vancouver, <abbr class="caps">BC</abbr>
+</a>
+</addrees>
+
+## Sponsors
+
+We have some extra sponsorship slots open right now, if you’re interested in helping make Type Brigade even better. [More details are here.](/sponsors)
+
+Special thanks to our increasingly frequent collaborator [Ross Milne](https://twitter.com/sincerelyross), for helping to bring this event to Vancouver.
