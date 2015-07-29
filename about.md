@@ -1,6 +1,6 @@
 # About Type Brigade
 
-Type Brigade, formerly the Vancouver Typography Meetup Group, is Vancouver’s free type design and typography meetup and speaker series.
+Type Brigade is Vancouver’s type speaker series. Every other month, we host two talks: one on typography, and one on type design.
 
 ## Contact
 
@@ -30,6 +30,16 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [kennethormandy.com](http://kennethormandy.com)
 
+- ### Cody Jones
+
+  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
+
+  _Assistant Organiser_
+
+  Cody is a mobile designer at [Mobify](http://mobify), fledgling type designer, advocator of open-source principles for the type design industry.
+
+  [mediumjones.com](http://mediumjones.com)
+
 - ### Andrea Husky
 
   [![Andrea Husky’s profile picture](/images/team-andrea.jpg)](http://andreahusky.com)
@@ -50,16 +60,6 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [rileycran.com](http://rileycran.com)
 
-- ### Cody Jones
-
-  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
-
-  _Assistant Organiser_
-
-  Cody is a mobile designer at [Mobify](http://mobify), fledgling type designer, advocator of open-source principles for the type design industry.
-
-  [mediumjones.com](http://mediumjones.com)
-
 - ### Alanna Munro
 
   [![Alanna Munro’s profile picture](images/team-alanna.png)](http://alannamunro.com)
@@ -70,26 +70,12 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [alannamunro.com](http://alannamunro.com)
 
-<!--
+- ### Ross Milne
 
-- ### Tracy Abrahms
+  [![Ross Milne’s profile picture](/images/team-ross.jpg)](http://workingformat.com)
 
-  [![Tracy Abrahms’ profile picture](http://avatars.io/twitter/hackygolucky?size=large)](http://hackygolucky.com)
+  _Special Event Organiser_
 
-  _Mentor_
+  
 
-  Tracy organises [CascadiaJS](http://cascadiajs.com/) and [PDXNode](http://pdxnode.org), inciting confidence in people one compliment at a time. She helps mentor Type Brigade by sharing organisational resources.
-
-  [hackygolucky.com](http://hackygolucky.com)
-
-- ### Jorge Pedret
-
-  [![Jorge Pedret’s profile picture](/images/team-jorge.jpg)](http://jorgepedret.com)
-
-  _Mentor_
-
-  Jorge is a Software Engineer at Chloi Inc. He helps mentor Type Brigade as the organiser of it sibling meetup, [CSS Brigade](http://cssbrigade.com).
-
-  [jorgepedret.com](http://jorgepedret.com)
-
--->
+  [workingformat.com](http://workingformat.com)
