@@ -16,10 +16,13 @@ If you are:
 
 <a href="mailto:kenneth@typebrigade.com?subject=Sponsorship" class="button button--small">I’m interested in sponsoring</a>
 
+## Sponsor perks
+
 - We take care of the liquor license
-- We take care of getting the beer and non-alcoholic beverages
+- We take care of getting equal quantities of beer and high-quality sodas
 - The MC will give you two shout-outs during the meetup while your logo is on the screen (once at the beginning, once at the ending)
 - You’ll get a logo linking to your site on the Meetup page, <!-- in meetup emails announcement to over 500 people --> and this website
+- We’ll hold two reserved spots to the meetup for you or members of your team
 - You can bring swag to give out when we sign people in and during the meetup
 
 We’ll also tweet out your link with your logo from [@typebrigade](https://twitter.com/typebrigade) account leading up to the event, for example:
@@ -29,7 +32,9 @@ We’ll also tweet out your link with your logo from [@typebrigade](https://twit
 
 If you have questions or are interested in sponsoring this or a future even, please [send Kenneth an email](mailto:kenneth@typebrigade.com)!
 
-_Previous sponsors of this slot have included [Lost Type Co-op](http://losttype.com), and [Louder Than Ten](http://louderthanten.com), [Mobify](http://mobify.com/jobs), and [Chloi Inc.](http://chloi.io)_
+_Previous and ongoing sponsors of Type Brigade have included teams like [Hootsuite](http://hootsuite.com), the [Lost Type Co-op](http://losttype.com), [CodeCore](http://codecore.ca), and [Mobify](http://mobify.com/jobs)._
+
+<!--
 
 ***
 
@@ -41,8 +46,6 @@ _Previous sponsors of this slot have included [Lost Type Co-op](http://losttype.
 
 [Chloi Inc.](http://chloi.io) builds next-generation web and mobile experiences, and loves working with designers that care about type. Type Brigade would not be possible without their support, and mentorship through sibling meetups [CSS Brigade](http://cssbrigade.com) and [Node Brigade](http://meetup.com/node-brigade-vancouver).
 
--->
-
 
 [![Mobify’s logo](../images/sponsor-mobify.svg)](http://mobify.com/jobs)
 
@@ -51,3 +54,6 @@ _Previous sponsors of this slot have included [Lost Type Co-op](http://losttype.
 [![Port Paper Co.’s logo](../images/sponsor-port-paper-co.svg)](http://www.portpaperco.com/)
 
 [Port Paper Co.](http://www.portpaperco.com) are a custom letterpress studio and producer of fine paper goods. Print like it's 1450 all over again! Type Brigade’s custom-lettered print is carefully letter-pressed by Port Paper Co. We highly reccomend you get in touch with them for your wedding, commercial, or other letterpress needs.
+
+
+-->
