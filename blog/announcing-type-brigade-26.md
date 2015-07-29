@@ -3,7 +3,7 @@
 [Type Brigade №26](http://www.meetup.com/typebrigade/events/222545955/) is June 4th, making it one year since we relaunched Vancouver’s typography meetup as [Type Brigade](introducing-type-brigade). I’m very excited to welcome one Type Brigade regular and one newcomer to present at our next event: Travis Gertz & Ivana McConnell!
 
 <figure class="figure--breakout">
-[![Alanna Munro’s clever event numerals, custom designed for Type Brigade](../images/blog-announcing-type-brigade-26.png)](http://meetup.com/typebrigade)
+[![Alanna Munro’s clever event numerals, custom designed for Type Brigade](../images/blog-announcing-type-brigade-26-1.png)](http://meetup.com/typebrigade)
 <figcaption>
 The Type Brigade №26 event numerals, designed by [Alanna Munro](https://twitter.com/alannamun).
 </figcaption>

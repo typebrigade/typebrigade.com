@@ -8,7 +8,7 @@ Commercial Type was formed by designers Paul Barnes and Christian Schwartz. They
 projects, including the award winning [Guardian family](http://showcase.commercialtype.com/guardian).
 
 <figure class="figure--aside figure--breakout">
-[![](/images/blog-commercial-type-1.png)](http://www.meetup.com/typebrigade/events/224125426/)
+[![](/images/blog-commercial-type-at-type-brigade-1.png)](http://www.meetup.com/typebrigade/events/224125426/)
 <figcaption><p><cite>Dala Prisma</cite><br/>
 Designed by Paul Barnes &<br/>
 Ben Kiel, 2014</p>

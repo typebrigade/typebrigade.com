@@ -5,7 +5,7 @@ Bruno Maag, the London-based co-founder of the renowned type design studio [Dalt
 The event is completely free to attend as long you [register soon](http://bruno-maag-talks-type.eventbrite.com/).
 
 <figure class="figure figure--breakout">
-[![](../images/blog-dalton-maag-1.jpg)](http://bruno-maag-talks-type.eventbrite.com/)
+[![](../images/blog-bruno-maag-at-type-brigade-1.jpg)](http://bruno-maag-talks-type.eventbrite.com/)
 <figcaption>Bruno Maag, left, and the Dalton Maag team.</figcaption>
 </figure>
 
