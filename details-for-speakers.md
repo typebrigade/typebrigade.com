@@ -8,7 +8,7 @@ You can register for [Type Brigade at meetup.com/typebrigade](http://www.meetup.
 
 We have more details on the format of the talks on the [Call for Speakers](http://typebrigade.com/call-for-speakers) page. In short, you have a 25–30 minute speaking slot followed by a 5 minute Q&A.
 
-To help us promote it, please fill out some details about your presentation for us—it doesn’t have to be perfect or finalised, just enough so we can annoucne the evnet.
+To help us promote it, please fill out some details about your presentation for us—it doesn’t have to be perfect or finalised, just enough so we can announce the event.
 
 Following the form, [there’s more details](#more-details) about what to expect as a speaker. Thanks again for participating!
 
