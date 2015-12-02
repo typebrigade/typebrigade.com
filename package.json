@@ -21,7 +21,7 @@
     "meetup"
   ],
   "scripts": {
-    "postinstall": "trash --force node_modules/bourbon-neat/test && cp ./node_modules/normalize.css/normalize.css ./node_modules/normalize.css/normalize.scss && cat ./_includes/prefix.jade ./node_modules/typogr/typogr.min.js | tr -d \"\r\n\" > ./node_modules/typogr/typogr.jade",
+    "postinstall": "trash --force node_modules/bourbon-neat/test && cat ./_includes/prefix.jade ./node_modules/typogr/typogr.min.js | tr -d \"\r\n\" > ./node_modules/typogr/typogr.jade",
     "test": "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\"",
     "start": "harp server",
     "compile": "harp compile && trash --force ./www/node_modules/",
