@@ -1,10 +1,10 @@
 # Sponsors
 
-Type Brigade is Vancouver, Canada’s typography and type design speaker series meetup, running every other month. We have a mailing list of over 500 talented and curious communication designers, visual artists, web developers, and type fans, ready for an inclusive evening of learning about typography and design.
+Type Brigade is Vancouver, Canada’s typography and type design speaker series meetup, running every other month. We have a mailing list of over 750 talented and curious communication designers, visual artists, web developers, and type fans, ready for an inclusive evening of learning about typography and design.
 
 ## Open Sponsorship
 
-We have one sponsorship spot left for $250 our next event, which will be used to make a selection of beer and sodas available for free to attendees during the event. If you’re interested in signing up to sponsor three or more events, we can offer a discount.
+We have one sponsorship spot left for our next event, which will be used to make a selection of beer and sodas available for free to attendees during the event. If you’re interested in signing up to sponsor three or more events, we can offer a discount.
 
 If you are:
 
@@ -20,8 +20,8 @@ If you are:
 
 - We take care of the liquor license
 - We take care of getting equal quantities of beer and high-quality sodas
-- The MC will give you two shout-outs during the meetup while your logo is on the screen (once at the beginning, once at the ending)
-- You’ll get a logo linking to your site on the Meetup page, <!-- in meetup emails announcement to over 500 people --> and this website
+- The MC will give you two shout-outs during the meetup while your logo is on the screen (once at the beginning, and once at the end)
+- You’ll get a logo linking to your site on the Meetup page, <!-- , in meetup emails announcement to our mailing list, --> and on this website
 - We’ll hold two reserved spots to the meetup for you or members of your team
 - You can bring swag to give out when we sign people in and during the meetup
 
