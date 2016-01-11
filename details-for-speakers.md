@@ -120,42 +120,45 @@ Following the form, [there’s more details](#more-details) about what to expect
 
 ## Venue
 
-Type Brigade takes place at Mobify HQ, on the 3rd floor of the Chintz & Company building in Yaletown. The address is:
-
-[<address>948 Homer Street, Vancouver, <span class="caps">V6B 2W7</span></address>](https://www.google.com/maps?f=q&hl=en&q=%23300+-+948+Homer+St,+Vancouver,+BC,+ca)
+The venue address will be on the most recent event on [the Type Brigade Meetup.com page](http://meetup.com/typebrigade), once we’ve announced it.
 
 - Speakers and organisers are encouraged to arrive between 6:00–6:30
 - Attendees are admitted at 6:30
 - Kenneth will introduce the first talk at 7:00
 - The even usually ends around 9:00, and anyone interested goes for a drink afterwards
 
+<!--
+
 <figure class="figure--aside">
 ![](/images/mobify-hq.jpg)
 <figcaption>Mobify HQ is on the 3rd floor of the Chintz & Company building.</figcaption>
 </figure>
 
-### Slides
-
-There are two projectors at Mobify HQ with the speaking podium positioned in-between.
+-->
 
 <figure class="figure--aside">
 ![](/images/event-22.jpg)
-<figcaption>This is the space we host Type Brigade in, another projector is off-frame on the right.</figcaption>
+<figcaption>One of the spaces we’ve hosted Type Brigade in.</figcaption>
 </figure>
 
-The optimal slide resolutions for the projector is either 1280×720, or 1920×1080.
+### Slides
 
-We prefer if speakers [email Kenneth slides](mailto:kenneth@typebrigade.com) sometime during or before the day of the event. He’ll set them up on his computer so they’re already ready for you at Mobify HQ. This way, we don’t have to find additional cables or connectors and don’t have to change anything over between talks. Formats we’ve used without trouble:
+We should be able to accommodate any standard slide resolution, but the optimal one for the projector is 1920×1080.
+
+We prefer if speakers [send Kenneth slides](mailto:kenneth@typebrigade.com) the day before the event if possible. He’ll set them up on his computer, so they’re already ready for you at the venue. This way, we don’t have to find additional cables or connectors and don’t have to change anything over between talks. Formats we’ve used without trouble:
 
 - PDF
 - Keynote (latest and ‘09)
 - Anything web based (Slid.es, Google Docs, etc.)
 
-We don’t use mirrored displays, so you can use speaker notes if you’d like. If you have another format, just let us know and we’ll do our best to accommodate it. You are also welcome to present using your own computer.
+We don’t use mirrored displays, so you can use speaker notes if you’d like. If you have another format, just let us know and we’ll do our best to accommodate it. You are also welcome to present using your own computer, but please make sure to arrive with enough time for us to test your machine with the projectors.
 
 ### Other equipment
 
-We have one microphone for you to use while you present, and we have one remote for your to control your slides.
+We will also have the following equipment available:
+
+- One remote control with your slides
+- Two microphones
 
 ## Code of Conduct
 
@@ -165,13 +168,13 @@ It’s a record based upon on the work of other events we admire. Running a safe
 
 ## Attendees
 
-We average 80 attendees per event but have been steadily growing since June 2014. It’s about one half professional and student graphic and interaction designers, a small group of aspiring type designers and letterers, and the remainder work outside of the industry but have a strong interest in typography.
+We average 100 attendees per event, and have been steadily growing since June 2014. It’s about one half professional and student graphic and interaction designers, a small group of aspiring type designers and letterers, and the remainder work outside of the industry but have a strong interest in typography.
 
 (If you’re interested, you can also see [our full member list](http://www.meetup.com/typebrigade/members/) to get a sense of who will be there.)
 
 ### Promotion
 
-If there’s anyone you’d like us to promote the event to on your behalf (a specific blog, emailing a local designer, etc.) we’d be more than happy to do what we can. Just email [Kenneth](mailto:kenneth@typebrigade.com) with any details.
+If there’s anything you’d like us to promote at the event on your behalf (a specific blog you maintain, a product you work on, your freelance work, etc.) we’d be more than happy to do what we can. Just email [Kenneth](mailto:kenneth@typebrigade.com) with any details.
 
 We have pretty solid attendance for the event, but any on-going promotion you’re willing to help us out with ([retweeting @typebrigade](http://twitter.com/typebrigade), telling co-workers, listing your talk with us on your site, etc.) is always appreciated.
 
