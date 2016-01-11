@@ -33,13 +33,11 @@
     "bourbon-neat": "1.7.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
     "figment": "kennethormandy/figment#v0.6.2",
-    "harp": "0.20.1",
     "normalize-opentype.css": "0.2.4",
     "normalize.css": "3.0.3",
     "surge": "latest",
-    "terraform": "git://github.com/kennethormandy/terraform.git#adceba0be6fde3dbd7578291f443fb6b3732e215",
     "trash": "1.4.1",
-    "typogr": "0.6.5",
+    "typogr": "0.6.5"
     "utility-opentype": "0.1.3"
   }
 }
