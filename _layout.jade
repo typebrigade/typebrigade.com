@@ -53,27 +53,22 @@ html(lang="en")
 
     .container
       .row
-        include _includes/header
+        != typogr.typogrify(partial("_includes/header"))
     //- If it’s the landing page, skip
     //- the container for full width stuff
     if current.source === "index" && current.path.length === 1
-      #main.main(role="main")!= yield
+      #main.main(role="main")!= typogr.typogrify(yield)
     else
       #main.main.container(role="main")
         article.row.row--narrow
           if current.source != "index" && current.path.length > 1
-            != partial(current.path[0] + "/_nest")
+            != partial(typogr.typogrify(current.path[0]) + "/_nest")
           else
-            != yield
+            != typogr.typogrify(yield)
     .container
       .row
-        include _includes/footer
+        != typogr.typogrify(partial("_includes/footer"))
   block scripts
     script(async defer src="http://cdn.typebrigade.com/js/trmix-v1.1.0.js")
     include _includes/map
     include _includes/analytics
-    if environment === 'development'
-      script(src="/node_modules/typogr/typogr.min.js")
-      script.
-        var el = document.getElementsByTagName('body')[0]
-        el.innerHTML = typogr.typogrify(el.innerHTML)
