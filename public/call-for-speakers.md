@@ -4,6 +4,12 @@ Type Brigade is now accepting presentation proposals for future events.
 
 Whether you’re an experienced type designer with a talk you’ve given before, or have recently become interested in typography and are still working on your idea, we welcome your proposal. We firmly believe you have something worthwhile to share, and you certainly don’t need to know everything type to teach us something.
 
+> The response was very enthusiastic. I’m very glad I did this, as I’m way out of practice at public speaking, but I’m told I did really well. I tried to imagine the audience as a large group of new friends, which seemed to work.
+> <footer>[Neil K.](http://neilk.net/blog/2014/06/24/type-brigade/)</footer>
+
+>
+> <footer>[Ivana MccConnell](http://ivanamcconnell.com/blog/2015/06/15/types-of-fun-reflections-on-speaking-at-typebrigade/)
+
 ## Format
 
 Type Brigade hosts two speakers per meetup. Each presents for 25–30 minutes, with audience questions held until a 5 minute <abbr>Q&A</abbr> session afterwards. There’s a brief intermission between the talks. After both, attendees usually relocate as a group to a nearby bar.
