@@ -23,8 +23,8 @@
   "scripts": {
     "postinstall": "cat ./public/_includes/prefix.jade ./node_modules/typogr/typogr.min.js | tr -d \"\r\n\" > ./node_modules/typogr/typogr.jade",
     "test": "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\"",
-    "start": "harp server",
-    "compile": "harp compile",
+    "start": "./node_modules/.bin/harp server",
+    "compile": "./node_modules/.bin/harp compile",
     "stage": "npm run compile && surge ./www --domain staging.typebrigade.com",
     "deploy": "npm run compile && surge ./www --domain typebrigade.com"
   },
@@ -33,6 +33,7 @@
     "bourbon-neat": "1.7.2",
     "chasers": "git://github.com/kennethormandy/chasers#v0.3.0",
     "figment": "kennethormandy/figment#v0.6.2",
+    "harp": "0.20.1",
     "normalize-opentype.css": "0.2.4",
     "normalize.css": "3.0.3",
     "surge": "latest",
