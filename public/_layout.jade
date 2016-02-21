@@ -62,7 +62,7 @@ html(lang="en")
       #main.main.container(role="main")
         article.row.row--narrow
           if current.source != "index" && current.path.length > 1
-            != typogr.typogrify(partial(current.path[0]) + "/_nest")
+            != typogr.typogrify(partial(current.path[0] + "/_nest"))
           else
             != typogr.typogrify(yield)
     .container
