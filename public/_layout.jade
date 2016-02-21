@@ -8,7 +8,7 @@ html(lang="en")
     title!= tagline ? tagline + ' – ' + title : title
     include _includes/font-face
     link(rel="stylesheet" href="/css/main.css")
-    != partial("../node_modules/typogr/typogr.jade")
+    //- != partial("../node_modules/typogr/typogr.jade")
 
     <!--[if lt IE 10]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"><![endif]-->
     meta(name="description", content="#{ description }")
@@ -53,21 +53,21 @@ html(lang="en")
 
     .container
       .row
-        != typogr.typogrify(partial("_includes/header"))
+        != partial("_includes/header")
     //- If it’s the landing page, skip
     //- the container for full width stuff
     if current.source === "index" && current.path.length === 1
-      #main.main(role="main")!= typogr.typogrify(yield)
+      #main.main(role="main")!= yield
     else
       #main.main.container(role="main")
         article.row.row--narrow
           if current.source != "index" && current.path.length > 1
-            != typogr.typogrify(partial(current.path[0] + "/_nest"))
+            != partial(current.path[0] + "/_nest")
           else
-            != typogr.typogrify(yield)
+            != yield
     .container
       .row
-        != typogr.typogrify(partial("_includes/footer"))
+        != partial("_includes/footer")
   block scripts
     script(async defer src="http://cdn.typebrigade.com/js/trmix-v1.1.0.js")
     include _includes/map

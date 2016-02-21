@@ -38,7 +38,7 @@
     "normalize.css": "3.0.3",
     "surge": "latest",
     "trash": "1.4.1",
-    "typogr": "0.6.5",
+    "typogr": "0.6.6",
     "utility-opentype": "0.1.3"
   }
 }
