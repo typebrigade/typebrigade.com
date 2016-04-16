@@ -11,7 +11,9 @@ else
         :markdown
           Celeste Martin on _Dynamic typography in digital publication design_ at Type Brigade. [Photo CC BY 2.0 Stephen Bau](https://www.flickr.com/photos/bauhouse/14506354242/in/set-72157645407658123).
 
-  em #{ name } №#{ current.source }
+  em #{ name }
+    if current.number
+      |  №#{ current.number }
   h1 #{ event.title }
 
   time(datetime="#{ new Date(event.date) }") #{ event.date.split('T') }

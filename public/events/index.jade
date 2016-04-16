@@ -2,14 +2,16 @@ h1 Events
 
 ol
   for meetup, i in public.events._data
-    - var num = public.events._data.length - i
-    if num > 19
-      -var eventName = 'Type Brigade'
-    else
+    - var num = meetup.number || false
+    - var eventName = 'Type Brigade'
+    if (num && num < 19)
       - var eventName = 'Vancouver Typography Meetup Group'
+
     if meetup.title && (limit ? i <= limit : true)
       li
-        em #{ eventName } №#{ num }
+        em #{ eventName } #{ meetup.format }
+          if num
+            span.lnum &nbsp;№#{ num }
         a(href="#{ meetup.url ? meetup.url : num }")
           h2 #{ meetup.title }
           time.is-fuzzyDate #{ meetup.date }
