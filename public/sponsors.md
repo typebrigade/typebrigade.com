@@ -1,6 +1,6 @@
 # Sponsors
 
-Type Brigade is Vancouver, Canada’s typography and type design speaker series meetup, running every other month. We have a mailing list of over 750 talented and curious communication designers, visual artists, web developers, and type fans, ready for an inclusive evening of learning about typography and design.
+Type Brigade is Vancouver, Canada’s typography and type design speaker series meetup, running every other month. We have a mailing list of over 1,000 talented and curious communication designers, visual artists, web developers, and type fans, ready for an inclusive evening of learning about typography and design.
 
 ## Open Sponsorship
 
@@ -12,7 +12,7 @@ If you are:
 - Building a __product__ for people who use design and media tools
 - A studio or agency looking to become more well __known__ in Vancouver, and want to help growing the design community here
 
-…sponsoring Type Brigade is an easy and inexpensive way to help while supporting a well-recieved local event.
+…sponsoring Type Brigade is an easy and inexpensive way to help while supporting a well-received local event.
 
 <a href="mailto:kenneth@typebrigade.com?subject=Sponsorship" class="button button--small">I’m interested in sponsoring</a>
 
@@ -24,15 +24,14 @@ If you are:
 - You’ll get a logo linking to your site on the Meetup page, <!-- , in meetup emails announcement to our mailing list, --> and on this website
 - We’ll hold two reserved spots to the meetup for you or members of your team
 - You can bring swag to give out when we sign people in and during the meetup
+- We’ll also tweet out your link from [@typebrigade](https://twitter.com/typebrigade) account around after the event
 
-We’ll also tweet out your link with your logo from [@typebrigade](https://twitter.com/typebrigade) account leading up to the event, for example:
-
-  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Thanks for sponsoring, <a href="https://twitter.com/mobify">@mobify</a>! They’re hiring at <a href="http://t.co/O83ztk4t2k">http://t.co/O83ztk4t2k</a> and we’ll be at their HQ, 948 Homer St. <a href="http://t.co/w3fZOA2yBJ">pic.twitter.com/w3fZOA2yBJ</a></p>&mdash; Type Brigade (@typebrigade) <a href="https://twitter.com/typebrigade/status/527505513530290176">October 29, 2014</a></blockquote>
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Thanks for sponsoring, <a href="https://twitter.com/mobify">@mobify</a>! They’re hiring at <a href="http://t.co/O83ztk4t2k">http://t.co/O83ztk4t2k</a> and we’ll be at their HQ, 948 Homer St. <a href="http://t.co/w3fZOA2yBJ">pic.twitter.com/w3fZOA2yBJ</a></p>&mdash; Type Brigade (@typebrigade) <a href="https://twitter.com/typebrigade/status/527505513530290176">October 29, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 If you have questions or are interested in sponsoring this or a future even, please [send Kenneth an email](mailto:kenneth@typebrigade.com)!
 
-_Previous and ongoing sponsors of Type Brigade have included teams like [Hootsuite](http://hootsuite.com), the [Lost Type Co-op](http://losttype.com), [CodeCore](http://codecore.ca), and [Mobify](http://mobify.com/jobs)._
+_Previous and ongoing sponsors of Type Brigade have included [MetaLab](http://metalab.co), [Hootsuite](http://hootsuite.com), the [Lost Type Co-op](http://losttype.com), [CodeCore](http://codecore.ca), and [Mobify](http://mobify.com/jobs)._
 
 <!--
 
