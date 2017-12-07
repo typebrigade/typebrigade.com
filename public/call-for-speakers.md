@@ -183,6 +183,6 @@ Here are some useful tools and guides for speakers.
 - [Speaking.io](http://speaking.io)
 - [The Rectangle Behind You](https://medium.com/the-rectangle-behind-you)
 - [Passion Projects](http://passion-projects.is/)
-
+- [My Speech Class](http://www.myspeechclass.com/) (thanks to Sonia for this recommendation)
 
 <small>Portions of this page are based on [JSConf’s Call for Speakers](http://2014.jsconf.eu/call-for-speakers/).</small>
