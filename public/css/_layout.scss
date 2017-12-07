@@ -26,7 +26,7 @@ body {
   }
 
   .nav {
-    @include span-columns(2 of 5);
+    @include span-columns(3 of 5);
   }
 
   .logo {
@@ -45,8 +45,8 @@ body {
   }
 
   .nav {
-    @include span-columns(2 of 7);
-    @include shift(3);
+    @include span-columns(3 of 7);
+    @include shift(2);
   }
 
   .row--narrow {

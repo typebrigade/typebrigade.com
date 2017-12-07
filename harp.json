@@ -1,23 +1,25 @@
 {
   "domains": ["typebrigade.com"],
   "globals": {
-    "title":       "Type Brigade",
-    "description": "Vancouver’s type design and typography speaker series meetup.",
-    "tagline":     "Vancouver’s type meetup",
-    "name":        "Type Brigade",
-    "email":       "kenneth@typebrigade.com",
-    "url":         "http://typebrigade.com",
+    "title": "Type Brigade",
+    "description":
+      "Vancouver’s type design and typography speaker series meetup.",
+    "tagline": "Vancouver’s type meetup",
+    "name": "Type Brigade",
+    "email": "kenneth@typebrigade.com",
+    "url": "http://typebrigade.com",
     "service": {
-      "typekit":   "pth8ehh",
+      "typekit": "pth8ehh",
       "analytics": "UA-51542815-1",
-      "disqus":     false
+      "disqus": false
     },
     "social": {
-      "hashtag":   "typebrigade",
-      "meetup":    "typebrigade",
-      "twitter":   "typebrigade",
+      "hashtag": "typebrigade",
+      "meetup": "typebrigade",
+      "patreon": "typebrigade",
+      "twitter": "typebrigade",
       "instagram": "typebrigade",
-      "github":    "typebrigade"
+      "github": "typebrigade"
     }
   }
 }

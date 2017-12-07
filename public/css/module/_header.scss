@@ -11,10 +11,6 @@
   background: transparent;
 }
 
-.nav {
-  text-transform: lowercase;
-}
-
 .nav-list {
   list-style-type: none;
   padding-left: 0;
@@ -38,10 +34,6 @@
   }
   &.button {
     margin-bottom: 0.5em;
-    margin-left: 0;
-    @include media($mid) {
-      margin-left: -$gutter;
-    }
   }
 }
 

@@ -20,6 +20,7 @@ input[type="submit"],
   border-bottom: 0.125em solid darken($color-orange, 25%);
   letter-spacing: 0.0075em;
   font-size: 1.125em;
+  width: 100%;
   &:hover,
   &:focus {
     color: #FFF;
