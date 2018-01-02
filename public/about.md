@@ -41,11 +41,21 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [alannamunro.com](http://alannamunro.com)
 
+- ### Nancy Wu
+
+  [![Nancy Wu’s profile picture](images/team-nancy.jpg)](http://nancywudesign.com/)
+
+  _Assistant Organiser_
+
+  Nancy Wu is a graphic designer specializing in brand identity, idea generation and art direction.
+
+  [nancywudesign.com](http://nancywudesign.com/)
+
 - ### Andrea Husky
 
   [![Andrea Husky’s profile picture](/images/team-andrea.jpg)](http://andreahusky.com)
 
-  _Assistant Organiser, Lettering_
+  _Lettering_
 
   Andrea likes letters. A lot. She is currently a graphic designer for Herschel.
 
@@ -55,7 +65,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [![Riley Cran’s profile picture](/images/team-riley.jpg)](http://rileycran.com)
 
-  _Assistant Organiser, Lettering_
+  _Lettering_
 
   Riley is a designer based in the Pacific Northwest, with a specialty in identity, packaging and illustration.
 
