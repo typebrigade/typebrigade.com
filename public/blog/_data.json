@@ -1,8 +1,16 @@
 {
+  "type-brigade-43-follow-up": {
+    "title": "Type Brigade №43 follow-up",
+    "date": "2018-05-10",
+    "description":
+      "Here’s what we announced at the event, and what else we’re doign during Vancovuer Design Week",
+    "author": "kennethormandy"
+  },
   "commercial-type-at-type-brigade": {
     "title": "Commercial Type at Type Brigade",
     "date": "2015-07-29",
-    "description": "Paul Barnes & Christian Schwartz of Commercial Type, the highly respected, New York-based type design studio, kick-off their North American tour in Vancouver.",
+    "description":
+      "Paul Barnes & Christian Schwartz of Commercial Type, the highly respected, New York-based type design studio, kick-off their North American tour in Vancouver.",
     "author": "kennethormandy"
   },
   "type-brigade-26-has-moved": {
@@ -22,7 +30,8 @@
   "announcing-type-brigade-26": {
     "title": "Announcing Type Brigade No26",
     "date": "2015-05-19",
-    "description": "Our 26th typography and type design meetup will be at Hootsuite HQ in Vancouver, on June 4th, 2015.",
+    "description":
+      "Our 26th typography and type design meetup will be at Hootsuite HQ in Vancouver, on June 4th, 2015.",
     "published": true,
     "author": "kennethormandy"
   },
@@ -32,19 +41,22 @@
   "bruno-maag-at-type-brigade": {
     "title": "Bruno Maag at Type Brigade",
     "date": "2015-03-06",
-    "description": "We’re excited to host Bruno Maag, Dalton Maag co-founder, all the way from London.",
+    "description":
+      "We’re excited to host Bruno Maag, Dalton Maag co-founder, all the way from London.",
     "author": "kennethormandy"
   },
   "announcing-the-type-walk": {
     "title": "Announcing the Type Walk, for Vancouver Design Week",
     "date": "2014-09-04",
-    "description": "For Vancouver Design Week, we’re happy to announce an off-month special event: Type Walk.",
+    "description":
+      "For Vancouver Design Week, we’re happy to announce an off-month special event: Type Walk.",
     "author": "kennethormandy"
   },
   "our-number-twenty": {
     "title": "Our number twenty",
     "date": "2014-06-22",
-    "description": "For our twentieth meetup, the first under our new name Type Brigade, we’ve been planning something a little unconventional. We now have completely custom event numerals, lettered by Type Brigade’s Assistant Organiser Andrea Husky.",
+    "description":
+      "For our twentieth meetup, the first under our new name Type Brigade, we’ve been planning something a little unconventional. We now have completely custom event numerals, lettered by Type Brigade’s Assistant Organiser Andrea Husky.",
     "author": "kennethormandy"
   },
   "the-call-for-speakers-is-open": {
