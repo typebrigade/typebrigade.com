@@ -101,12 +101,17 @@ body {
   }
 
   .sponsor-list {
-    @include span-columns(6);
-    @include shift(1);
+    display: flex;
+    min-width: 100%;
+    margin-left: -$gutter;
+    margin-right: -$gutter;
   }
 
-  .sponsor-item {
-    @include span-columns(3 of 7);
+  li.sponsor-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0 $gutter;
+    display: block;
   }
 
   .meetup-register {
@@ -138,25 +143,9 @@ body {
   }
 
   .sponsor-list {
-    @include span-columns(7);
-    @include shift(0);
   }
 
   .sponsor-item {
-    @include span-columns(2 of 8);
-  }
-
-}
-
-@include media($massive) {
-
-  .sponsor-list {
-    @include span-columns(9 of 7);
-    @include shift(-1);
-  }
-
-  .sponsor-item {
-    @include span-columns(2 of 8);
   }
 
 }

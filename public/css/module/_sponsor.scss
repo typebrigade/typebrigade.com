@@ -24,13 +24,20 @@ a.sponsor {
 .sponsor-item {
   list-style-type: none;
   margin-bottom: 2em * $base-line-height;
-  padding-left: 0;
 }
 
 .sponsor-item {
   margin-bottom: 2em * $base-line-height;
-  img {
-    margin-bottom: 1em * $base-line-height;
-    padding: $gutter / 2;
+}
+
+.sponsor-image {
+  display: block;
+  margin-bottom: 1em * $base-line-height;
+  padding: $gutter;
+}
+
+@include media($wide) {
+  .sponsor-image {
+    padding: $gutter * 2;
   }
 }
