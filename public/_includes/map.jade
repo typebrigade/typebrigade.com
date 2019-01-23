@@ -1,40 +1,40 @@
-script.
-  function initialize() {
-    var map;
-    var mapEl;
-    var meetup;
-    var marker;
-    var mapOptions;
-    // meetup = new google.maps.LatLng(49.270599, -123.132970); // Emily Carr University
-    // meetup = new google.maps.LatLng(49.2821689, -123.111029); // CodeCore
-    // meetup = new google.maps.LatLng(49.263999,-123.104191); // Hootsuite HQ
-    // meetup = new google.maps.LatLng(49.2824697,-123.1034229); // Chloi HQ
-    // meetup = new google.maps.LatLng(49.2778192, -123.1194332); // Mobify HQ
-    // meetup = new google.maps.LatLng(49.2813423, -123.1146169); // Unbounce HQ
-    meetup = new google.maps.LatLng(49.2850974, -123.1169364); // BrainStation
-    mapOptions = {
-      zoom: 14,
-      center: meetup,
-      disableDefaultUI: true,
-      draggable: false,
-      disableDoubleClickZoom: true,
-      zoomControl: false,
-      scrollwheel: false
-    };
-    mapEl = document.getElementById('js-map');
-    if(typeof mapEl !== 'undefined') {
-      map = new google.maps.Map(mapEl, mapOptions);
-      marker = new google.maps.Marker({
-        position: meetup,
-        map: map,
-        title: 'Hootsuite'
-      });
-      google.maps.event.addDomListener(window, 'resize', function(){
-          map.setCenter(meetup);
-          if (!window.matchMedia("(min-width: 768px)").matches) {
-              map.setZoom(13);
-          }
-      });
-    }
-  };
-script(async defer src="//maps.googleapis.com/maps/api/js?v=3.exp&callback=initialize")
+//- script.
+//-   function initialize() {
+//-     var map;
+//-     var mapEl;
+//-     var meetup;
+//-     var marker;
+//-     var mapOptions;
+//-     // meetup = new google.maps.LatLng(49.270599, -123.132970); // Emily Carr University
+//-     // meetup = new google.maps.LatLng(49.2821689, -123.111029); // CodeCore
+//-     // meetup = new google.maps.LatLng(49.263999,-123.104191); // Hootsuite HQ
+//-     // meetup = new google.maps.LatLng(49.2824697,-123.1034229); // Chloi HQ
+//-     // meetup = new google.maps.LatLng(49.2778192, -123.1194332); // Mobify HQ
+//-     // meetup = new google.maps.LatLng(49.2813423, -123.1146169); // Unbounce HQ
+//-     meetup = new google.maps.LatLng(49.2850974, -123.1169364); // BrainStation
+//-     mapOptions = {
+//-       zoom: 14,
+//-       center: meetup,
+//-       disableDefaultUI: true,
+//-       draggable: false,
+//-       disableDoubleClickZoom: true,
+//-       zoomControl: false,
+//-       scrollwheel: false
+//-     };
+//-     mapEl = document.getElementById('js-map');
+//-     if(typeof mapEl !== 'undefined') {
+//-       map = new google.maps.Map(mapEl, mapOptions);
+//-       marker = new google.maps.Marker({
+//-         position: meetup,
+//-         map: map,
+//-         title: 'Hootsuite'
+//-       });
+//-       google.maps.event.addDomListener(window, 'resize', function(){
+//-           map.setCenter(meetup);
+//-           if (!window.matchMedia("(min-width: 768px)").matches) {
+//-               map.setZoom(13);
+//-           }
+//-       });
+//-     }
+//-   };
+//- script(async defer src="//maps.googleapis.com/maps/api/js?v=3.exp&callback=initialize")
