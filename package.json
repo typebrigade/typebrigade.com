@@ -11,6 +11,9 @@
     "Riley Cran      <riley@typebrigade.com>   (http://rileycran.com)",
     "Alanna Munro    <alanna@typebrigade.com>  (http://alannamun.com)"
   ],
+  "engines": {
+    "node": "4"
+  },
   "repository": "git@github.com:typebrigade/typebrigade.com.git",
   "private": true,
   "keywords": [
