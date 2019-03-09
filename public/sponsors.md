@@ -2,7 +2,7 @@
 
 Type Brigade is Vancouver’s typography meetup. We’ve been getting together since 2011, and now have well over 1,500 talented and curious communication designers, visual artists, web developers, and type fans, ready to meet and learn about typography, design, and anything connected to it.
 
-We’ve been running since 2011, and typically run around 5 or 6 free events per year, and facilitate 1 paid workshop.
+The current organising team has been running speaker series events for the last 5 years, and we typically run 5 or 6 free events per year, and facilitate 1 paid workshop.
 
 <figure class="figure--breakout">
 

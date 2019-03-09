@@ -1,13 +1,13 @@
 # About Type Brigade
 
-Type Brigade is Vancouver’s type speaker series. Every other month, we host two talks: one on typography, and one on type design.
+Type Brigade is Vancouver’s type speaker series. We organise about 6 events a year on typography, type design, lettering, and other subjects through the lens of letters. We find, if you speak about anything for long enough, it always comes back to type—all the more reason to speak about it sooner.
 
 ## Contact
 
 Email [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com)<br/>
 Tweet [@typebrigade](http://twitter.com/typebrigade)<br/>
 
-## Contributors
+## Team
 
 All contributors and speakers hope to bring the type and design community in Vancouver a little closer together.
 
@@ -17,7 +17,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
   _Organiser_
 
-  Kenneth is an independent designer specialising in type design, and typographic software and web development.
+  Kenneth is an independent designer specialising in type design and typographic software development.
 
   [kennethormandy.com](https://kennethormandy.com)
 
@@ -55,7 +55,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 ***
 
-## Friends & Alumni
+## Friends & Collaborators
 
 - ### Shelley Gruendler
 
@@ -65,16 +65,13 @@ All contributors and speakers hope to bring the type and design community in Van
 
   Dr. Shelley Gruendler founded the Vancouver Typography Meetup Group, and was its original organiser. She’s a typographer, designer, and educator, in addition to being the founding director of [Type Camp](http://typecamp.org).
 
-- Diane Huynh
-- Ross Milne
-- Riley Cran
-- Andrea Husky
+- ### Diane Huynh
+- ### Ross Milne
+- ### Riley Cran
+- ### Andrea Husky
+- ### Patrons
 
-There is a full record of our amazing speakers on the [Type Brigade meetup group](https://meetup.com/typebrigade).
-
-## Patreon
-
-[Our amazing patrons on Patreon](https://patreon.com/typebrigade) help make Type Brigade events possible. Back us on Patreon to receive special perks, and keep our events free to attend.
+  [Our amazing patrons on Patreon](https://patreon.com/typebrigade) help make Type Brigade events possible. Back us on Patreon to receive special perks, and keep our events free to attend.
 
 <!--
 
