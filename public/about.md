@@ -17,25 +17,15 @@ All contributors and speakers hope to bring the type and design community in Van
 
   _Organiser_
 
-  Kenneth is an independent designer and front-end web developer.
+  Kenneth is an independent designer specialising in type design, and typographic software and web development.
 
-  [kennethormandy.com](http://kennethormandy.com)
-
-- ### Cody Jones
-
-  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
-
-  _Organiser_
-
-  Cody is a freelance designer and fledgling type designer, helping technology get along with people.
-
-  [mediumjones.com](http://mediumjones.com)
+  [kennethormandy.com](https://kennethormandy.com)
 
 - ### Alanna Munro
 
   [![Alanna Munro’s profile picture](images/team-alanna.png)](http://alannamunro.com)
 
-  _Assistant Organiser, Lettering_
+  _Organiser, Lettering_
 
   Alanna is a freelance interaction designer, typographer, letter-maker and code explorer.
 
@@ -51,29 +41,21 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [nancywudesign.com](http://nancywudesign.com/)
 
-- ### Andrea Husky
+- ### Joshua Mann
 
-  [![Andrea Husky’s profile picture](/images/team-andrea.jpg)](http://andreahusky.com)
+  <img src="https://unavatar.now.sh/joshuamann.ca" alt="Joshua Mann’s profile picture" />
 
-  _Lettering_
+  [joshuamann.ca](https://http://joshuamann.ca/)
 
-  Andrea likes letters. A lot. She is currently a graphic designer for Herschel.
+- ### Cody Jones
 
-  [andreahusky.com](http://andreahusky.com)
+  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
 
-- ### Riley Cran
-
-  [![Riley Cran’s profile picture](/images/team-riley.jpg)](http://rileycran.com)
-
-  _Lettering_
-
-  Riley is a designer based in the Pacific Northwest, with a specialty in identity, packaging and illustration.
-
-  [rileycran.com](http://rileycran.com)
+  [mediumjones.com](http://mediumjones.com)
 
 ***
 
-## Alumni
+## Friends & Alumni
 
 - ### Shelley Gruendler
 
@@ -83,6 +65,16 @@ All contributors and speakers hope to bring the type and design community in Van
 
   Dr. Shelley Gruendler founded the Vancouver Typography Meetup Group, and was its original organiser. She’s a typographer, designer, and educator, in addition to being the founding director of [Type Camp](http://typecamp.org).
 
+- Diane Huynh
+- Ross Milne
+- Riley Cran
+- Andrea Husky
+
+There is a full record of our amazing speakers on the [Type Brigade meetup group](https://meetup.com/typebrigade).
+
+## Patreon
+
+[Our amazing patrons on Patreon](https://patreon.com/typebrigade) help make Type Brigade events possible. Back us on Patreon to receive special perks, and keep our events free to attend.
 
 <!--
 
