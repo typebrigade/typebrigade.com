@@ -26,10 +26,13 @@
   "scripts": {
     "postinstall": "cat ./public/_includes/prefix.jade ./node_modules/typogr/typogr.min.js | tr -d \"\r\n\" > ./node_modules/typogr/typogr.jade",
     "test": "echo \"Error: no test specified…yet! Pull requests on typebrigade/typebrigade.com are greatly appriciated.\"",
-    "start": "./node_modules/.bin/harp server",
-    "compile": "./node_modules/.bin/harp compile",
-    "stage": "npm run compile && surge ./www --domain staging.typebrigade.com",
-    "deploy": "npm run compile && surge ./www --domain typebrigade.com"
+    "start": "harp server",
+    "compile": "harp compile",
+    "build": "npm run compile",
+    "prestage": "npm run compile",
+    "stage": "surge ./www staging.typebrigade.com",
+    "predeploy": "npm run compile",
+    "deploy": "surge ./www typebrigade.com"
   },
   "devDependencies": {
     "bourbon": "4.2.3",
