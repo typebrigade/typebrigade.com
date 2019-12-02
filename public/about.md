@@ -47,12 +47,6 @@ All contributors and speakers hope to bring the type and design community in Van
 
   [joshuamann.ca](https://http://joshuamann.ca/)
 
-- ### Cody Jones
-
-  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
-
-  [mediumjones.com](http://mediumjones.com)
-
 ***
 
 ## Friends & Collaborators
@@ -64,6 +58,12 @@ All contributors and speakers hope to bring the type and design community in Van
   _Founder_
 
   Dr. Shelley Gruendler founded the Vancouver Typography Meetup Group, and was its original organiser. She’s a typographer, designer, and educator, in addition to being the founding director of [Type Camp](http://typecamp.org).
+
+- ### Cody Jones
+
+  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
+
+  [mediumjones.com](http://mediumjones.com)
 
 - ### Diane Huynh
 - ### Ross Milne
