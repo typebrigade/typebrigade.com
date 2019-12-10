@@ -1,14 +1,15 @@
 header.header
   a(href="/").logo
-    img.logo-image(src="/images/typebrigade-temp-logo.svg")
+    img.logo-image(src="/images/mark.png")
   nav.nav
     ul.nav-list
       // Register, else events
-      li.nav-item: a.nav-link.nav-link--primary.button.button--small(href="http://meetup.com/#{ social.meetup }") Join the Meetup
-      li.nav-item: a.nav-link.nav-link--primary.button.button--small(href="http://patreon.com/#{ social.patreon }" style="background-color: #F96854; border-color: #c55343") Join the Print Club!
+      li.nav-item: a.nav-link.nav-link--primary.button.button--small(target="_blank" href="http://meetup.com/#{ social.meetup }") Join the Meetup
+      li.nav-item: a.nav-link.nav-link--primary.button.button--small(target="_blank" href="http://patreon.com/#{ social.patreon }") Perks on Patreon
       //- li.nav-item: a.nav-link(href="/events") Events
       li.nav-item: a.nav-link(href="/blog") Blog
-      li.nav-item: a.nav-link(href="http://twitter.com/#{ social.twitter }") Twitter
+      li.nav-item: a.nav-link(target="_blank" href="https://twitter.com/#{ social.twitter }") Twitter
+      li.nav-item: a.nav-link(target="_blank" href="https://instagram.com/#{ social.instagram }") Instagram
       //- li.nav-item: a.nav-link(href="/code-of-conduct") Code of Conduct
 
   //- .header-feature
