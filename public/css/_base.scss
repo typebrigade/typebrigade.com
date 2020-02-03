@@ -22,7 +22,12 @@ code {
 }
 
 header,
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 blockquote {
   font-family: $font-family-sans;
   margin: 0;
@@ -31,13 +36,8 @@ blockquote {
 a,
 .a-faux {
   text-decoration: none;
-  background-repeat: repeat-x;
-  background-position: 0 1.125em;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba($color-beige-dark,0.8) 75%);
-  background-size: 2px 2px;
-  text-shadow: 1px 1px 0 #FFF, -1px 1px 0 #FFF;
   color: $color-beige-dark;
-  transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.33);
   &:hover,
   &:focus {
     color: darken($color-beige, 15%);
@@ -45,6 +45,10 @@ a,
   &:active {
     color: $color-beige-dark;
   }
+}
+
+.border-none {
+  border: none !important;
 }
 
 img {
