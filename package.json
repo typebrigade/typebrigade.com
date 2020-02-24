@@ -22,9 +22,9 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "prestage": "npm run build",
-    "stage": "surge ./www staging.typebrigade.com",
+    "stage": "surge ./public staging.typebrigade.com",
     "predeploy": "npm run build",
-    "deploy": "surge ./www typebrigade.com"
+    "deploy": "surge ./public typebrigade.com"
   },
   "dependencies": {
     "@kennethormandy/react-fittext": "0.6.0",
