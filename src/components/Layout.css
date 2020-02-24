@@ -40,3 +40,7 @@ a {
   color: #FFF;
   text-decoration: underline;
 }
+
+figure {
+  margin: 0;
+}
