@@ -15,7 +15,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Wrapper from "../components/Wrapper"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, fullWidth }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,12 +26,15 @@ const Layout = ({ children }) => {
     }
   `)
 
+  let content = <main>{children}</main>
+  if (!fullWidth) {
+    content = <Wrapper>{content}</Wrapper>
+  }
+
   return (
     <Fragment>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Wrapper>
-        <main>{children}</main>
-      </Wrapper>
+      {content}
       <footer style={{ marginTop: "3rem", marginBottom: "4rem" }}>
         <Wrapper>
           <a href="https://typebrigade.com">Type Brigade</a>
@@ -43,6 +46,11 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  fullWidth: PropTypes.bool.isRequired,
+}
+
+Layout.defaultProps = {
+  fullWidth: false,
 }
 
 export default Layout

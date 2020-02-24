@@ -4,18 +4,23 @@ import React from "react"
 import Layout from "../components/Layout"
 import Image from "../components/Image"
 import SEO from "../components/SEO"
+import Wrapper from "../components/Wrapper"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout fullWidth>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>
-      I find, if you speak about anything for long enough,{" "}
-      <strong>it always comes</strong> back to type.
-    </p>
-    <div style={{ marginBottom: `1.45rem` }}>
+    <div style={{ background: "#C43E80", minHeight: "50vh", width: "100%" }}>
+      <Wrapper>
+        <h1>Hi people</h1>
+      </Wrapper>
       <Image />
     </div>
+    <Wrapper>
+      <p>
+        I find, if you speak about anything for long enough,{" "}
+        <strong>it always comes</strong> back to type.
+      </p>
+    </Wrapper>
   </Layout>
 )
 
