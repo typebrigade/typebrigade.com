@@ -35,3 +35,8 @@ body {
   font-family: "Centra", GillSans, sans-serif;
   font-weight: normal;
 }
+
+a {
+  color: #FFF;
+  text-decoration: underline;
+}

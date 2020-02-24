@@ -1,6 +1,34 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+
+import Logo from "./Logo"
+import Wrapper from "./Wrapper"
+
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  // { to: "/blog", label: "Blog" },
+]
+
+const Flexbox = props => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
+      {...props}
+    />
+  )
+}
+
+const NavItem = props => {
+  return (
+    <Link style={{ padding: "0.5rem", display: "inline-block" }} {...props} />
+  )
+}
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,25 +37,28 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+    <Wrapper>
+      <Flexbox>
+        <div style={{ width: "200px" }}>
+          <Logo />
+        </div>
+        <div>
+          <nav
+            style={{
+              display: "flex",
+              alignItems: "center",
+              margin: "0 -0.5rem",
+            }}
+          >
+            {navItems && navItems.length >= 1
+              ? navItems.map(item => {
+                  return <NavItem to={item.href}>{item.label}</NavItem>
+                })
+              : null}
+          </nav>
+        </div>
+      </Flexbox>
+    </Wrapper>
   </header>
 )
 
