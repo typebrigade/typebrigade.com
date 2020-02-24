@@ -1,18 +1,22 @@
+import "./Wrapper.css"
 import React from "react"
+import PropTypes from "prop-types"
 
 const Wrapper = props => {
   return (
     <div
-      style={{
-        maxWidth: "960px",
-        paddingLeft: "1rem",
-        paddingRight: "1rem",
-        marginLeft: "auto",
-        marginRight: "auto",
-      }}
+      className={`Wrapper ${props.wide ? `Wrapper--wide` : ""}`}
       {...props}
     />
   )
+}
+
+Wrapper.defaultProps = {
+  wide: false,
+}
+
+Wrapper.propTypes = {
+  wide: PropTypes.bool,
 }
 
 export default Wrapper

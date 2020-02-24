@@ -9,8 +9,12 @@ import Banner from "../components/Banner"
 const IndexPage = () => (
   <Layout fullWidth>
     <SEO title="Home" />
-    <Banner />
+    <div style={{ marginBottom: "200px" }}>
+      <Banner />
+    </div>
     <Wrapper>
+      <h2>Speakers</h2>
+      <h2>Sponsors</h2>
       <p>
         I find, if you speak about anything for long enough,{" "}
         <strong>it always comes</strong> back to type.

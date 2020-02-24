@@ -39,12 +39,22 @@ const Header = ({ siteTitle }) => (
   >
     <Wrapper>
       <Flexbox>
-        <div style={{ width: "200px" }}>
-          <Logo />
+        <div style={{ width: "180px" }}>
+          <Link
+            to="/"
+            style={{
+              padding: "1rem",
+              marginLeft: "-1rem",
+              display: "block",
+            }}
+          >
+            <Logo />
+          </Link>
         </div>
         <div>
           <nav
             style={{
+              transform: "translateY(3px)",
               display: "flex",
               alignItems: "center",
               margin: "0 -0.5rem",
