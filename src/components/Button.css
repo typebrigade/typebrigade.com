@@ -1,0 +1,11 @@
+.Button,
+.tito-tickets-button {
+  padding: 1rem 1.5rem;
+  line-height: 1.1;
+  display: inline-block;
+  appearance: none;
+  border-radius: 0.1em;
+  background: #be3585;
+  border: 1px solid #be3585;
+  color: #000;
+}

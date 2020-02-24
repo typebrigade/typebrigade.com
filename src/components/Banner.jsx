@@ -42,28 +42,7 @@ class Banner extends Component {
           <div style={{ position: "relative" }}>
             <div style={{ zIndex: 2, position: "relative" }}>
               <div>
-                <FitText compressor={2.3}>
-                  <div>
-                    <h1>
-                      <span style={{ fontWeight: "normal" }}>
-                        Type Brigade №50
-                      </span>{" "}
-                      <br />
-                      Typography Conference
-                    </h1>
-                    <p></p>
-                    <div>
-                      <p>
-                        March 30, 2020
-                        <br />
-                        Annex Theatre, Vancouver
-                      </p>
-                      <p>
-                        <a href="#">Get Tickets</a>
-                      </p>
-                    </div>
-                  </div>
-                </FitText>
+                <FitText compressor={2.3}>{this.props.children}</FitText>
               </div>
             </div>
             <div
