@@ -12,7 +12,7 @@ const BlogIndex = props => {
         {props.data.allMdx.edges.map(({ node }) => (
           <li key={node.id} style={{ marginBottom: "2rem" }}>
             <Link
-              to={`/blog/${node.fields.slug}/`}
+              to={`${node.fields.slug}/`}
               style={{ textDecoration: "none" }}
             >
               <h3 style={{ marginBottom: "0.25rem", fontSize: "1.5rem" }}>
