@@ -10,7 +10,7 @@ import "./Layout.css"
 
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import Wrapper from "../components/Wrapper"
@@ -32,11 +32,29 @@ const Layout = ({ children, fullWidth }) => {
     <Fragment>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}
-      <footer style={{ marginTop: "3rem", marginBottom: "4rem" }}>
-        <Wrapper>
-          <a href="https://typebrigade.com">Type Brigade</a>
-        </Wrapper>
-      </footer>
+      <Wrapper>
+        <footer
+          style={{
+            marginTop: "3rem",
+            marginBottom: "4rem",
+            paddingTop: "3rem",
+            borderTop: "1px solid rgba(255, 255, 255, 0.5)",
+          }}
+        >
+          <Link to="/">Type Brigade</Link>
+          <br />
+          <Link to="/code-of-conduct">Code of Conduct</Link>
+          <br />
+          <Link to="/blog">Blog</Link>
+          <br />
+          <a href="https://instagram.com/typebrigade">
+            @typebrigade on Instagram
+          </a>
+          <br />
+          <a href="https://twitter.com/typebrigade">@typebrigade on Twitter</a>
+          <br />
+        </footer>
+      </Wrapper>
     </Fragment>
   )
 }
