@@ -12,8 +12,9 @@ import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
-import Header from "./header"
-import Wrapper from "../components/Wrapper"
+import Header from "./Header"
+import Wrapper from "./Wrapper"
+import SEO from "./SEO"
 
 const Layout = ({ children, fullWidth }) => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,14 @@ const Layout = ({ children, fullWidth }) => {
 
   return (
     <Fragment>
+      <SEO>
+        <script src="https://js.tito.io/v1" async></script>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://css.tito.io/v1.1"
+        />
+      </SEO>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}
       <Wrapper>

@@ -4,13 +4,11 @@ import React from "react"
 import SEO from "../components/SEO"
 import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
-import Button from "../components/Button.css"
+import "../components/Button.css"
 
 const IndexPage = () => (
   <Wrapper wide>
-    <SEO title="Home">
-      <script src="https://js.tito.io/v1" async></script>
-    </SEO>
+    <SEO title="Home" />
     <div style={{ marginBottom: "200px" }}>
       <Banner>
         <div>
