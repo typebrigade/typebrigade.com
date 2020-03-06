@@ -9,7 +9,7 @@ const BlogIndex = props => {
     <Wrapper>
       <h1>Blog</h1>
       <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
-        {props.data.allMarkdownRemark.edges.map(({ node }) => (
+        {props.data.allMdx.edges.map(({ node }) => (
           <li key={node.id} style={{ marginBottom: "2rem" }}>
             <Link
               to={`/blog/${node.fields.slug}/`}
@@ -31,7 +31,7 @@ const BlogIndex = props => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
+    allMdx(
       filter: { fileAbsolutePath: { regex: "/blog/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {

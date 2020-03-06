@@ -22,10 +22,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog`,
-        path: `${__dirname}/src/pages/blog`,
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        // https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/#default-layouts
+        defaultLayouts: {
+          default: require.resolve("./src/components/TemplateBlogPost.jsx"),
+        },
+        extensions: [`.mdx`, `.md`],
+        remarkPlugins: [],
+      },
+    },
+
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
