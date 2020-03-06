@@ -5,8 +5,6 @@ description: "For Vancouver Design Week, we’re happy to announce an off-month 
 author: kennethormandy
 ---
 
-# Announcing the Type Walk, for Vancouver Design Week
-
 [Vancouver Design Week](http://vancouverdesignwk.com) is happening in September, and we’re excited to have Type Brigade be part of it with [Type Walk](http://walk.typebrigade.com/) on the September 26<sup>th</sup>!
 
 The event costs only \$15 if you [register before September 10<sup>th</sup>](http://walk.typebrigade.com/).

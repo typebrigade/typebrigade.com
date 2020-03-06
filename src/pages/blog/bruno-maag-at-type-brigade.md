@@ -5,8 +5,6 @@ description: We’re excited to host Bruno Maag, Dalton Maag co-founder, all the
 author: kennethormandy
 ---
 
-# Bruno Maag at Type Brigade
-
 Bruno Maag, the London-based co-founder of the renowned type design studio [Dalton Maag](http://daltonmaag.com/) is traveling to speak at [a very special edition of Type Brigade](http://bruno-maag-talks-type.eventbrite.com/), March 26<sup>th</sup> at Emily Carr University of Art + Design.
 
 The event is completely free to attend as long you [register soon](http://bruno-maag-talks-type.eventbrite.com/).

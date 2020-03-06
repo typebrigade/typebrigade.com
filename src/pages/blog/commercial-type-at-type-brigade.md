@@ -5,8 +5,6 @@ description: Paul Barnes & Christian Schwartz of Commercial Type, the highly res
 author: kennethormandy
 ---
 
-# Commercial Type at Type Brigade
-
 [Commercial Type](https://commercialtype.com/), the highly respected type design studio based in London and New York, are touring North America this fall. On September 1st, 2015, Vancouver will be their first stop for [a very special Type Brigade!](http://www.meetup.com/typebrigade/events/224125426/)
 
 Type Brigade is [Vancouver’s type design and typography meetup](http://meetup.com/typebrigade), where we host speakers every other month. The event is completely **free to attend** as long as you [register soon](http://www.meetup.com/typebrigade/events/224125426/).

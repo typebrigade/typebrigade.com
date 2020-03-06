@@ -5,8 +5,6 @@ description: Here’s what we announced at the event, and what else we’re doin
 author: kennethormandy
 ---
 
-# Type Brigade <span class="lnum">№43</span> follow up
-
 Hope you enjoyed <a href="https://www.meetup.com/typebrigade/events/248972116/">Type Brigade <span class="lnum">№43</span></a> the other night! We were glad to help kick-off Vancouver Design Week, and have [Angela Bains](http://transformexp.com/we-are/), [Dean Giffin](http://www.deangiffin.com/), and [Matthew Smith](http://www.matthewsmithdesign.net/) speak.
 
 Here are a few other things we shared during the event:

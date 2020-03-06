@@ -1,12 +1,10 @@
 ---
-title: Announcing Type Brigade No26
+title: Announcing Type Brigade №26
 date: "2015-05-19"
 description: Our 26th typography and type design meetup will be at Hootsuite HQ in Vancouver, on June 4th, 2015.
 published: true,
 author: kennethormandy
 ---
-
-# Announcing Type Brigade No26
 
 [Type Brigade №26](http://www.meetup.com/typebrigade/events/222545955/) is June 4th, making it one year since we relaunched Vancouver’s typography meetup as [Type Brigade](introducing-type-brigade). I’m very excited to welcome one Type Brigade regular and one newcomer to present at our next event: Travis Gertz & Ivana McConnell!
 

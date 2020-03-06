@@ -1,11 +1,9 @@
 ---
-title: Type Brigade No26 has moved
+title: Type Brigade №26 has moved
 date: "2015-06-03"
 description: The meetup has moved from Mobify HQ to Hootsuite HQ.
 author: kennethormandy
 ---
-
-# Type Brigade No26 has moved
 
 [Type Brigade №26](http://www.meetup.com/typebrigade/events/222545955/) is tomorrow, **now at Hootsuite HQ** instead of Mobify HQ!
 

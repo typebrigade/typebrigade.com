@@ -4,8 +4,6 @@ date: "2014-06-03"
 author: kennethormandy
 ---
 
-# Introducing Type Brigade
-
 During a lecture a few months back, designer Peter Cocking quipped “I find, if you speak about anything for long enough, **it always comes back to type**.”
 
 All the more reason to speak about it sooner.

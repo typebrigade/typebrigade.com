@@ -5,8 +5,6 @@ description: "For our twentieth meetup, the first under our new name Type Brigad
 author: kennethormandy
 ---
 
-# Our number twenty
-
 [Tomorrow evening](http://www.meetup.com/typebrigade/events/186884552/) is our twentieth meetup, and the first under our new name _Type Brigade_. In addition to the new name, we’ve been planning something a little unconventional that we just couldn’t wait until then to share.
 
 Below are **our completely custom event numerals**, designed by Type Brigade’s Assistant Organiser & Resident Letterer [Andrea Husky](http://instagram.com/andreahusky) for tomorrow’s meetup:
