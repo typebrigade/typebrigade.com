@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import Logo from "./Logo"
 import Wrapper from "./Wrapper"
 import Link from "./LinkDuo"
+import TitoButton from "./TitoButton"
 
 const navItems = [
   // { href: "/", label: "Home" },
@@ -73,13 +74,7 @@ const Header = ({ siteTitle }) => (
                   return <NavItem to={item.href}>{item.label}</NavItem>
                 })
               : null}
-            <tito-button
-              data-size="small"
-              data-style="outline"
-              event="typebrigade/50"
-            >
-              Get Tickets
-            </tito-button>
+            <TitoButton buttonSize="small" buttonStyle="outline" />
           </nav>
         </div>
       </Flexbox>

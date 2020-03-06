@@ -4,6 +4,7 @@ import React from "react"
 import SEO from "../components/SEO"
 import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
+import TitoButton from "../components/TitoButton"
 import "../components/Button.css"
 
 const IndexPage = () => (
@@ -25,7 +26,7 @@ const IndexPage = () => (
               Annex Theatre, Vancouver
             </p>
             <p>
-              <tito-button event="typebrigade/50">Get Tickets</tito-button>
+              <TitoButton />
             </p>
           </div>
         </div>
