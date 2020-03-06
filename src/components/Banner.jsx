@@ -10,7 +10,8 @@ const CarouselFigure = props => (
     <figcaption
       style={{
         display: "block",
-        opacity: 0.75,
+        opacity: 0.5,
+        fontWeight: 400,
         transformOrigin: "top left",
         height: 0,
         transform: "translate(calc(100% + 1.5rem), 0) rotate(90deg)",
@@ -66,7 +67,13 @@ class Banner extends Component {
       <div style={{ minHeight: "50vh", width: "100%" }}>
         <Wrapper wide>
           <div style={{ position: "relative" }}>
-            <div style={{ zIndex: 2, position: "relative" }}>
+            <div
+              style={{
+                zIndex: 2,
+                position: "relative",
+                transform: `translateY(-5%)`,
+              }}
+            >
               <div>
                 <FitText compressor={2.3}>{this.props.children}</FitText>
               </div>

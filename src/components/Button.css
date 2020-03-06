@@ -3,23 +3,48 @@
   --purple: #8C288C;
 }
 
-@keyframes cycle {
-  0%   { border-color: var(--pink);   background: var(--pink);   }
-  50%  { border-color: var(--purple); background: var(--purple); }
-  100% { border-color: var(--pink);   background: var(--pink);   }
+@keyframes cycle-border {
+  0%   { border-color: var(--pink);   }
+  50%  { border-color: var(--purple); }
+  100% { border-color: var(--pink);   }
+}
+
+@keyframes cycle-background {
+  0%   { background: var(--pink);   }
+  50%  { background: var(--purple); }
+  100% { background: var(--pink);   }
+}
+
+@keyframes cycle-color {
+  0%   { color: var(--pink);   }
+  50%  { color: var(--purple); }
+  100% { color: var(--pink);   }
 }
 
 .Button,
 .tito-tickets-button {
-  animation: cycle 10s infinite;
+  animation: cycle-background 10s infinite, cycle-border 10s infinite;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   line-height: 1.1;
   display: inline-block;
   appearance: none;
-  border-radius: 0.1em;
+  border-radius: 8px;
+  border-width: 2px;
   color: #000;
 }
+
+tito-button[data-size="small"] .tito-tickets-button {
+  font-size: inherit;
+  padding: 0.75rem 1rem;
+}
+
+tito-button[data-style="outline"] .tito-tickets-button {
+  animation: cycle-border 10s infinite, cycle-color 10s infinite;
+  background: black;
+}
+
+
 
 @media (min-width: 900px) {
   .Button,

@@ -1,14 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 
 import Logo from "./Logo"
 import Wrapper from "./Wrapper"
+import Link from "./LinkDuo"
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
+  // { href: "/", label: "Home" },
+  // { href: "/about", label: "About" },
   // { to: "/blog", label: "Blog" },
+  { href: "https://meetup.com/typebrigade", label: "Meetup" },
 ]
 
 const Flexbox = props => {
@@ -26,7 +27,14 @@ const Flexbox = props => {
 
 const NavItem = props => {
   return (
-    <Link style={{ padding: "0.5rem", display: "inline-block" }} {...props} />
+    <Link
+      style={{
+        padding: "0.5rem",
+        display: "inline-block",
+        textDecoration: "none",
+      }}
+      {...props}
+    />
   )
 }
 
@@ -65,6 +73,13 @@ const Header = ({ siteTitle }) => (
                   return <NavItem to={item.href}>{item.label}</NavItem>
                 })
               : null}
+            <tito-button
+              data-size="small"
+              data-style="outline"
+              event="typebrigade/50"
+            >
+              Get Tickets
+            </tito-button>
           </nav>
         </div>
       </Flexbox>
