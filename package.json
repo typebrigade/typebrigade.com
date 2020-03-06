@@ -28,10 +28,13 @@
   },
   "dependencies": {
     "@kennethormandy/react-fittext": "0.6.0",
+    "@mdx-js/mdx": "1.5.7",
+    "@mdx-js/react": "1.5.7",
     "gatsby": "2.19.12",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-layout": "1.1.23",
     "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-mdx": "1.0.76",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.4.3",
