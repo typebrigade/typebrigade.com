@@ -1,11 +1,30 @@
+:root {
+  --pink: #E90E8B;
+  --purple: #8C288C;
+}
+
+@keyframes cycle {
+  0%   { border-color: var(--pink);   background: var(--pink);   }
+  50%  { border-color: var(--purple); background: var(--purple); }
+  100% { border-color: var(--pink);   background: var(--pink);   }
+}
+
 .Button,
 .tito-tickets-button {
-  padding: 1rem 1.5rem;
+  animation: cycle 10s infinite;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   display: inline-block;
   appearance: none;
   border-radius: 0.1em;
-  background: #be3585;
-  border: 1px solid #be3585;
   color: #000;
+}
+
+@media (min-width: 900px) {
+  .Button,
+  .tito-tickets-button {
+    padding: 1.5rem 3rem;    
+    font-size: 2rem;
+  }
 }
