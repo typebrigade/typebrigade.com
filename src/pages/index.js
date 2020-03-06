@@ -1,14 +1,13 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
 import Button from "../components/Button.css"
 
 const IndexPage = () => (
-  <Layout fullWidth>
+  <Wrapper wide>
     <SEO title="Home">
       <script src="https://js.tito.io/v1" async></script>
     </SEO>
@@ -42,7 +41,7 @@ const IndexPage = () => (
         <strong>it always comes</strong> back to type.
       </p>
     </Wrapper>
-  </Layout>
+  </Wrapper>
 )
 
 export default IndexPage

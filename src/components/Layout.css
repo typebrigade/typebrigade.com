@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Centra";
+  font-family: "TB Centra";
   src: url('../fonts/CentraNo1-Book.woff2') format('woff2'),
        url('../fonts/CentraNo1-Book.woff') format('woff');
   font-weight: normal;
@@ -7,7 +7,15 @@
 }
 
 @font-face {
-  font-family: "Centra";
+  font-family: "TB Numero Only";
+  src: url('../fonts/NumeroOnly-BookNumero.woff2') format('woff2'),
+       url('../fonts/NumeroOnly-BookNumero.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TB Centra";
   src: url('../fonts/CentraNo1-BookItalic.woff2') format('woff2'),
        url('../fonts/CentraNo1-BookItalic.woff') format('woff');
   font-style: normal;
@@ -15,7 +23,7 @@
 }
 
 @font-face {
-  font-family: "Centra";
+  font-family: "TB Centra";
   src: url('../fonts/CentraNo1-Bold.woff2') format('woff2'),
        url('../fonts/CentraNo1-Bold.woff') format('woff');
   font-weight: bold;
@@ -32,13 +40,20 @@ html,
 body {
   background: black;
   color: white;
-  font-family: "Centra", GillSans, sans-serif;
+  font-family: "TB Centra", "TB Numero Only", GillSans, sans-serif;
   font-weight: normal;
+  line-height: 1.55;
+  font-size: 1.075rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
 }
 
 a {
   color: #FFF;
   text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.66);
 }
 
 figure {

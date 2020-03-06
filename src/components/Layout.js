@@ -6,7 +6,7 @@
  */
 
 import "normalize.css"
-import "./layout.css"
+import "./Layout.css"
 
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
@@ -27,9 +27,6 @@ const Layout = ({ children, fullWidth }) => {
   `)
 
   let content = <main>{children}</main>
-  if (!fullWidth) {
-    content = <Wrapper>{content}</Wrapper>
-  }
 
   return (
     <Fragment>
@@ -46,7 +43,6 @@ const Layout = ({ children, fullWidth }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  fullWidth: PropTypes.bool.isRequired,
 }
 
 Layout.defaultProps = {
