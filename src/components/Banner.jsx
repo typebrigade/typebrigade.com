@@ -17,7 +17,9 @@ const CarouselFigure = props => (
       }}
     >
       <p>
-        {props.description}, by {props.author}
+        {props.description
+          ? `${props.description}, from ${props.author}`
+          : props.author}
       </p>
     </figcaption>
     <img
@@ -31,10 +33,34 @@ const CarouselFigure = props => (
 class Banner extends Component {
   render() {
     const images = [
-      "https://commercialclassics.com/uploads/4700047/1561826673112/Pouchee.17.LineNo.2-Cropped-1400-xxx_q87.jpg",
-      "https://glasfurdandwalker.com/wp/wp-content/uploads/2018/11/GlasfurdWalker_Coquille_BusinessCard-1800x0-c-default.jpg",
-      "https://storage.googleapis.com/static.daltonmaag.com/media/panels/a9e8dbab17.jpg",
-      "https://storage.googleapis.com/static.daltonmaag.com/media/panels/8d22f94265.jpg",
+      {
+        author: "Commercial Classics",
+        description: "",
+        alt: "",
+        src:
+          "https://commercialclassics.com/uploads/4700047/1561826673112/Pouchee.17.LineNo.2-Cropped-1400-xxx_q87.jpg",
+      },
+      {
+        author: "Glasfurd & Walker",
+        description: "",
+        alt: "",
+        src:
+          "https://glasfurdandwalker.com/wp/wp-content/uploads/2018/11/GlasfurdWalker_Coquille_BusinessCard-1800x0-c-default.jpg",
+      },
+      {
+        author: "Dalton Maag",
+        description: "",
+        alt: "",
+        src:
+          "https://storage.googleapis.com/static.daltonmaag.com/media/panels/a9e8dbab17.jpg",
+      },
+      {
+        author: "Dalton Maag",
+        description: "",
+        alt: "",
+        src:
+          "https://storage.googleapis.com/static.daltonmaag.com/media/panels/8d22f94265.jpg",
+      },
     ]
     return (
       <div style={{ minHeight: "50vh", width: "100%" }}>
@@ -64,13 +90,14 @@ class Banner extends Component {
                 wrapAround
                 heightMode="max"
               >
-                {images.map((src, index) => {
+                {images.map((image, index) => {
                   return (
                     <CarouselFigure
                       key={`carousel_img_${index}`}
-                      src={src}
-                      description={`What image number ${index} is`}
-                      author="Speaker"
+                      src={image.src}
+                      alt={image.alt || ""}
+                      description={image.description}
+                      author={image.author}
                     />
                   )
                 })}
