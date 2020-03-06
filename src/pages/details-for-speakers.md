@@ -1,6 +1,6 @@
 # Details for Speakers
 
-Thanks so much for becoming a __Type Brigade__ speaker! Foremost, our goal is to remove any concerns you have around the event, so you can just focus on presenting. So: if you have any questions or concerns, [please email me](mailto:kenneth@typebrigade.com) anytime.
+Thanks so much for becoming a **Type Brigade** speaker! Foremost, our goal is to remove any concerns you have around the event, so you can just focus on presenting. So: if you have any questions or concerns, [please email me](mailto:kenneth@typebrigade.com) anytime.
 
 You can register for [Type Brigade at meetup.com/typebrigade](http://www.meetup.com/typebrigade), if you haven’t already. Then, you’ll get an email when we publicly announce the event.
 
@@ -12,6 +12,7 @@ To help us promote it, please fill out some details about your presentation for 
 
 Following the form, [there’s more details](#more-details) about what to expect as a speaker. Thanks again for participating!
 
+<!--
 <form id="form2"
       name="form2"
       accept-charset="UTF-8"
@@ -25,20 +26,20 @@ Following the form, [there’s more details](#more-details) about what to expect
       <li>
       <label class="desc" for="Field1" id="title1" required="required">Name</label>
       <input class="field text medium" id="Field1" maxlength="255" name=
-      "Field1" required="required" tabindex="1" type="text" value="">
+      "Field1" required="required" tabindex="1" type="text" value="" />
       </li>
 
       <li>
       <label class="desc" for="Field2" id="title2" required="required">Email</label>
       <input class="field text medium" id="Field2" maxlength="255" name=
       "Field2" required="required" spellcheck="false" tabindex="2" type="email"
-      value="">
+      value="" />
       </li>
 
       <li>
       <label class="desc" for="Field16" id="title16">Company<small>If you’d like us to promote where you work.</small></label>
       <input class="field text medium" id="Field16" maxlength="255" name=
-      "Field16" tabindex="4" type="text" value="">
+      "Field16" tabindex="4" type="text" value="" />
       </li>
 
       <li>
@@ -57,7 +58,7 @@ Following the form, [there’s more details](#more-details) about what to expect
       <small class="instruct" id="instruct17">You can update this later if you need to.</small>
       </label>
       <input class="field text medium" id="Field13" maxlength="255" name=
-      "Field13" required="required" tabindex="7" type="text" value="">
+      "Field13" required="required" tabindex="7" type="text" value="" />
       </li>
 
       <li>
@@ -72,7 +73,6 @@ Following the form, [there’s more details](#more-details) about what to expect
         spellcheck="true"
         tabindex="8"></textarea>
         </li>
-
 
   <li id="foli19" class="notranslate">
   <fieldset>
@@ -103,7 +103,7 @@ Following the form, [there’s more details](#more-details) about what to expect
   tabindex="9"></textarea>
   </li>
   <li>
-  <input class="btTxt submit" id="saveForm" name="saveForm" type="submit" value="Submit">
+  <input class="btTxt submit" id="saveForm" name="saveForm" type="submit" value="Submit" />
   </li>
 
   <li class="hidden">
@@ -113,8 +113,9 @@ Following the form, [there’s more details](#more-details) about what to expect
   </li>
 </ul>
 </form>
+-->
 
-***
+---
 
 <div id="more-details"></div>
 

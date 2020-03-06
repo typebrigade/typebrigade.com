@@ -5,10 +5,10 @@ Type Brigade is now accepting presentation proposals for future events.
 Whether you’re an experienced type designer with a talk you’ve given before, or have recently become interested in typography and are still working on your idea, we welcome your proposal. We firmly believe you have something worthwhile to share, and you certainly don’t need to know everything type to teach us something.
 
 > The response was very enthusiastic. I’m very glad I did this, as I’m way out of practice at public speaking, but I’m told I did really well. I tried to imagine the audience as a large group of new friends, which seemed to work.
+>
 > <footer>[Neil K.](http://neilk.net/blog/2014/06/24/type-brigade/)</footer>
 
->
-> <footer>[Ivana MccConnell](http://ivanamcconnell.com/blog/2015/06/15/types-of-fun-reflections-on-speaking-at-typebrigade/)
+> <footer>[Ivana MccConnell](http://ivanamcconnell.com/blog/2015/06/15/types-of-fun-reflections-on-speaking-at-typebrigade/)</footer>
 
 ## Format
 
@@ -57,6 +57,7 @@ __Abstract__ It’s 1556, and Pierre Haultin is finishing punching a metal lette
 
 ## Submit your talk
 
+<!--
 <form accept-charset="UTF-8"
       action="https://typebrigade.wufoo.com/forms/z6zkkqx1xw3el6/#public"
       autocomplete="off"
@@ -116,9 +117,10 @@ __Abstract__ It’s 1556, and Pierre Haultin is finishing punching a metal lette
                     spellcheck="true"
                     tabindex="6"
                     placeholder="twitter.com/examplename
+
 github.com/examplename
 dribbble.com/exampename"></textarea>
-        </li>
+</li>
 
         <li>
           <label class="desc" for="Field13" id="title13" required="required">Presentation title
@@ -169,6 +171,7 @@ dribbble.com/exampename"></textarea>
     </ul>
 
 </form>
+-->
 
 ## Resources
 
@@ -178,11 +181,10 @@ Here are some useful tools and guides for speakers.
 - [zeke/slideshow](https://github.com/zeke/harp-slideshow-template), a web-base slide deck template for [Harp](http://harpjs.com)
 - [Slides](http://slides.com)
 
-
-- [We Are All Awesome](http://weareallaweso.me)
-- [Speaking.io](http://speaking.io)
-- [The Rectangle Behind You](https://medium.com/the-rectangle-behind-you)
-- [Passion Projects](http://passion-projects.is/)
-- [My Speech Class](http://www.myspeechclass.com/) (thanks to Sonia for this recommendation)
+* [We Are All Awesome](http://weareallaweso.me)
+* [Speaking.io](http://speaking.io)
+* [The Rectangle Behind You](https://medium.com/the-rectangle-behind-you)
+* [Passion Projects](http://passion-projects.is/)
+* [My Speech Class](http://www.myspeechclass.com/) (thanks to Sonia for this recommendation)
 
 <small>Portions of this page are based on [JSConf’s Call for Speakers](http://2014.jsconf.eu/call-for-speakers/).</small>

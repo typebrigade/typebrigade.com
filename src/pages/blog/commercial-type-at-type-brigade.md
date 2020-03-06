@@ -17,6 +17,7 @@ projects, including the award winning [Guardian family](http://showcase.commerci
 <figcaption><p><cite>Dala Prisma</cite><br/>
 Designed by Paul Barnes &<br/>
 Ben Kiel, 2014</p>
+</figcaption>
 </figure>
 
 The talk is about their past five years as Commercial Type:
@@ -34,7 +35,7 @@ This Type Brigade Special is sponsored by [CodeCore](http://codecore.ca/), who i
 142 W Hastings St.<br/>
 Vancouver, <abbr class="caps">BC</abbr>
 </a>
-</addrees>
+</address>
 
 ## Sponsors?
 
