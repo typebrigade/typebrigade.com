@@ -9,7 +9,7 @@ author: kennethormandy
 [Type Brigade №26](http://www.meetup.com/typebrigade/events/222545955/) is June 4th, making it one year since we relaunched Vancouver’s typography meetup as [Type Brigade](introducing-type-brigade). I’m very excited to welcome one Type Brigade regular and one newcomer to present at our next event: Travis Gertz & Ivana McConnell!
 
 <figure class="figure--breakout">
-[![Alanna Munro’s clever event numerals, custom designed for Type Brigade](../images/blog-announcing-type-brigade-26-1.png)](http://meetup.com/typebrigade)
+<img src="../../images/blog-announcing-type-brigade-26-1.png" alt="Alanna Munro’s clever event numerals, custom designed for Type Brigade" />
 <figcaption>
 The Type Brigade №26 event numerals, designed by [Alanna Munro](https://twitter.com/alannamun).
 </figcaption>
@@ -20,11 +20,6 @@ The Type Brigade №26 event numerals, designed by [Alanna Munro](https://twitte
 [Travis Gertz](https://twitter.com/travisgertz) is the co-founder of [Louder Than Ten](http://louderthanten.com/), the school for freelancers and teams managing design projects. He has a knack for translating what’s great about traditional publication designs to a more appropriate format on the web. At Type Brigade №26, he’ll show us a new kind of breakpoint.
 
 [Ivana McConnell](https://twitter.com/ivanamcconnell) is an interaction designer in Vancouver, making things at [Myplanet](https://www.myplanet.com/). She’ll show us the larger cultural impact typographic decisions can create—flashpoints, where typography was more powerful than we gave it credit for.
-
-<figure>
-[![](/images/speaker-travis-gertz.jpg)](https://twitter.com/travisgertz)
-[![](/images/speaker-ivana-mcconnell.jpg)](https://twitter.com/ivanamcconnell)
-</figure>
 
 ## Our sponsors
 

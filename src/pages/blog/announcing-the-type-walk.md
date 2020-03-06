@@ -5,13 +5,15 @@ description: "For Vancouver Design Week, we’re happy to announce an off-month 
 author: kennethormandy
 ---
 
-[Vancouver Design Week](http://vancouverdesignwk.com) is happening in September, and we’re excited to have Type Brigade be part of it with [Type Walk](http://walk.typebrigade.com/) on the September 26<sup>th</sup>!
+[Vancouver Design Week](http://vancouverdesignwk.com) is happening in September, and we’re excited to have Type Brigade be part of it with [Type Walk](http://walk.typebrigade.com/) on the September 26th!
 
-The event costs only \$15 if you [register before September 10<sup>th</sup>](http://walk.typebrigade.com/).
+The event costs only \$15 if you [register before September 10th](http://walk.typebrigade.com/).
 
 <figure class="figure figure--breakout">
-[![](../images/blog-type-walk-1.png)](http://walk.typebrigade.com/)
-<figcaption>[Photo CC BY 2.0 Kenny Louie](https://www.flickr.com/photos/kwl/).</figcaption>
+<img src="../../images/blog-type-walk-1.png" alt="" />
+<figcaption>
+<a href="https://www.flickr.com/photos/kwl/">Photo CC BY 2.0 Kenny Louie.</a>
+</figcaption>
 </figure>
 
 Type Brigade is [Vancouver’s type design and typography meetup](http://meetup.com/typebrigade), where we host speakers every other month. This [Type Walk](http://walk.typebrigade.com) is an off-month special event to coincide with Vancouver Design Week.
@@ -23,8 +25,8 @@ _6:00–8:00PM_
 The first portion of the evening will be a workshop hosted by [Ross Milne of Working Format](http://workingformat.com). Ross studied type design at the internationally acclaimed Type & Media masters course at the Royal Academy of Art (KABK), is a contributing designer with Commercial Type in New York, and with Typotheque in the Hague, Netherlands.
 
 <figure class="figure">
-[![](../images/blog-type-walk-workshop.jpg)](http://walk.typebrigade.com)
-<figcaption>A previous type workshop by [Working Format](http://twitter.com/workingformat).</figcaption>
+<img src="../../images/blog-type-walk-workshop.jpg" alt="" />
+<figcaption>A previous type workshop by <a href="http://twitter.com/workingformat">Working Format</a>.</figcaption>
 </figure>
 
 This will take place at Chloi HQ, the [Chloi Inc.](http://chloi.io) office.
@@ -46,6 +48,6 @@ This is something particularly important to us with Type Brigade. Type has a pla
 
 ## Type Walk
 
-Hope to see you on September 26<sup>th</sup>!
+Hope to see you on September 26th!
 
 <a href="http://walk.typebrigade.com" class="button button--small">Join the Type Walk</a>
