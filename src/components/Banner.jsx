@@ -35,32 +35,40 @@ class Banner extends Component {
   render() {
     const images = [
       {
-        author: "Commercial Classics",
+        author: "Commercial Classcis",
         description: "",
         alt: "",
-        src:
-          "https://commercialclassics.com/uploads/4700047/1561826673112/Pouchee.17.LineNo.2-Cropped-1400-xxx_q87.jpg",
+        src: require("../images/type-brigade-50-paul-commercial-classics-3.png"),
       },
       {
         author: "Glasfurd & Walker",
         description: "",
         alt: "",
-        src:
-          "https://glasfurdandwalker.com/wp/wp-content/uploads/2018/11/GlasfurdWalker_Coquille_BusinessCard-1800x0-c-default.jpg",
+        src: require("../images/type-brigade-50-glasfurdandwalker-1.jpg"),
       },
       {
-        author: "Dalton Maag",
-        description: "",
+        author: "Type Brigade",
+        description: "Type Brigade №20",
         alt: "",
-        src:
-          "https://storage.googleapis.com/static.daltonmaag.com/media/panels/a9e8dbab17.jpg",
+        src: require("../images/event-20.jpg"),
       },
       {
-        author: "Dalton Maag",
-        description: "",
+        author: "Kisyuu",
+        description: "Kisyuu Japanese Calligrpahy",
         alt: "",
-        src:
-          "https://storage.googleapis.com/static.daltonmaag.com/media/panels/8d22f94265.jpg",
+        src: require("../images/type-brigade-50-kisyuu-1.jpg"),
+      },
+      {
+        author: "Type Brigade",
+        description: "Type Brigade №22",
+        alt: "",
+        src: require("../images/event-22.jpg"),
+      },
+      {
+        author: "Type Brigade",
+        description: "Type Brigade №41",
+        alt: "",
+        src: require("../images/event-41.jpg"),
       },
     ]
     return (
@@ -75,7 +83,7 @@ class Banner extends Component {
               }}
             >
               <div>
-                <FitText compressor={2.3}>{this.props.children}</FitText>
+                <FitText compressor={2.4}>{this.props.children}</FitText>
               </div>
             </div>
             <div
