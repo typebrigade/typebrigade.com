@@ -5,6 +5,7 @@ import SEO from "../components/SEO"
 import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
 import TitoButton from "../components/TitoButton"
+import Schedule from "../components/Schedule"
 import "../components/Button.css"
 
 const IndexPage = () => (
@@ -33,12 +34,17 @@ const IndexPage = () => (
       </Banner>
     </div>
     <Wrapper>
+      <h2>Schedule</h2>
+      <Schedule />
+      {/*
       <h2>Speakers</h2>
+      
       <h2>Sponsors</h2>
       <p>
         I find, if you speak about anything for long enough,{" "}
         <strong>it always comes</strong> back to type.
       </p>
+      */}
     </Wrapper>
   </Wrapper>
 )

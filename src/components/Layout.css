@@ -46,6 +46,13 @@ body {
   font-size: 1.075rem;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
@@ -62,4 +69,9 @@ figure {
 
 .tito-wrapper {
   color: inherit;
+}
+
+table {
+  min-width: 100%;
+  font-feature-settings: "tnum";
 }
