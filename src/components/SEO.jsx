@@ -9,8 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-
-const defaultImage = "../images/type-brigade-50-banner.png"
+import defaultImage from "../images/type-brigade-50-banner.png"
 
 function SEO({ description, lang, meta, title, children }) {
   const { site } = useStaticQuery(
@@ -66,13 +65,23 @@ function SEO({ description, lang, meta, title, children }) {
   ]
 
   if (defaultImage) {
-    baseMeta.concat([
+    baseMeta = baseMeta.concat([
+      {
+        name: `twitter:card`,
+        content: `summary_large_image`,
+      },
       {
         name: `twitter:image`,
-        content: `${site.siteMetadata.url}defaultImage`,
+        content: `${site.siteMetadata.url}${defaultImage}`,
+      },
+      {
+        name: `og:image`,
+        content: `${site.siteMetadata.url}${defaultImage}`,
       },
     ])
   }
+
+  console.log(baseMeta)
 
   return (
     <Helmet
