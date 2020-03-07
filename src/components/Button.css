@@ -32,6 +32,7 @@
   border-radius: 8px;
   border-width: 2px;
   color: #000;
+  white-space: nowrap;
 }
 
 tito-button[data-size="small"] .tito-tickets-button {

@@ -38,6 +38,10 @@ const Layout = ({ children, fullWidth }) => {
           type="text/css"
           href="https://css.tito.io/v1.1"
         />
+        <script>{`
+        window.titoWidgetCallback = function() {
+          window.TitoWidget.build_widgets = false
+        }`}</script>
       </SEO>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}
@@ -50,18 +54,22 @@ const Layout = ({ children, fullWidth }) => {
             borderTop: "1px solid rgba(255, 255, 255, 0.5)",
           }}
         >
-          <Link to="/">Type Brigade</Link>
-          <br />
-          <Link to="/code-of-conduct">Code of Conduct</Link>
-          <br />
-          <Link to="/blog">Blog</Link>
-          <br />
-          <a href="https://instagram.com/typebrigade">
-            @typebrigade on Instagram
-          </a>
-          <br />
-          <a href="https://twitter.com/typebrigade">@typebrigade on Twitter</a>
-          <br />
+          <p>
+            <Link to="/">Type Brigade</Link>
+            <br />
+            <Link to="/code-of-conduct">Code of Conduct</Link>
+            <br />
+            <Link to="/blog">Blog</Link>
+            <br />
+            <a href="https://instagram.com/typebrigade">
+              @typebrigade on Instagram
+            </a>
+            <br />
+            <a href="https://twitter.com/typebrigade">
+              @typebrigade on Twitter
+            </a>
+            <br />
+          </p>
         </footer>
       </Wrapper>
     </Fragment>

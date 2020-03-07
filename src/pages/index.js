@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 // import { Link } from "gatsby"
 
 import SEO from "../components/SEO"
@@ -9,9 +9,9 @@ import Schedule from "../components/Schedule"
 import "../components/Button.css"
 
 const IndexPage = () => (
-  <Wrapper wide>
+  <Fragment>
     <SEO title="Home" />
-    <div style={{ marginBottom: "200px" }}>
+    <div>
       <Banner>
         <div>
           <h1>
@@ -46,7 +46,7 @@ const IndexPage = () => (
       </p>
       */}
     </Wrapper>
-  </Wrapper>
+  </Fragment>
 )
 
 export default IndexPage

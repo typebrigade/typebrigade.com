@@ -2,8 +2,15 @@
   text-decoration: none;
 }
 
+.Schedule {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
 .Schedule-line {
+  padding: 0.5rem;
   padding-bottom: 1rem;
+  vertical-align: top;
 }
 
 .Schedule-line--break {

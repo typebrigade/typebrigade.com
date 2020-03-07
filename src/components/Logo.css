@@ -1,0 +1,6 @@
+@media (max-width: 500px) {
+  .Logo-name {
+    display: none;
+    visibility: hidden;
+  }
+}

@@ -25,8 +25,10 @@ const Schedule = props => {
         return (
           <tr>
             <td className={classes}>
-              {line.start}
-              {line.end ? `–${line.end}` : ""}
+              <span class="">
+                {line.start}
+                {line.end ? <Fragment>—{line.end}</Fragment> : ""}
+              </span>
             </td>
             <td className={classes}>{label}</td>
           </tr>

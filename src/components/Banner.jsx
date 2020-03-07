@@ -72,7 +72,7 @@ class Banner extends Component {
       },
     ]
     return (
-      <div style={{ minHeight: "50vh", width: "100%" }}>
+      <div style={{ marginBottom: "10vh", width: "100%" }}>
         <Wrapper wide>
           <div style={{ position: "relative" }}>
             <div
