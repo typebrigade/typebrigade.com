@@ -2,10 +2,14 @@
 
 Type Brigade is Vancouver’s type speaker series. We organise about 6 events a year on typography, type design, lettering, and other subjects through the lens of letters. We find, if you speak about anything for long enough, it always comes back to type—all the more reason to speak about it sooner.
 
+[Our amazing patrons on Patreon](https://patreon.com/typebrigade) help make Type Brigade events possible. Back us on Patreon to receive special perks, like reserved seats at our free events.
+
 ## Contact
 
-Email [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com)<br/>
-Tweet [@typebrigade](http://twitter.com/typebrigade)<br/>
+- Email [kenneth@typebrigade.com](mailto:kenneth@typebrigade.com)<br/>
+- Patreon [@typebrigade](http://patreon.com/typebrigade)
+- Instagram [@typebrigade](http://instagram.com/typebrigade)<br/>
+- Twitter [@typebrigade](http://twitter.com/typebrigade)<br/>
 
 ## Team
 
@@ -13,17 +17,17 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Kenneth Ormandy
 
-  [![Kenneth Ormandy’s profile picture](/images/team-kenneth.jpg)](http://kennethormandy.com)
+  <img width="100" src="https://unavatar.now.sh/kennethormandy.com" alt="Kenneth Ormandy’s profile picture" />
 
   _Organiser_
 
-  Kenneth is an independent designer specialising in type design and typographic software development.
+  Kenneth is a typographic software developer and type designer.
 
   [kennethormandy.com](https://kennethormandy.com)
 
 - ### Alanna Munro
 
-  [![Alanna Munro’s profile picture](images/team-alanna.png)](http://alannamunro.com)
+  <img width="100" src="https://unavatar.now.sh/alannamunro.com" alt="Alanna Munro’s profile picture" />
 
   _Organiser, Lettering_
 
@@ -33,7 +37,7 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Nancy Wu
 
-  [![Nancy Wu’s profile picture](images/team-nancy.jpg)](http://nancywudesign.com/)
+  <img width="100" src="https://unavatar.now.sh/nancywudesign.com" alt="Nancy Wu’s profile picture" />
 
   _Assistant Organiser_
 
@@ -43,52 +47,25 @@ All contributors and speakers hope to bring the type and design community in Van
 
 - ### Joshua Mann
 
-  <img src="https://unavatar.now.sh/joshuamann.ca" alt="Joshua Mann’s profile picture" />
+  _Assistant Organiser_
+
+  <img width="100" src="https://unavatar.now.sh/joshuamann.ca" alt="Joshua Mann’s profile picture" />
 
   [joshuamann.ca](https://http://joshuamann.ca/)
 
-***
-
 ## Friends & Collaborators
 
-- ### Shelley Gruendler
+- Shelley Gruendler
+- Cody Jones
+- Andrea Husky
+- Riley Cran
+- Diane Huynh
+- Ross Milne
 
-  [![Shelley Gruendler’s profile picture](/images/team-shelley.jpg)](http://typecamp.org)
-
-  _Founder_
-
-  Dr. Shelley Gruendler founded the Vancouver Typography Meetup Group, and was its original organiser. She’s a typographer, designer, and educator, in addition to being the founding director of [Type Camp](http://typecamp.org).
-
-- ### Cody Jones
-
-  [![Cody Jones’ profile picture](/images/team-cody.jpg)](http://mediumjones.com)
-
-  [mediumjones.com](http://mediumjones.com)
-
-- ### Diane Huynh
-- ### Ross Milne
-- ### Riley Cran
-- ### Andrea Husky
-- ### Patrons
-
-  [Our amazing patrons on Patreon](https://patreon.com/typebrigade) help make Type Brigade events possible. Back us on Patreon to receive special perks, and keep our events free to attend.
+…and many more! We are working on revising this page as part of our new site.
 
 <!--
 
-Need to turn this into something more maintainable
-
-## Thanks
-
-- ### Ross Milne
-
-  [![Ross Milne’s profile picture](/images/team-ross.jpg)](http://workingformat.com)
-
-  _Special Events_
-
-
-  [workingformat.com](http://workingformat.com)
-
-  - Diane Huynh
-
+Dr. Shelley Gruendler started the original incarnation of this meetup as the Vancouver Typography Meetup Group. She’s a typographer, designer, and educator, in addition to being the founding director of [Type Camp](http://typecamp.org).
 
 -->
