@@ -6,6 +6,7 @@ import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
 import TitoButton from "../components/TitoButton"
 import Schedule from "../components/Schedule"
+import Sponsors from "../components/Sponsors"
 import "../components/Button.css"
 
 const IndexPage = () => (
@@ -37,8 +38,12 @@ const IndexPage = () => (
       <Schedule />
       {/*
       <h2>Speakers</h2>
-      
-      <h2>Sponsors</h2>
+      */}
+      <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
+        <h2>Sponsors & Partners</h2>
+        <Sponsors />
+      </div>
+      {/*
       <p>
         I find, if you speak about anything for long enough,{" "}
         <strong>it always comes</strong> back to type.
