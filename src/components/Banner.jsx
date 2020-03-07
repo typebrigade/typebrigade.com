@@ -34,7 +34,7 @@ const CarouselFigure = props => (
 
 class Banner extends Component {
   render() {
-    const images = [
+    let images = [
       {
         author: "Commercial Classcis",
         description: "",
@@ -91,6 +91,8 @@ class Banner extends Component {
         src: require("../images/event-41.jpg"),
       },
     ]
+
+    images = shuffle(images)
     return (
       <div style={{ marginBottom: "10vh", width: "100%" }}>
         <Wrapper wide>
@@ -125,7 +127,7 @@ class Banner extends Component {
                 wrapAround
                 heightMode="max"
               >
-                {shuffle(images).map((image, index) => {
+                {images.map((image, index) => {
                   return (
                     <CarouselFigure
                       key={`carousel_img_${index}`}
