@@ -31,7 +31,7 @@ const Layout = ({ children, fullWidth }) => {
 
   return (
     <Fragment>
-      <SEO>
+      <SEO title="Type Brigade">
         <script src="https://js.tito.io/v1" async></script>
         <link
           rel="stylesheet"

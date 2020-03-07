@@ -10,7 +10,6 @@ import "../components/Button.css"
 
 const IndexPage = () => (
   <Fragment>
-    <SEO title="Home" />
     <div>
       <Banner>
         <div>
