@@ -43,6 +43,7 @@
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-remark": "2.6.53",
     "gatsby-transformer-sharp": "^2.3.13",
+    "lodash.shuffle": "4.2.0",
     "nuka-carousel": "4.6.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

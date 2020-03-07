@@ -1,6 +1,7 @@
 import React, { Fragment, Component } from "react"
 import FitText from "@kennethormandy/react-fittext"
 import Carousel from "nuka-carousel"
+import shuffle from "lodash.shuffle"
 
 import Wrapper from "./Wrapper"
 // import Image from "./Image"
@@ -38,8 +39,27 @@ class Banner extends Component {
         author: "Commercial Classcis",
         description: "",
         alt: "",
+        src: require("../images/type-brigade-50-CommercialClassics13.jpg"),
+      },
+      {
+        author: "Commercial Classcis",
+        description: "",
+        alt: "",
+        src: require("../images/type-brigade-50-CommercialClassics16.jpg"),
+      },
+      {
+        author: "Commercial Classcis",
+        description: "",
+        alt: "",
+        src: require("../images/type-brigade-50-CommercialClassics28.jpg"),
+      },
+      {
+        author: "Commercial Classcis",
+        description: "",
+        alt: "",
         src: require("../images/type-brigade-50-paul-commercial-classics-3.png"),
       },
+
       {
         author: "Glasfurd & Walker",
         description: "",
@@ -105,7 +125,7 @@ class Banner extends Component {
                 wrapAround
                 heightMode="max"
               >
-                {images.map((image, index) => {
+                {shuffle(images).map((image, index) => {
                   return (
                     <CarouselFigure
                       key={`carousel_img_${index}`}
