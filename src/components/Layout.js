@@ -58,11 +58,11 @@ const Layout = ({ children, fullWidth }) => {
             <br />
             <Link to="/blog">Blog</Link>
             <br />
-            <Link to="https://instagram.com/typebrigade">
+            <Link target="_blank" href="https://instagram.com/typebrigade">
               @typebrigade on Instagram
             </Link>
             <br />
-            <Link to="https://twitter.com/typebrigade">
+            <Link target="_blank" href="https://twitter.com/typebrigade">
               @typebrigade on Twitter
             </Link>
             <br />
