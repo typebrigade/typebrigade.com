@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from "react"
 import FitText from "@kennethormandy/react-fittext"
 import Carousel from "nuka-carousel"
-import shuffle from "lodash.shuffle"
+// import shuffle from "lodash.shuffle"
 
 import Wrapper from "./Wrapper"
 // import Image from "./Image"
@@ -39,27 +39,8 @@ class Banner extends Component {
         author: "Commercial Classcis",
         description: "",
         alt: "",
-        src: require("../images/type-brigade-50-CommercialClassics13.jpg"),
-      },
-      {
-        author: "Commercial Classcis",
-        description: "",
-        alt: "",
-        src: require("../images/type-brigade-50-CommercialClassics16.jpg"),
-      },
-      {
-        author: "Commercial Classcis",
-        description: "",
-        alt: "",
-        src: require("../images/type-brigade-50-CommercialClassics28.jpg"),
-      },
-      {
-        author: "Commercial Classcis",
-        description: "",
-        alt: "",
         src: require("../images/type-brigade-50-paul-commercial-classics-3.png"),
       },
-
       {
         author: "Glasfurd & Walker",
         description: "",
@@ -67,16 +48,34 @@ class Banner extends Component {
         src: require("../images/type-brigade-50-glasfurdandwalker-1.jpg"),
       },
       {
-        author: "Type Brigade",
-        description: "Type Brigade №20",
+        author: "Commercial Classcis",
+        description: "",
         alt: "",
-        src: require("../images/event-20.jpg"),
+        src: require("../images/type-brigade-50-CommercialClassics13.jpg"),
+      },
+      // {
+      //   author: "Type Brigade",
+      //   description: "Type Brigade №20",
+      //   alt: "",
+      //   src: require("../images/event-20.jpg"),
+      // },
+      {
+        author: "Commercial Classcis",
+        description: "",
+        alt: "",
+        src: require("../images/type-brigade-50-CommercialClassics16.jpg"),
       },
       {
         author: "Kisyuu",
         description: "Kisyuu Japanese Calligrpahy",
         alt: "",
         src: require("../images/type-brigade-50-kisyuu-1.jpg"),
+      },
+      {
+        author: "Commercial Classcis",
+        description: "",
+        alt: "",
+        src: require("../images/type-brigade-50-CommercialClassics28.jpg"),
       },
       {
         author: "Type Brigade",
@@ -92,7 +91,6 @@ class Banner extends Component {
       },
     ]
 
-    images = shuffle(images)
     return (
       <div style={{ marginBottom: "10vh", width: "100%" }}>
         <Wrapper wide>
