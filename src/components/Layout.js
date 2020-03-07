@@ -10,11 +10,12 @@ import "./Layout.css"
 
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
 import Wrapper from "./Wrapper"
 import SEO from "./SEO"
+import Link from "./LinkDuo"
 
 const Layout = ({ children, fullWidth }) => {
   const data = useStaticQuery(graphql`
@@ -57,13 +58,13 @@ const Layout = ({ children, fullWidth }) => {
             <br />
             <Link to="/blog">Blog</Link>
             <br />
-            <a href="https://instagram.com/typebrigade">
+            <Link to="https://instagram.com/typebrigade">
               @typebrigade on Instagram
-            </a>
+            </Link>
             <br />
-            <a href="https://twitter.com/typebrigade">
+            <Link to="https://twitter.com/typebrigade">
               @typebrigade on Twitter
-            </a>
+            </Link>
             <br />
           </p>
         </footer>
