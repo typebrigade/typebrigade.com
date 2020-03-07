@@ -38,10 +38,6 @@ const Layout = ({ children, fullWidth }) => {
           type="text/css"
           href="https://css.tito.io/v1.1"
         />
-        <script>{`
-        window.titoWidgetCallback = function() {
-          window.TitoWidget.build_widgets = false
-        }`}</script>
       </SEO>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}

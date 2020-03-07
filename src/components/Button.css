@@ -21,8 +21,17 @@
   100% { color: var(--pink);   }
 }
 
-.Button,
 .tito-tickets-button {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.Button,
+tito-button .tito-tickets-button-inner {
   animation: cycle-background 10s infinite, cycle-border 10s infinite;
   padding: 1rem 2rem;
   font-size: 1.5rem;
@@ -30,17 +39,17 @@
   display: inline-block;
   appearance: none;
   border-radius: 8px;
-  border-width: 2px;
+  border: 2px solid var(--pink);
   color: #000;
   white-space: nowrap;
 }
 
-tito-button[data-size="small"] .tito-tickets-button {
+tito-button[data-size="small"] .tito-tickets-button-inner {
   font-size: inherit;
   padding: 0.75rem 1rem;
 }
 
-tito-button[data-style="outline"] .tito-tickets-button {
+tito-button[data-style="outline"] .tito-tickets-button-inner {
   animation: cycle-border 10s infinite, cycle-color 10s infinite;
   background: black;
 }
@@ -49,7 +58,7 @@ tito-button[data-style="outline"] .tito-tickets-button {
 
 @media (min-width: 900px) {
   .Button,
-  .tito-tickets-button {
+  .tito-tickets-button-inner {
     padding: 1.5rem 3rem;    
     font-size: 2rem;
   }

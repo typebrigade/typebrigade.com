@@ -4,28 +4,35 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-const handleTitoWidgetReset = function() {
-  // Get all Tito Web Components
-  let els = document.querySelectorAll("tito-button")
+const handleResetTito = function() {
+  if (
+    window &&
+    window.TitoWidget &&
+    typeof window.TitoWidget.buildWidgets !== "undefined"
+  ) {
+    // Get all Tito Web Components
+    let els = document.querySelectorAll("tito-button")
 
-  for (let i = 0; els.length > i; i++) {
-    let el = els[i]
-    // Reset all of them
-    el.innerHTML = el.innerText || el.textContent
-  }
+    for (let i = 0; els.length > i; i++) {
+      let el = els[i]
+      // Reset all of them
+      el.innerHTML = `<span class="tito-tickets-button-inner">${el.innerText ||
+        el.textContent}</span>`
+    }
 
-  window.titoWidgetCallback = function() {
-    window.TitoWidget.build_widgets = false
-  }
-
-  if (window.TitoWidget) {
-    // Reinit all of them
     window.TitoWidget.buildWidgets()
   }
 }
 
+window.titoWidgetCallback = function() {
+  window.TitoWidget.build_widgets = false
+  handleResetTito()
+}
+
 exports.onRouteUpdate = ({ location, prevLocation }) => {
-  handleTitoWidgetReset()
-  console.log("new pathname", location.pathname)
-  console.log("old pathname", prevLocation ? prevLocation.pathname : null)
+  handleResetTito()
+}
+
+exports.onClientEntry = () => {
+  handleResetTito()
 }
