@@ -81,8 +81,6 @@ function SEO({ description, lang, meta, title, children }) {
     ])
   }
 
-  console.log(baseMeta)
-
   return (
     <Helmet
       htmlAttributes={{

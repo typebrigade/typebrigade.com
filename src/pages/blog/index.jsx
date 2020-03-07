@@ -4,7 +4,6 @@ import { graphql, Link } from "gatsby"
 import Wrapper from "./../../components/Wrapper"
 
 const BlogIndex = props => {
-  console.log(props)
   return (
     <Wrapper>
       <h1>Blog</h1>
