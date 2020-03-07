@@ -1,240 +1,450 @@
 [
-  { "title": "Seattle"
-  , "number": 31
-  , "location": "Unbounce HQ"
-  , "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1"
-  , "date": "2016-05-09T06:30:00Z"
+  {
+    "title": "Conference",
+    "number": 50,
+    "url": "/50",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "30 March 2020"
   },
-  { "title": "Calligraphy Fundamentals with Martin Jackson"
-  , "format": "Workshop"
-  , "location": "Unbounce HQ"
-  , "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1"
-  , "date": "2016-04-10T010:00:00Z"
+  {
+    "title": "× The Pop-Up Type Museum",
+    "format": "collaboration",
+    "number": 48,
+    "url": "https://www.meetup.com/typebrigade/events/266897543",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "10 December 2019"
   },
-  { "title": "Calligraphy Fundamentals with Martin Jackson"
-  , "format": "Workshop"
-  , "location": "Unbounce HQ"
-  , "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1"
-  , "date": "2016-04-09T010:00:00Z"
+  {
+    "title": "",
+    "number": 47,
+    "url": "https://www.meetup.com/typebrigade/events/266224632/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "20 November 2019"
   },
-  { "title": "Project Pairs"
-  , "number": 30
-  , "location": "Unbounce HQ"
-  , "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1"
-  , "date": "2016-03-01T06:30:00Z"
+  {
+    "title": "",
+    "number": 46,
+    "url": "https://www.meetup.com/typebrigade/events/264534747",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "19 September 2019"
   },
-  { "title": "The Lost Type Co-op"
-  , "format": "Special"
-  , "location": "CodeCore"
-  , "address": "142 West Hastings Street, Vancouver, BC, Canada, V6B"
-  , "date": "2016-01-14T06:30:00Z"
+  {
+    "title": "",
+    "number": 45,
+    "url": "https://www.meetup.com/typebrigade/events/260380866/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "16 April 2019"
   },
-  { "title": "The Pop-Up Museum of Typography"
-  , "number": 29
-  , "location": "Emily Carr University of Art + Design"
-  , "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9"
-  , "date": "2015-12-01T06:30:00Z"
+  {
+    "title": "Type Brigade 字聚 – Hanzi Chinese typography documentary",
+    "url": "https://www.meetup.com/typebrigade/events/259605313/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "27 March 2019"
   },
-  { "title": "Calligraphy Fundamentals with Martin Jackson"
-  , "format": "Workshop"
-  , "location": "Unbounce HQ"
-  , "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1"
-  , "date": "2015-11-28T010:00:00Z"
+  {
+    "title": "The Pop-up Museum of Typography",
+    "format": "collaboration",
+    "number": 44,
+    "url": "https://www.meetup.com/typebrigade/events/256451597/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "4 December 2018"
   },
-  { "title": "TypeCamp"
-  , "number": 28
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2015-10-27T06:30:00Z"
+  {
+    "title": "Vancouver Design Week 2018",
+    "format": "collaboration",
+    "number": 43,
+    "url": "https://www.meetup.com/typebrigade/events/248972116/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "7 May 2018"
   },
-  { "title": ""
-  , "number": 27
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2015-10-27T06:30:00Z"
+  {
+    "title": "",
+    "number": 42,
+    "url": "https://www.meetup.com/typebrigade/events/248414267/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "20 March 2018"
   },
-  { "title": "Commercial Type"
-  , "format": "Special"
-  , "location": "CodeCore"
-  , "address": "142 West Hastings Street, Vancouver, BC, Canada, V6B"
-  , "date": "2015-09-01T06:30:00Z"
+  {
+    "title": "Lost Type",
+    "number": 41,
+    "url": "https://www.meetup.com/typebrigade/events/246328406/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "9 January 2018"
   },
-  { "title": "Breakpoints & Flashpoints"
-  , "number": 26
-  , "location": "Hootsuite HQ"
-  , "address": "5 E 8th Ave, Vancouver, BC, Canada, V5T 1R6"
-  , "date": "2015-06-04T06:30:00Z"
+  {
+    "title": "The Pop-up Museum of Typography",
+    "format": "collaboration",
+    "number": 40,
+    "url": "https://www.meetup.com/typebrigade/events/245368497/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "5 December 2017"
   },
-  { "title": "Meet The Crans"
-  , "number": 25
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2015-03-31T06:30:00Z"
+  {
+    "title": "How Complex Does It Get?",
+    "number": 39,
+    "url": "https://www.meetup.com/typebrigade/events/243502283/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "5 October 2017"
   },
-  { "title": "Bruno Maag Talks Type"
-  , "format": "Special"
-  , "location": "Emily Carr University of Art + Design"
-  , "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9"
-  , "date": "2015-03-26T07:00:00Z"
+  {
+    "title": "",
+    "number": 38,
+    "url": "https://www.meetup.com/typebrigade/events/241027829/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "5 September 2017"
   },
-  { "title": "Cult & Obsession"
-  , "number": 24
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2015-02-18T06:30:00Z"
+  {
+    "title": "",
+    "number": 37,
+    "url": "https://www.meetup.com/typebrigade/events/240917048/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "4 July 2017"
   },
-  { "title": "The Pop-Up Museum of Typography"
-  , "number": 23
-  , "location": "Emily Carr University of Art + Design"
-  , "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9"
-  , "date": "2014-12-02T06:30:00Z"
+  {
+    "title": "Vancouver Design Week(end)",
+    "format": "collaboration",
+    "number": 36,
+    "url": "https://www.meetup.com/typebrigade/events/239570283/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "11 May 2017"
   },
-  { "title": "Building from Type"
-  , "number": 22
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2014-10-29T06:30:00Z"
+  {
+    "title": "",
+    "number": 35,
+    "url": "https://www.meetup.com/typebrigade/events/238044601/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "2017-04-20T18:30:00Z"
   },
-  { "title": "Design Week Vancouver"
-  , "format": "Workshop"
-  , "location": "Chloi HQ"
-  , "address": "604-55 East Cordova Street, Vancouver, BC, Canada, V6A 0A5"
-  , "date": "2015-09-01T06:30:00Z"
+  {
+    "title": "",
+    "number": 34,
+    "url": "https://www.meetup.com/typebrigade/events/236784940/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "2017-02-01T18:30:00Z"
   },
-  { "title": "Looking Locally"
-  , "number": 21
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2014-08-26T06:30:00Z"
+
+  {
+    "title": "× The Pop-up Museum of Typography",
+    "format": "collaboration",
+    "number": 33,
+    "url": "https://www.meetup.com/typebrigade/events/235629129/",
+    "location": "Vancouver, BC",
+    "address": "",
+    "date": "2016-12-06T18:30:00Z"
   },
-  { "title": "Relaunch"
-  , "number": 20
-  , "location": "Mobify HQ"
-  , "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7"
-  , "date": "2014-06-23T07:00:00Z"
+  {
+    "title": "Roxane Gataud",
+    "number": 32,
+    "url": "https://www.meetup.com/typebrigade/events/233404429/",
+    "location": "CodeCore",
+    "address": "142 W Hastings Street, Vancouver, BC",
+    "date": "2016-09-01T18:30:00Z"
   },
-  { "title": "Talk type and attend a type talk"
-  , "number": 19
-  , "location": "The SandBar Restaurant & Lounge"
-  , "address": "1535 Johnston Street, Vancouver, BC, Canada, V5K 0A1"
-  , "date": "2014-04-14T5:30:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/173382502/"
+  {
+    "title": "Seattle",
+    "number": 31,
+    "url": "https://www.meetup.com/typebrigade/events/230635849/",
+    "location": "Unbounce HQ",
+    "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1",
+    "date": "2016-05-09T18:30:00Z"
   },
-  { "title": "Exhibition of Book Design"
-  , "number": 18
-  , "location": "UBC Irving K Barber Learning Center"
-  , "address": "1961 East Mall, Vancouver, BC, Canada, V6T 1Z1"
-  , "date": "2013-12-02T5:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/153060982/"
+  {
+    "title": "Calligraphy Fundamentals with Martin Jackson",
+    "format": "Workshop",
+    "location": "Unbounce HQ",
+    "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1",
+    "date": "2016-04-10T10:00:00Z"
   },
-  { "title": "Visit the Alcuin Society Wayzgoose"
-  , "number": 17
-  , "location": "Vancouver Public Library"
-  , "address": "350 West Georgia Street Vancouver, BC, Canada, V6B 6B1"
-  , "date": "2013-10-05T13:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/125309452/"
+  {
+    "title": "Calligraphy Fundamentals with Martin Jackson",
+    "format": "Workshop",
+    "location": "Unbounce HQ",
+    "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1",
+    "date": "2016-04-09T10:00:00Z"
   },
-  { "title": "Alcuin Book Design Awards and more"
-  , "number": 16
-  , "location": "Emily Carr University Lecture Theatre"
-  , "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9"
-  , "date": "2013-10-02T15:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/141175372/"
+  {
+    "title": "Project Pairs",
+    "number": 30,
+    "url": "https://www.meetup.com/typebrigade/events/228742109/",
+    "location": "Unbounce HQ",
+    "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1",
+    "date": "2016-03-01T18:30:00Z"
   },
-  { "title": "Visit the Miniature Book Society Book Fair"
-  , "number": 15
-  , "location": "Holiday Inn"
-  , "address": "711 West Broadway, Vancouver, BC, Canada, V5K 0A1"
-  , "date": "2013-08-11T13:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/125309902/"
+  {
+    "title": "The Lost Type Co-op",
+    "format": "Special",
+    "url": "https://www.meetup.com/typebrigade/events/227775896/",
+    "location": "CodeCore",
+    "address": "142 West Hastings Street, Vancouver, BC, Canada, V6B",
+    "date": "2016-01-14T18:30:00Z"
   },
-  { "title": "Talk type"
-  , "number": 14
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "The Pop-Up Museum of Typography",
+    "number": 29,
+    "url": "https://www.meetup.com/typebrigade/events/226933832/",
+    "location": "Emily Carr University of Art + Design",
+    "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9",
+    "date": "2015-12-01T18:30:00Z"
   },
-  { "title": "Let’s meet up and watch “Sign Painters” Movie"
-  , "number": 13
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "Calligraphy Fundamentals with Martin Jackson",
+    "format": "Workshop",
+    "location": "Unbounce HQ",
+    "address": "400-401 West Georgia Street, Vancouver, BC, Canada, V6B 5A1",
+    "date": "2015-11-28T10:00:00Z"
   },
-  { "title": "Watch the Sign Painters movie"
-  , "number": 12
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "TypeCamp",
+    "number": 28,
+    "url": "https://www.meetup.com/typebrigade/events/226500736/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2015-10-27T18:30:00Z"
   },
-  { "title": "Attend the Peter Biľak typography talk"
-  , "number": 11
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "",
+    "number": 27,
+    "url": "https://www.meetup.com/typebrigade/events/225482151/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2015-10-27T18:30:00Z"
   },
-  { "title": "Hang out and talk type"
-  , "number": 10
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "Commercial Type",
+    "format": "Special",
+    "url": "https://www.meetup.com/typebrigade/events/224125426/",
+    "location": "CodeCore",
+    "address": "142 West Hastings Street, Vancouver, BC, Canada, V6B",
+    "date": "2015-09-01T18:30:00Z"
   },
-  { "title": "Hang out and talk type"
-  , "number": 9
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "Breakpoints & Flashpoints",
+    "number": 26,
+    "url": "https://www.meetup.com/typebrigade/events/222545955/",
+    "location": "Hootsuite HQ",
+    "address": "5 E 8th Ave, Vancouver, BC, Canada, V5T 1R6",
+    "date": "2015-06-04T18:30:00Z"
   },
-  { "title": "Let’s attend The Old New Book Conference!"
-  , "number": 8
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "An evening with the Crans",
+    "number": 25,
+    "url": "https://www.meetup.com/typebrigade/events/221193706/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2015-03-31T18:30:00Z"
   },
-  { "title": "Let’s hang out and share our type stuff"
-  , "number": 7
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "Bruno Maag Talks Type",
+    "format": "Special",
+    "location": "Emily Carr University of Art + Design",
+    "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9",
+    "date": "2015-03-26T07:00:00Z"
   },
-  { "title": "Let’s grab some food before the talk on Stan Bevington’s work"
-  , "number": 6
-  , "location": ""
-  , "address": ""
-  , "date": ""
+  {
+    "title": "Cult & Obsession",
+    "number": 24,
+    "url": "https://www.meetup.com/typebrigade/events/219963412/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2015-02-18T18:30:00Z"
   },
-  { "title": "Let’s hang out and share our type collections"
-  , "number": 5
-  , "location": "JJ Bean"
-  , "address": " 146 W Cordova Street, Vancouver, BC, Canada, V6B 1E4"
-  , "date": "2011-12-17T13:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/43765232/"
+  {
+    "title": "The Pop-Up Museum of Typography",
+    "number": 23,
+    "url": "https://www.meetup.com/typebrigade/events/218765018/",
+    "location": "Emily Carr University of Art + Design",
+    "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9",
+    "date": "2014-12-02T18:30:00Z"
   },
-  { "title": "Visit the King James Bible exhibition at UBC"
-  , "number": 4
-  , "location": "UBC Rare Books & Special Collections LIbrary"
-  , "address": "1961 East Mall, Vancouver, BC, Canada"
-  , "date": "2011-10-22T13:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/34641122/"
+  {
+    "title": "Building from Type",
+    "number": 22,
+    "url": "https://www.meetup.com/typebrigade/events/211844762/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2014-10-29T18:30:00Z"
   },
-  { "title": "Let’s visit the Alcuin Wayzgoose before the UBC exhibition"
-  , "number": 3
-  , "location": "Vancouver Public Library"
-  , "address": "350 West Georgia Street Vancouver, BC, Canada, V6B 6B1"
-  , "date": "2011-10-22T10:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/34836932/"
+  {
+    "title": "Type Walk Design Week Vancouver",
+    "format": "Workshop",
+    "location": "Chloi HQ",
+    "address": "604-55 East Cordova Street, Vancouver, BC, Canada, V6A 0A5",
+    "date": "2015-09-01T18:30:00Z"
   },
-  { "title": "Let’s meet for a drink and then watch “Making Faces” about Jim Rimmer"
-  , "number": 2
-  , "location": "Labatt Hall"
-  , "address": "Room 1700, Harbour Centre, Simon Fraser University, Vancouver, BC, Canada"
-  , "date": "2011-10-21T15:00:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/34835402/"
+  {
+    "title": "Looking Locally",
+    "number": 21,
+    "url": "https://www.meetup.com/typebrigade/events/195059022/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2014-08-26T18:30:00Z"
   },
-  { "title": "Let’s meet each other in person"
-  , "number": 1
-  , "location": "JJ Bean"
-  , "address": " 146 W Cordova Street, Vancouver, BC, Canada, V6B 1E4"
-  , "date": "2011-06-03T14:30:00Z"
-  , "url": "http://www.meetup.com/typebrigade/events/16947598/"
+  {
+    "title": "Relaunch",
+    "number": 20,
+    "url": "https://www.meetup.com/typebrigade/events/186884552/",
+    "location": "Mobify HQ",
+    "address": "3rd Floor, 948 Homer Street, Vancouver, BC, Canada, V6B 2W7",
+    "date": "2014-06-23T07:00:00Z"
+  },
+  {
+    "title": "Talk type and attend a type talk",
+    "number": 19,
+    "location": "The SandBar Restaurant & Lounge",
+    "address": "1535 Johnston Street, Vancouver, BC, Canada, V5K 0A1",
+    "date": "2014-04-14T17:30:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/173382502/"
+  },
+  {
+    "title": "Exhibition of Book Design",
+    "number": 18,
+    "location": "UBC Irving K Barber Learning Center",
+    "address": "1961 East Mall, Vancouver, BC, Canada, V6T 1Z1",
+    "date": "2013-12-02T17:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/153060982/"
+  },
+  {
+    "title": "Visit the Alcuin Society Wayzgoose",
+    "number": 17,
+    "location": "Vancouver Public Library",
+    "address": "350 West Georgia Street Vancouver, BC, Canada, V6B 6B1",
+    "date": "2013-10-05T13:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/125309452/"
+  },
+  {
+    "title": "Alcuin Book Design Awards and more",
+    "number": 16,
+    "location": "Emily Carr University Lecture Theatre",
+    "address": "1399 Johnston Street, Vancouver, BC, Canada, V6H 3R9",
+    "date": "2013-10-02T15:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/141175372/"
+  },
+  {
+    "title": "Visit the Miniature Book Society Book Fair",
+    "number": 15,
+    "location": "Holiday Inn",
+    "address": "711 West Broadway, Vancouver, BC, Canada, V5K 0A1",
+    "date": "2013-08-11T13:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/125309902/"
+  },
+  {
+    "title": "Talk type",
+    "number": 14,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Let’s meet up and watch “Sign Painters” Movie",
+    "number": 13,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Watch the Sign Painters movie",
+    "number": 12,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Attend the Peter Biľak typography talk",
+    "number": 11,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Hang out and talk type",
+    "number": 10,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Hang out and talk type",
+    "number": 9,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Let’s attend The Old New Book Conference!",
+    "number": 8,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Let’s hang out and share our type stuff",
+    "number": 7,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Let’s grab some food before the talk on Stan Bevington’s work",
+    "number": 6,
+    "location": "",
+    "address": "",
+    "date": ""
+  },
+  {
+    "title": "Let’s hang out and share our type collections",
+    "number": 5,
+    "location": "JJ Bean",
+    "address": " 146 W Cordova Street, Vancouver, BC, Canada, V6B 1E4",
+    "date": "2011-12-17T13:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/43765232/"
+  },
+  {
+    "title": "Visit the King James Bible exhibition at UBC",
+    "number": 4,
+    "location": "UBC Rare Books & Special Collections LIbrary",
+    "address": "1961 East Mall, Vancouver, BC, Canada",
+    "date": "2011-10-22T13:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/34641122/"
+  },
+  {
+    "title": "Let’s visit the Alcuin Wayzgoose before the UBC exhibition",
+    "number": 3,
+    "location": "Vancouver Public Library",
+    "address": "350 West Georgia Street Vancouver, BC, Canada, V6B 6B1",
+    "date": "2011-10-22T10:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/34836932/"
+  },
+  {
+    "title": "Let’s meet for a drink and then watch “Making Faces” about Jim Rimmer",
+    "number": 2,
+    "location": "Labatt Hall",
+    "address": "Room 1700, Harbour Centre, Simon Fraser University, Vancouver, BC, Canada",
+    "date": "2011-10-21T15:00:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/34835402/"
+  },
+  {
+    "title": "Let’s meet each other in person",
+    "number": 1,
+    "location": "JJ Bean",
+    "address": " 146 W Cordova Street, Vancouver, BC, Canada, V6B 1E4",
+    "date": "2011-06-03T14:30:00Z",
+    "url": "http://www.meetup.com/typebrigade/events/16947598/"
   }
 ]

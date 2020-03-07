@@ -58,6 +58,8 @@ const Layout = ({ children, fullWidth }) => {
             <br />
             <Link to="/blog">Blog</Link>
             <br />
+            <Link to="/events">Events</Link>
+            <br />
             <Link to="https://instagram.com/typebrigade">
               @typebrigade on Instagram
             </Link>
