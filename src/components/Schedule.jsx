@@ -43,8 +43,8 @@ const Schedule = props => {
 Schedule.defaultProps = {
   data: [
     {
-      start: "09:30",
-      end: "10:00",
+      start: "10:00",
+      end: "10:30",
       name: "Registration & Coffee",
       break: true,
     },
