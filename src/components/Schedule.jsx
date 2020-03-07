@@ -4,36 +4,38 @@ import LinkDuo from "./LinkDuo"
 
 const Schedule = props => {
   return (
-    <table class="Schedule">
-      {props.data.map(line => {
-        let classes = `Schedule-line ${
-          line.break ? "Schedule-line--break" : ""
-        }`
-        let label = (
-          <Fragment>
-            {line.break ? line.name : <strong>{line.name}</strong>}
+    <table className="Schedule">
+      <tbody>
+        {props.data.map(line => {
+          let classes = `Schedule-line ${
+            line.break ? "Schedule-line--break" : ""
+          }`
+          let label = (
+            <Fragment>
+              {line.break ? line.name : <strong>{line.name}</strong>}
 
-            {line.team ? (
-              <div className="Schedule-team">{line.team}</div>
-            ) : null}
-          </Fragment>
-        )
-        if (line.url) {
-          label = <LinkDuo to={line.url}>{label}</LinkDuo>
-        }
+              {line.team ? (
+                <div className="Schedule-team">{line.team}</div>
+              ) : null}
+            </Fragment>
+          )
+          if (line.url) {
+            label = <LinkDuo to={line.url}>{label}</LinkDuo>
+          }
 
-        return (
-          <tr>
-            <td className={classes}>
-              <span class="">
-                {line.start}
-                {line.end ? <Fragment>—{line.end}</Fragment> : ""}
-              </span>
-            </td>
-            <td className={classes}>{label}</td>
-          </tr>
-        )
-      })}
+          return (
+            <tr>
+              <td className={classes}>
+                <span>
+                  {line.start}
+                  {line.end ? <Fragment>—{line.end}</Fragment> : ""}
+                </span>
+              </td>
+              <td className={classes}>{label}</td>
+            </tr>
+          )
+        })}
+      </tbody>
     </table>
   )
 }
