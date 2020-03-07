@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Type Brigade`,
-    description: `Vancouver’s typography meetup`,
+    description: `Vancouver’s typography speaker series and conference.`,
     author: `@typebrigade`,
+    url: `https://typebrigade.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

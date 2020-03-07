@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+const defaultImage = "../images/type-brigade-50-banner.png"
+
 function SEO({ description, lang, meta, title, children }) {
   const { site } = useStaticQuery(
     graphql`
@@ -19,6 +21,7 @@ function SEO({ description, lang, meta, title, children }) {
             title
             description
             author
+            url
           }
         }
       }
@@ -27,47 +30,62 @@ function SEO({ description, lang, meta, title, children }) {
 
   const metaDescription = description || site.siteMetadata.description
 
+  let baseMeta = [
+    {
+      name: `description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:title`,
+      content: title,
+    },
+    {
+      property: `og:description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:type`,
+      content: `website`,
+    },
+    {
+      name: `twitter:card`,
+      content: `summary`,
+    },
+    {
+      name: `twitter:creator`,
+      content: site.siteMetadata.author,
+    },
+    {
+      name: `twitter:title`,
+      content: title,
+    },
+    {
+      name: `twitter:description`,
+      content: metaDescription,
+    },
+  ]
+
+  if (defaultImage) {
+    baseMeta.concat([
+      {
+        name: `twitter:image`,
+        content: `${site.siteMetadata.url}defaultImage`,
+      },
+    ])
+  }
+
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
+      titleTemplate={
+        site.siteMetadata.title !== title
+          ? `%s | ${site.siteMetadata.title}`
+          : null
+      }
+      meta={baseMeta.concat(meta)}
     >
       {children}
     </Helmet>
