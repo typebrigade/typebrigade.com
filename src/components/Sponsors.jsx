@@ -44,7 +44,7 @@ const SponsorsLayout = props => {
           { url: "http://nancywudesign.com/", label: "Nancy Wu Design" },
           { url: "https://joshuamann.ca/", label: "Joshua Mann" },
           { url: "https://mitchellpress.com/", label: "Mitchell Press" },
-          // { url: "https://www.spicers.ca/", label: "Spicers" },
+          { url: "https://www.spicers.ca/", label: "Spicers" },
           { url: "https://elysiancoffee.com/", label: "Elysian Coffee" },
           { url: "https://www.gatsbyjs.com/", label: "Gatsby" },
           { url: "/sponsors", label: "…and you?" },
