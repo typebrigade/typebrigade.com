@@ -16,8 +16,6 @@ const SpeakerItem = props => {
             src={
               props.photos && props.photos.length > 1
                 ? props.photos[1]
-                : props.images && props.images.length >= 1
-                ? props.images[0]
                 : undefined
             }
             alt=""
@@ -44,8 +42,10 @@ SpeakerItem.propTypes = {
 
 const data = [
   {
-    photos: [require("../images/speakers/speaker-paul-barnes.jpg")],
+    photos: [require("../images/speakers/paul-barnes/photo.jpg")],
     images: [
+      require("../images/type-brigade-50-CommercialClassics28.jpg"),
+      require("../images/type-brigade-50-CommercialClassics16.jpg"),
       require("../images/type-brigade-50-paul-commercial-classics-3.png"),
     ],
     name: "Paul Barnes",
@@ -64,8 +64,8 @@ const data = [
       "Paul Barnes is a British graphic designer, type designer, and founding partner with Christian Schwartz in the London and New York based foundry Commercial Type. Over the last ten years with Schwartz and individually he has designed a number of acclaimed custom and retail faces, from the enormous editorial Guardian family through to the more experimental such as Dala Floda and Marian. He has a particular interest in the history of letterforms, which has led to Commercial Type’s new venture Commercial Classics an exploration of reviving long forgotten and extinct typefaces.",
   },
   {
-    photos: [require("../images/speakers/speaker-kisyuu.jpg")],
-    images: [],
+    photos: [require("../images/speakers/kisyuu/photo.jpg")],
+    images: [require("../images/speakers/kisyuu/work-1.png")],
     name: "Kisyuu 姫洲",
     subtitle: (
       <Fragment>
@@ -77,8 +77,12 @@ const data = [
     bio: "",
   },
   {
-    photos: [require("../images/speakers/speaker-phoebe-glasfurd.jpg")],
-    images: [],
+    photos: [require("../images/speakers/phoebe-glasfurd/photo.jpg")],
+    images: [
+      require("../images/speakers/phoebe-glasfurd/work-1.png"),
+      require("../images/speakers/phoebe-glasfurd/work-2.png"),
+      require("../images/speakers/phoebe-glasfurd/work-3.png"),
+    ],
     name: "Phoebe Glasfurd",
     subtitle: (
       <Fragment>
@@ -91,8 +95,8 @@ const data = [
   },
   {
     photos: [
-      require("../images/speakers/speaker-angela-bains.jpg"),
-      require("../images/speakers/speaker-chas-bains.jpg"),
+      require("../images/speakers/angela-bains-and-chas-bains/angela-bains.jpg"),
+      require("../images/speakers/angela-bains-and-chas-bains/chas-bains.jpg"),
     ],
     images: [],
     name: "Angela Bains & Chas Bains",
@@ -105,7 +109,7 @@ const data = [
     bio: "",
   },
   {
-    photos: [require("../images/speakers/speaker-bianca-berning.jpg")],
+    photos: [require("../images/speakers/bianca-berning/photo.jpg")],
     images: [],
     name: "Bianca Berning",
     subtitle: (
@@ -117,8 +121,12 @@ const data = [
     bio: "",
   },
   {
-    photos: [require("../images/speakers/speaker-faculty.jpg")],
-    images: [],
+    photos: [require("../images/speakers/alvin-kwan-and-vince-lo/photo.jpg")],
+    images: [
+      require("../images/speakers/alvin-kwan-and-vince-lo/work-1.jpg"),
+      require("../images/speakers/alvin-kwan-and-vince-lo/work-2.jpg"),
+      require("../images/speakers/alvin-kwan-and-vince-lo/work-3.png"),
+    ],
     name: "Vince Lo & Alvin Kwan",
     subtitle: (
       <Fragment>
