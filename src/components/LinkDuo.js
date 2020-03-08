@@ -33,6 +33,10 @@ class LinkDuo extends React.Component {
     }
   }
   render() {
+    if (!this.props.to) {
+      return <span {...this.props} />
+    }
+
     const external = this.isExternal(this.props.to)
     const fallback = (
       <a
