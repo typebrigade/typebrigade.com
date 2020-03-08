@@ -68,7 +68,7 @@ figure {
 }
 
 .tito-wrapper {
-  color: inherit;
+  color: inherit !important;
 }
 
 table {
