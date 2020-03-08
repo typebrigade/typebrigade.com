@@ -6,6 +6,7 @@ import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
 import TitoButton from "../components/TitoButton"
 import Schedule from "../components/Schedule"
+import Speakers from "../components/Speakers"
 import Sponsors from "../components/Sponsors"
 import "../components/Button.css"
 
@@ -36,9 +37,12 @@ const IndexPage = () => (
     <Wrapper>
       <h2>Schedule</h2>
       <Schedule />
-      {/*
       <h2>Speakers</h2>
-      */}
+    </Wrapper>
+    <Wrapper wide>
+      <Speakers />
+    </Wrapper>
+    <Wrapper>
       <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
         <h2>Sponsors & Partners</h2>
         <Sponsors />
