@@ -1,8 +1,8 @@
 {
   "name": "typebrigade.com",
-  "version": "2.0.0-alpha",
+  "version": "2.0.0",
   "description": "Vancouver’s type design and typography speaker series meetup.",
-  "homepage": "http://typebrigade.com",
+  "homepage": "https://typebrigade.com",
   "author": "Kenneth Ormandy <kenneth@typebrigade.com>",
   "repository": "https://github.com/typebrigade/typebrigade.com",
   "private": true,
