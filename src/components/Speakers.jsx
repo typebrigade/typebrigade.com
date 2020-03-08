@@ -1,12 +1,12 @@
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
-import Link from "./LinkDuo"
+import LinkDuo from "./LinkDuo"
 
 const SpeakerItem = props => {
   return (
     <div>
       <div style={{ display: "flex" }}>
-        <Link to={props.url} style={{ display: "block" }}>
+        <LinkDuo to={props.url} style={{ display: "block" }}>
           <img
             src={props.photos[0]}
             alt={props.name}
@@ -21,7 +21,7 @@ const SpeakerItem = props => {
             alt=""
             style={{ width: "50%" }}
           />
-        </Link>
+        </LinkDuo>
       </div>
       <h3>{props.name}</h3>
       <p>{props.subtitle}</p>
@@ -52,10 +52,10 @@ const data = [
     subtitle: (
       <Fragment>
         Co-founder and type designer,{" "}
-        <Link to="https://commercialtype.com/">Commercial Type</Link> and{" "}
-        <Link to="https://commercialclassics.com/">
+        <LinkDuo to="https://commercialtype.com/">Commercial Type</LinkDuo> and{" "}
+        <LinkDuo to="https://commercialclassics.com/">
           Commercia&nbsp;Classics
-        </Link>
+        </LinkDuo>
       </Fragment>
     ),
     location: "London, UK",
@@ -70,7 +70,9 @@ const data = [
     subtitle: (
       <Fragment>
         Japanese calligraphy instructory and performer,{" "}
-        <Link to="https://kisyuu-calligraphy.com/">Kisyuu Calligraphy</Link>
+        <LinkDuo to="https://kisyuu-calligraphy.com/">
+          Kisyuu Calligraphy
+        </LinkDuo>
       </Fragment>
     ),
     url: "https://kisyuu-calligraphy.com/",
@@ -87,7 +89,7 @@ const data = [
     subtitle: (
       <Fragment>
         Creative Director and co-founder,{" "}
-        <Link to="https://glasfurdandwalker.com/">Glasfurd & Walker</Link>
+        <LinkDuo to="https://glasfurdandwalker.com/">Glasfurd & Walker</LinkDuo>
       </Fragment>
     ),
     url: "https://glasfurdandwalker.com",
@@ -102,7 +104,7 @@ const data = [
     name: "Angela Bains & Chas Bains",
     subtitle: (
       <Fragment>
-        Founders, <Link to="https://transformexp.com/">TransformExp</Link>
+        Founders, <LinkDuo to="https://transformexp.com/">TransformExp</LinkDuo>
       </Fragment>
     ),
     url: "https://transformexp.com/",
@@ -114,7 +116,8 @@ const data = [
     name: "Bianca Berning",
     subtitle: (
       <Fragment>
-        Creative Director, <Link to="https://daltonmaag.com">Dalton Maag</Link>
+        Creative Director,{" "}
+        <LinkDuo to="https://daltonmaag.com">Dalton Maag</LinkDuo>
       </Fragment>
     ),
     url: "https://daltonmaag.com",
@@ -131,8 +134,8 @@ const data = [
     subtitle: (
       <Fragment>
         Founders and designers,{" "}
-        <Link to="https://studiofaculty.com/">Faculty</Link> and{" "}
-        <Link to="https://sortdays.com">SORT Store</Link>
+        <LinkDuo to="https://studiofaculty.com/">Faculty</LinkDuo> and{" "}
+        <LinkDuo to="https://sortdays.com">SORT Store</LinkDuo>
       </Fragment>
     ),
     url: "https://studiofaculty.com/",
