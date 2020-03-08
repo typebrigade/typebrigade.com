@@ -6,12 +6,24 @@ const SpeakerItem = props => {
   return (
     <div>
       <div style={{ display: "flex" }}>
-        <img
-          src={props.photo}
-          alt={`Photo of ${props.name}`}
-          style={{ width: "50%" }}
-        />
-        <img src={props.images[0]} alt="" style={{ width: "50%" }} />
+        <Link to={props.url} style={{ display: "block" }}>
+          <img
+            src={props.photos[0]}
+            alt={props.name}
+            style={{ width: "50%" }}
+          />
+          <img
+            src={
+              props.photos && props.photos.length > 1
+                ? props.photos[1]
+                : props.images && props.images.length >= 1
+                ? props.images[0]
+                : undefined
+            }
+            alt=""
+            style={{ width: "50%" }}
+          />
+        </Link>
       </div>
       <h3>{props.name}</h3>
       <p>{props.subtitle}</p>
@@ -23,7 +35,7 @@ const SpeakerItem = props => {
 
 SpeakerItem.defaultProps = {}
 SpeakerItem.propTypes = {
-  photo: PropTypes.string,
+  photos: PropTypes.arrayOf(PropTypes.string),
   images: PropTypes.arrayOf(PropTypes.string),
   name: PropTypes.string,
   url: PropTypes.string,
@@ -32,7 +44,7 @@ SpeakerItem.propTypes = {
 
 const data = [
   {
-    photo: "https://placehold.it/1000?text=photo",
+    photos: [require("../images/speakers/speaker-paul-barnes.jpg")],
     images: [
       require("../images/type-brigade-50-paul-commercial-classics-3.png"),
     ],
@@ -47,13 +59,13 @@ const data = [
       </Fragment>
     ),
     location: "London, UK",
-    url: "https://example.com",
+    url: "https://commercialclassics.com",
     bio:
       "Paul Barnes is a British graphic designer, type designer, and founding partner with Christian Schwartz in the London and New York based foundry Commercial Type. Over the last ten years with Schwartz and individually he has designed a number of acclaimed custom and retail faces, from the enormous editorial Guardian family through to the more experimental such as Dala Floda and Marian. He has a particular interest in the history of letterforms, which has led to Commercial Type’s new venture Commercial Classics an exploration of reviving long forgotten and extinct typefaces.",
   },
   {
-    photo: "https://placehold.it/1000?text=photo",
-    images: ["https://placehold.it/1000?text=work"],
+    photos: [require("../images/speakers/speaker-kisyuu.jpg")],
+    images: [],
     name: "Kisyuu 姫洲",
     subtitle: (
       <Fragment>
@@ -65,8 +77,8 @@ const data = [
     bio: "",
   },
   {
-    photo: "https://placehold.it/1000?text=photo",
-    images: ["https://placehold.it/1000?text=work"],
+    photos: [require("../images/speakers/speaker-phoebe-glasfurd.jpg")],
+    images: [],
     name: "Phoebe Glasfurd",
     subtitle: (
       <Fragment>
@@ -74,12 +86,15 @@ const data = [
         <Link to="https://glasfurdandwalker.com/">Glasfurd & Walker</Link>
       </Fragment>
     ),
-    url: "https://example.com",
+    url: "https://glasfurdandwalker.com",
     bio: "",
   },
   {
-    photo: "https://placehold.it/1000?text=photo",
-    images: ["https://placehold.it/1000?text=work"],
+    photos: [
+      require("../images/speakers/speaker-angela-bains.jpg"),
+      require("../images/speakers/speaker-chas-bains.jpg"),
+    ],
+    images: [],
     name: "Angela Bains & Chas Bains",
     subtitle: (
       <Fragment>
@@ -90,8 +105,8 @@ const data = [
     bio: "",
   },
   {
-    photo: "https://placehold.it/1000?text=photo",
-    images: ["https://placehold.it/1000?text=work"],
+    photos: [require("../images/speakers/speaker-bianca-berning.jpg")],
+    images: [],
     name: "Bianca Berning",
     subtitle: (
       <Fragment>
@@ -102,12 +117,13 @@ const data = [
     bio: "",
   },
   {
-    photo: "https://placehold.it/1000?text=photo",
-    images: ["https://placehold.it/1000?text=work"],
-    name: "Alvin Kwan & Vince Lo",
+    photos: [require("../images/speakers/speaker-faculty.jpg")],
+    images: [],
+    name: "Vince Lo & Alvin Kwan",
     subtitle: (
       <Fragment>
-        Founders and designers, <Link to="">Faculty</Link> and{" "}
+        Founders and designers,{" "}
+        <Link to="https://studiofaculty.com/">Faculty</Link> and{" "}
         <Link to="https://sortdays.com">SORT Store</Link>
       </Fragment>
     ),
