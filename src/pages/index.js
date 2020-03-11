@@ -1,10 +1,9 @@
 import React, { Fragment } from "react"
-// import { Link } from "gatsby"
 
 import SEO from "../components/SEO"
 import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
-import TitoButton from "../components/TitoButton"
+import LinkDuo from "../components/LinkDuo"
 import Schedule from "../components/Schedule"
 import Speakers from "../components/Speakers"
 import Sponsors from "../components/Sponsors"
@@ -16,19 +15,26 @@ const IndexPage = () => (
       <Banner>
         <div>
           <h1>
-            <span style={{ fontWeight: "normal" }}>Type Brigade №50</span>{" "}
+            Type Brigade
             <br />
-            Typography Conference
+            <span style={{ fontWeight: "normal" }}>
+              Vancouver’s typography <br />
+              speaker series
+            </span>
           </h1>
           <p></p>
           <div>
+            {/*
             <p>
               March 30, 2020
               <br />
               Annex Theatre, Vancouver
             </p>
+            */}
             <p>
-              <TitoButton />
+              <LinkDuo className="Button" to="https://meetup.com/typebrigade">
+                Join Type Brigade
+              </LinkDuo>
             </p>
           </div>
         </div>
