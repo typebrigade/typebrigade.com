@@ -3,14 +3,14 @@ import PropTypes from "prop-types"
 
 import Logo from "./Logo"
 import Wrapper from "./Wrapper"
-import Link from "./LinkDuo"
-import TitoButton from "./TitoButton"
+import LinkDuo from "./LinkDuo"
+// import TitoButton from "./TitoButton"
 
 const navItems = [
-  // { href: "/", label: "Home" },
-  // { href: "/about", label: "About" },
-  // { to: "/blog", label: "Blog" },
-  { href: "https://meetup.com/typebrigade", label: "Meetup" },
+  // { to: "/", label: "Home" },
+  // { to: "/about", label: "About" },
+  { to: "/blog", label: "Blog" },
+  // { to: "https://meetup.com/typebrigade", label: "Meetup" },
 ]
 
 const Flexbox = props => {
@@ -28,7 +28,7 @@ const Flexbox = props => {
 
 const NavItem = props => {
   return (
-    <Link
+    <LinkDuo
       style={{
         padding: "0.5rem",
         display: "inline-block",
@@ -49,7 +49,7 @@ const Header = ({ siteTitle }) => (
     <Wrapper>
       <Flexbox>
         <div style={{ width: "180px" }}>
-          <Link
+          <LinkDuo
             to="/"
             style={{
               padding: "1rem",
@@ -58,7 +58,7 @@ const Header = ({ siteTitle }) => (
             }}
           >
             <Logo />
-          </Link>
+          </LinkDuo>
         </div>
         <div>
           <nav
@@ -71,10 +71,15 @@ const Header = ({ siteTitle }) => (
           >
             {navItems && navItems.length >= 1
               ? navItems.map(item => {
-                  return <NavItem to={item.href}>{item.label}</NavItem>
+                  return <NavItem to={item.to}>{item.label}</NavItem>
                 })
               : null}
-            <TitoButton buttonSize="small" buttonStyle="outline" />
+            <LinkDuo
+              className="Button Button--small Button--outline"
+              to="https://meetup.com/typebrigade"
+            >
+              Join Type Brigade
+            </LinkDuo>
           </nav>
         </div>
       </Flexbox>
