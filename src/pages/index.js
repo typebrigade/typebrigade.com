@@ -54,18 +54,20 @@ const IndexPage = () => (
       </Wrapper>
     </div>
     */}
-    <Wrapper>
-      <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
-        <h2>Sponsors & Partners</h2>
-        <Sponsors />
-      </div>
-      {/*
+    <div style={{ zIndex: 2, position: "relative" }}>
+      <Wrapper>
+        <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
+          <h2>Sponsors & Partners</h2>
+          <Sponsors />
+        </div>
+        {/*
       <p>
         I find, if you speak about anything for long enough,{" "}
         <strong>it always comes</strong> back to type.
       </p>
       */}
-    </Wrapper>
+      </Wrapper>
+    </div>
   </Fragment>
 )
 
