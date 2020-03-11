@@ -9,7 +9,7 @@ Unfortunately but understandably, our headline speakers [have postponed](https:/
 
 Considering their significance to the event, and the safety of our community, **we have decided to cancel Type Brigade №50** on March 30, 2020.
 
-While we are not a large-scale public gathering, as you most likely know, the public health and travel situation due to coronavirus (COVID-19) is changing rapidly. We want to be able to host a high-quality, safe, and enjoyable event for our attendees. Rather than reconfigure our event in the short term, we have decide to cancel the conference, and look at options further into the future instead.
+While we are not a large-scale public gathering, as you most likely know, the public health and travel situation due to coronavirus (COVID-19) is changing rapidly. We want to be able to host a high-quality, safe, and enjoyable event for our attendees and speakers. Rather than reconfigure our event in the short term, we have decide to cancel the conference, and look at options further into the future instead.
 
 ## Refunds
 
