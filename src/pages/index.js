@@ -12,6 +12,26 @@ import "../components/Button.css"
 const IndexPage = () => (
   <Fragment>
     <div>
+      <Wrapper>
+        <div
+          style={{
+            margin: "5rem 0 8rem 0",
+          }}
+        >
+          <h2 style={{ marginTop: 0 }}>Type Brigade №50 cancelled</h2>
+          <p>
+            Type Brigade №50 on March 30 has been cancelled. Refunds will be
+            initiated this week. For all the details, please read the following
+            post:
+          </p>
+          <LinkDuo
+            to="/blog/type-brigade-50-cancelled"
+            className="Button Button--small Button--outline"
+          >
+            Read the full post…
+          </LinkDuo>
+        </div>
+      </Wrapper>
       <Banner>
         <div>
           <h1>
