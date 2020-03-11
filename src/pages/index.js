@@ -40,6 +40,7 @@ const IndexPage = () => (
         </div>
       </Banner>
     </div>
+    {/*
     <Wrapper>
       <h2>Schedule</h2>
       <Schedule />
@@ -52,6 +53,7 @@ const IndexPage = () => (
         <Speakers />
       </Wrapper>
     </div>
+    */}
     <Wrapper>
       <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
         <h2>Sponsors & Partners</h2>
