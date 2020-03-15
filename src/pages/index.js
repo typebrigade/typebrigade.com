@@ -20,9 +20,9 @@ const IndexPage = () => (
         >
           <h2 style={{ marginTop: 0 }}>Type Brigade №50 cancelled</h2>
           <p>
-            Type Brigade №50 on March 30 has been cancelled. Refunds will be
-            initiated this week. For all the details, please read the following
-            post:
+            Type Brigade №50 on March 30 has been cancelled. Refunds were
+            initiated one March 12, 2020. For all the details, please read the
+            following post:
           </p>
           <LinkDuo
             to="/blog/type-brigade-50-cancelled"
