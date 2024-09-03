@@ -15,12 +15,12 @@ const IndexPage = () => (
       <Banner>
         <div>
           <h1>
-            Type Brigade
-            <br />
+            Type Brigade,<br/>
             <span style={{ fontWeight: "normal" }}>
               Vancouver’s typography <br />
-              speaker series
-            </span>
+              speaker series,
+            </span><br/>
+            returns September 20, 2024
           </h1>
           <p></p>
           <div>
