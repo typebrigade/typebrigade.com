@@ -9,7 +9,7 @@ import LinkDuo from "./LinkDuo"
 const navItems = [
   // { to: "/", label: "Home" },
   // { to: "/about", label: "About" },
-  { to: "/blog", label: "Blog" },
+  // { to: "/blog", label: "Blog" },
   // { to: "https://meetup.com/typebrigade", label: "Meetup" },
 ]
 

@@ -33,20 +33,20 @@ const SponsorsLayout = props => {
     <div>
       <ul>
         {[
-          {
-            url: "https://patreon.com/typebrigade",
-            label: "Our supporters on Patreon",
-          },
-          { url: "https://commercialtype.com/", label: "Commercial Type" },
-          { url: "https://daltonmaag.com/", label: "Dalton Maag" },
+          // {
+          //   url: "https://patreon.com/typebrigade",
+          //   label: "Our supporters on Patreon",
+          // },
+          // { url: "https://commercialtype.com/", label: "Commercial Type" },
+          // { url: "https://daltonmaag.com/", label: "Dalton Maag" },
           { url: "https://kennethormandy.com", label: "Kenneth Ormandy" },
           { url: "https://alannamunro.com", label: "Alanna Munro" },
           { url: "http://nancywudesign.com/", label: "Nancy Wu Design" },
-          { url: "https://joshuamann.ca/", label: "Joshua Mann" },
-          { url: "https://mitchellpress.com/", label: "Mitchell Press" },
-          { url: "https://www.spicers.ca/", label: "Spicers" },
-          { url: "https://elysiancoffee.com/", label: "Elysian Coffee" },
-          { url: "https://www.gatsbyjs.com/", label: "Gatsby" },
+          // { url: "https://joshuamann.ca/", label: "Joshua Mann" },
+          // { url: "https://mitchellpress.com/", label: "Mitchell Press" },
+          // { url: "https://www.spicers.ca/", label: "Spicers" },
+          // { url: "https://elysiancoffee.com/", label: "Elysian Coffee" },
+          // { url: "https://www.gatsbyjs.com/", label: "Gatsby" },
           { url: "/sponsors", label: "…and you?" },
         ].map((item, index) => {
           return (
