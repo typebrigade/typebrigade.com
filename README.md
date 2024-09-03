@@ -7,7 +7,13 @@
 
 ![A screenshot of the Type Brigade site.](preview.png)
 
-## Running locally
+***
+
+```sh
+npm install --legacy-peer-deps
+```
+
+## ~~Running locally~~
 
 If you’d like to run the website locally, you’ll need [Node.js installed](http://nodejs.org). Then, run the following commands on your terminal. If you’re unfamiliar with the terminal, take a look at [this helpful introduction](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/).
 
