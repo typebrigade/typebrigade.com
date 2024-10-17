@@ -24,7 +24,8 @@
     "prestage": "npm run build",
     "stage": "surge ./public staging.typebrigade.com",
     "predeploy": "npm run build",
-    "deploy": "surge ./public typebrigade.com"
+    "deploy": "npm run deploy:ci",
+    "deploy:ci": "surge ./public typebrigade.com"
   },
   "dependencies": {
     "@kennethormandy/react-fittext": "^0.6.0",
