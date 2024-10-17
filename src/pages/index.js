@@ -1,11 +1,10 @@
 import React, { Fragment } from "react"
 
-import SEO from "../components/SEO"
 import Wrapper from "../components/Wrapper"
 import Banner from "../components/Banner"
 import LinkDuo from "../components/LinkDuo"
-import Schedule from "../components/Schedule"
-import Speakers from "../components/Speakers"
+// import Schedule from "../components/Schedule"
+// import Speakers from "../components/Speakers"
 import Sponsors from "../components/Sponsors"
 import "../components/Button.css"
 
