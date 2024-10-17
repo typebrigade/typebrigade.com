@@ -18,9 +18,9 @@ const IndexPage = () => (
             Type Brigade,<br/>
             <span style={{ fontWeight: "normal" }}>
               Vancouver’s typography <br />
-              speaker series,
+              speaker series, returns
             </span><br/>
-            returns Nov. 1, 2024
+            <span className="onum">November 1, 2024</span>
           </h1>
           <p></p>
           <div>
