@@ -3,6 +3,8 @@ import FitText from "@kennethormandy/react-fittext"
 import Carousel from "nuka-carousel"
 // import shuffle from "lodash.shuffle"
 
+import image22 from '../images/event-22.jpg'
+
 import Wrapper from "./Wrapper"
 // import Image from "./Image"
 
@@ -18,77 +20,67 @@ const CarouselFigure = props => (
         transform: "translate(calc(100% + 1.5rem), 0) rotate(90deg)",
       }}
     >
-      <p>
-        {props.description
-          ? `${props.description}, from ${props.author}`
-          : props.author}
-      </p>
+      <p>{props.description}</p>
     </figcaption>
-    <img
-      style={{ width: "100%", display: "block", margin: 0, opacity: 0.5 }}
-      src={props.src}
-      alt=""
-    />
+    {props.src ? (
+      <img
+        style={{ width: "100%", display: "block", margin: 0, opacity: 0.5 }}
+        src={props.src}
+        alt=""
+      />
+    ) : null}
   </figure>
 )
 
 class Banner extends Component {
   render() {
     let images = [
-      {
-        author: "Commercial Classcis",
-        description: "",
-        alt: "",
-        src: require("../images/type-brigade-50-paul-commercial-classics-3.png"),
-      },
-      {
-        author: "Glasfurd & Walker",
-        description: "",
-        alt: "",
-        src: require("../images/type-brigade-50-glasfurdandwalker-1.jpg"),
-      },
-      {
-        author: "Commercial Classcis",
-        description: "",
-        alt: "",
-        src: require("../images/type-brigade-50-CommercialClassics13.jpg"),
-      },
       // {
-      //   author: "Type Brigade",
+      //   description: "Commercial Classcis",
+      //   alt: "",
+      //   src: require("../images/type-brigade-50-paul-commercial-classics-3.png"),
+      // },
+      // {
+      //   description: "Glasfurd & Walker",
+      //   alt: "",
+      //   src: require("../images/type-brigade-50-glasfurdandwalker-1.jpg"),
+      // },
+      // {
+      //   description: "Commercial Classcis",
+      //   alt: "",
+      //   src: require("../images/type-brigade-50-CommercialClassics13.jpg"),
+      // },
+      // {
+      //   description: "Type Brigade",
       //   description: "Type Brigade №20",
       //   alt: "",
       //   src: require("../images/event-20.jpg"),
       // },
+      // {
+      //   description: "Commercial Classcis",
+      //   alt: "",
+      //   src: require("../images/type-brigade-50-CommercialClassics16.jpg"),
+      // },
+      // {
+      //   description: "Kisyuu Japanese Calligrpahy",
+      //   alt: "",
+      //   src: require("../images/type-brigade-50-kisyuu-1.jpg"),
+      // },
+      // {
+      //   description: "Commercial Classcis",
+      //   alt: "",
+      //   src: require("../images/type-brigade-50-CommercialClassics28.jpg"),
+      // },
       {
-        author: "Commercial Classcis",
-        description: "",
+        // description: "Type Brigade №22",
         alt: "",
-        src: require("../images/type-brigade-50-CommercialClassics16.jpg"),
+        src: image22,
       },
-      {
-        author: "Kisyuu",
-        description: "Kisyuu Japanese Calligrpahy",
-        alt: "",
-        src: require("../images/type-brigade-50-kisyuu-1.jpg"),
-      },
-      {
-        author: "Commercial Classcis",
-        description: "",
-        alt: "",
-        src: require("../images/type-brigade-50-CommercialClassics28.jpg"),
-      },
-      {
-        author: "Type Brigade",
-        description: "Type Brigade №22",
-        alt: "",
-        src: require("../images/event-22.jpg"),
-      },
-      {
-        author: "Type Brigade",
-        description: "Type Brigade №41",
-        alt: "",
-        src: require("../images/event-41.jpg"),
-      },
+      // {
+      //   description: "Type Brigade №41",
+      //   alt: "",
+      //   src: require("../images/event-41.jpg"),
+      // },
     ]
 
     return (
