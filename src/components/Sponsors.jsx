@@ -73,9 +73,18 @@ const SponsorsLayout = props => {
             <Link
               to={obj.url}
               key={`Sponsor_${index}`}
-              style={{ display: "block", padding: "2rem", width: "200px", display: 'flex', alignItems: 'center' }}
+              style={{
+                display: "block",
+                display: "flex",
+                alignItems: "center",
+                width: "200px",
+                minHeight: "200px",
+                padding: "2rem",
+              }}
             >
-              <Logo fill="white" />
+              <div style={{ width: "100%" }}>
+                <Logo fill="white" />
+              </div>
             </Link>
           )
         })}
