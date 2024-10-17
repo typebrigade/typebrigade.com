@@ -1,54 +1,94 @@
 import React from "react"
 import Link from "./LinkDuo"
 
-const Sponsors = {
-  mitchell: props => (
-    <svg
-      enableBackground="new 0 0 200 100"
-      viewBox="0 0 200 100"
-      fill="white"
-      {...props}
-    >
-      <path d="m57.4 47.5v-18.6h-5.5l-4.5 11.6-4.5-11.6h-5.6v18.6h4v-13.4l5.2 13.4h1.7l5.2-13.4v13.4z" />
-      <path d="m66.2 28.9h3.9v18.5h-3.9z" />
-      <path d="m91.9 28.9h-14.8v3.5h5.4v15.1h4v-15.1h5.4z" />
-      <path d="m115.4 43.2-3.4-1.6c-.8 1.5-2.4 2.7-4.5 2.7-3.2 0-5.7-2.6-5.7-6.1s2.4-6.1 5.7-6.1c2.1 0 3.7 1.2 4.5 2.7l3.4-1.7c-1.3-2.3-3.7-4.5-7.9-4.5-5.4 0-9.7 3.9-9.7 9.6s4.3 9.6 9.7 9.6c4.2 0 6.5-2.2 7.9-4.6z" />
-      <path d="m135.3 36.2h-8.7v-7.3h-4v18.6h4v-7.8h8.7v7.8h4v-18.6h-4z" />
-      <path d="m148 47.5h13.1v-3.4h-9.1v-4.4h9v-3.3h-9v-4.1h9.1v-3.4h-13.1z" />
-      <path d="m173.4 28.9h-3.9v18.6h11.7v-3.5h-7.8z" />
-      <path d="m192.3 44v-15.1h-3.9v18.6h11.8v-3.5z" />
-      <path d="m43.8 55.3h-6.3v15.8h2v-6.3h4.4c3.1 0 5-2.2 5-4.8-.2-2.5-1.9-4.7-5.1-4.7zm-.2 7.8h-4.1v-6h4.1c1.9 0 3.2 1.2 3.2 3-.1 1.7-1.4 3-3.2 3z" />
-      <path d="m66.9 60c0-2.9-2.1-4.8-5-4.8h-6.3v15.8h2v-6.3h3.2l4 6.3h2.3l-4.3-6.4c2.2-.1 4.1-1.7 4.1-4.6zm-9.3 3.1v-6h4.1c1.9 0 3.2 1.2 3.2 3s-1.3 3-3.2 3z" />
-      <path d="m74.3 71.1h10.3v-1.8h-8.4v-5.4h8.3v-1.8h-8.3v-5.1h8.4v-1.7h-10.3z" />
-      <path d="m97.4 61.9c-2-.5-3.8-1-3.8-2.6 0-1.5 1.4-2.5 3.2-2.5 1.7 0 3.4.6 4.6 1.9l1.2-1.4c-1.3-1.4-3.2-2.2-5.6-2.2-3.1 0-5.4 1.8-5.4 4.4 0 3.1 2.8 3.8 5.4 4.5 2.1.6 4 1.1 4 3 0 1.2-.9 2.7-3.7 2.7-2.2 0-3.9-1.1-5-2.3l-1.2 1.5c1.3 1.5 3.3 2.5 6.1 2.5 4.3 0 5.8-2.3 5.8-4.6 0-3.4-3-4.2-5.6-4.9z" />
-      <path d="m115.6 61.9c-2-.5-3.8-1-3.8-2.6 0-1.5 1.4-2.5 3.2-2.5 1.7 0 3.4.6 4.6 1.9l1.2-1.4c-1.3-1.4-3.2-2.2-5.6-2.2-3.1 0-5.4 1.8-5.4 4.4 0 3.1 2.8 3.8 5.4 4.5 2.1.6 4 1.1 4 3 0 1.2-.9 2.7-3.7 2.7-2.2 0-3.9-1.1-5-2.3l-1.2 1.5c1.3 1.5 3.3 2.5 6.1 2.5 4.3 0 5.8-2.3 5.8-4.6-.1-3.4-3-4.2-5.6-4.9z" />
-      <path d="m21.8 28.9h-19.7l9.8 11.3z" />
-      <path d="m-.2 47.2v24.1h24.1v-24.3l-12.1 13.8z" />
-    </svg>
-  ),
-}
+const textSponsors = [
+  // {
+  //   url: "https://patreon.com/typebrigade",
+  //   label: "Our supporters on Patreon",
+  // },
+  // { url: "https://commercialtype.com/", label: "Commercial Type" },
+  // { url: "https://daltonmaag.com/", label: "Dalton Maag" },
+  { url: "https://kennethormandy.com", label: "Kenneth Ormandy" },
+  { url: "https://alannamunro.com", label: "Alanna Munro" },
+  { url: "http://nancywudesign.com/", label: "Nancy Wu Design" },
+  // { url: "https://joshuamann.ca/", label: "Joshua Mann" },
+  // { url: "https://mitchellpress.com/", label: "Mitchell Press" },
+  // { url: "https://www.spicers.ca/", label: "Spicers" },
+  // { url: "https://elysiancoffee.com/", label: "Elysian Coffee" },
+  // { url: "https://www.gatsbyjs.com/", label: "Gatsby" },
+  { url: "/sponsors", label: "…and you?" },
+]
+
+const sponsors = [
+  {
+    url: "https://www.bcit.ca/",
+    svg: props => (
+      <svg viewBox="0 0 95 85" xmlns="http://www.w3.org/2000/svg">
+        <path fill="white" d="M0 0h84.8v84.8H0z"></path>
+        <path d="M8.6 56.4V27.2h7.2c6.7 0 9.7 2.2 9.7 7.6 0 3-1.3 5.1-3.8 6.2v.1c3.3 1.2 4.5 3.7 4.5 7 0 6.7-4.3 8.4-10 8.4H8.6v-.1zm7.4-17c2.5 0 4.7-.9 4.7-4.1 0-3.1-2.3-3.7-4.7-3.7h-2.7v7.8H16zm.5 12.7c3.4 0 4.8-1.2 4.8-4.3 0-3.2-1.6-4.5-4.8-4.5h-3.2v8.8h3.2zm30.9-5.2c-.9 6.5-3.6 9.9-8.9 9.9-7 0-9.3-5.7-9.3-15.1 0-8.4 2.4-14.8 9.3-14.8 5.6 0 7.8 3.5 8.6 9.4l-4.5.4c-.6-3.7-1.9-5.5-4-5.5-3 0-4.5 3.1-4.5 10.5 0 8.1 1.3 10.8 4.5 10.8 2.3 0 3.7-2.1 4.3-6.1l4.5.5zm4.1 9.5V27.2h4.8v29.2h-4.8zm14.8 0V31.6h-6v-4.4h16.8v4.4h-6v24.8h-4.8z"></path>
+        <path
+          fill="white"
+          d="M89.426 3.253c.462 0 .84-.13.84-.625 0-.478-.408-.566-.826-.566h-.64v1.19h.626zm.885 2.15l-.77-1.554H88.8v1.554h-.71V1.454h1.304c.973 0 1.572.333 1.572 1.16 0 .48-.248.858-.742 1.046l.899 1.743h-.812zM92.126 3.5c0-1.584-.99-2.86-2.716-2.86-1.743 0-2.744 1.276-2.744 2.86 0 1.627 1 2.862 2.744 2.862 1.727 0 2.716-1.235 2.716-2.862zM86 3.5C86 1.54 87.288 0 89.41 0c2.12 0 3.398 1.54 3.398 3.5 0 1.916-1.278 3.5-3.398 3.5C87.288 7 86 5.416 86 3.5z"
+        ></path>
+      </svg>
+    ),
+  },
+  {
+    url: "https://mitchellpress.com/",
+    svg: props => (
+      <svg
+        enableBackground="new 0 0 484.4 71.2"
+        viewBox="0 0 484.4 71.2"
+        fill="white"
+        {...props}
+      >
+        <g>
+          <g>
+            <rect x="84.7" y="0.6" width="11.8" height="70.6" />
+            <polygon points="114.1,11 133.5,11 133.5,71.2 145.2,71.2 145.2,11 164.6,11 164.6,0.6 114.1,0.6   " />
+            <path d="M215.6,50.9c-2.9,6.1-7.3,9.2-13,9.2s-9-3.1-10.5-4.9c-2.6-3.4-3.4-5-3.4-19.3s0.8-16.1,3.4-19.3    c1.5-1.8,4.8-4.9,10.5-4.9c6.8,0,11.4,4.9,12.9,9.7l0.1,0.4h12.3l-0.1-0.6C225.4,8.5,215.2,0,202.6,0c-11.4,0-19.2,6.5-22.6,12.8    c-2.4,4.3-3.1,6.4-3.1,23.1s0.8,18.8,3.1,23.1c3.4,6.1,11.2,12.8,22.6,12.8c12.9,0,22.6-7.8,25.2-20.4l0.1-0.6h-12.3L215.6,50.9    L215.6,50.9z" />
+          </g>
+          <polygon points="55.8,0.6 66.9,0.6 66.9,71.2 54.9,71.2 54.9,29.5 42.3,47.9 42.3,20.9  " />
+          <polygon points="11,0.6 0,0.6 0,71.2 11.9,71.2 11.9,29.5 24.6,47.9 24.6,20.9  " />
+          <polygon points="283.2,30.4 256.5,30.4 256.5,0.6 244.6,0.6 244.6,71.2 256.5,71.2 256.5,40.8 283.2,40.8 283.2,71.2    295,71.2 295,0.6 283.2,0.6  " />
+          <polygon points="312.1,71.2 358.1,71.2 358.1,60.1 323.9,60.1 323.9,40.8 353.1,40.8 353.1,30.4 323.9,30.4    323.9,11.7 358.1,11.7 358.1,0.6 312.1,0.6  " />
+          <polygon points="386.9,0.6 375.2,0.6 375.2,71.2 421.3,71.2 421.3,60.1 386.9,60.1  " />
+          <polygon points="450,60.1 450,0.6 438.2,0.6 438.2,71.2 484.4,71.2 484.4,60.1  " />
+        </g>
+      </svg>
+    ),
+  },
+]
 
 const SponsorsLayout = props => {
   return (
     <div>
-      <ul>
-        {[
-          // {
-          //   url: "https://patreon.com/typebrigade",
-          //   label: "Our supporters on Patreon",
-          // },
-          // { url: "https://commercialtype.com/", label: "Commercial Type" },
-          // { url: "https://daltonmaag.com/", label: "Dalton Maag" },
-          { url: "https://kennethormandy.com", label: "Kenneth Ormandy" },
-          { url: "https://alannamunro.com", label: "Alanna Munro" },
-          { url: "http://nancywudesign.com/", label: "Nancy Wu Design" },
-          // { url: "https://joshuamann.ca/", label: "Joshua Mann" },
-          // { url: "https://mitchellpress.com/", label: "Mitchell Press" },
-          // { url: "https://www.spicers.ca/", label: "Spicers" },
-          // { url: "https://elysiancoffee.com/", label: "Elysian Coffee" },
-          // { url: "https://www.gatsbyjs.com/", label: "Gatsby" },
-          { url: "/sponsors", label: "…and you?" },
-        ].map((item, index) => {
+      <div
+        style={{ display: "flex", marginLeft: "-2rem", marginRight: "-2rem" }}
+      >
+        {sponsors.map((obj, index) => {
+          const Logo = obj.svg
+
+          return (
+            <Link
+              to={obj.url}
+              key={`Sponsor_${index}`}
+              style={{ display: "block", padding: "2rem", width: "200px", display: 'flex', alignItems: 'center' }}
+            >
+              <Logo fill="white" />
+            </Link>
+          )
+        })}
+      </div>
+
+      <ul
+        style={{
+          listStyle: "none",
+          padding: 0,
+          margin: 0,
+        }}
+      >
+        {textSponsors.map((item, index) => {
           return (
             <li>
               <Link to={item.url}>{item.label}</Link>
@@ -56,23 +96,6 @@ const SponsorsLayout = props => {
           )
         })}
       </ul>
-
-      {/*
-      <div style={{ display: "flex", margin: "-1rem" }}>
-        {[Sponsors.mitchell, Sponsors.mitchell, Sponsors.mitchell].map(
-          (Item, index) => {
-            return (
-              <div
-                key={`Sponsor_1_${index}`}
-                style={{ padding: "1rem", width: "200px" }}
-              >
-                <Item fill="white" />
-              </div>
-            )
-          }
-        )}
-      </div>
-      */}
     </div>
   )
 }
