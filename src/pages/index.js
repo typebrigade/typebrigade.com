@@ -19,7 +19,7 @@ const IndexPage = () => (
               Vancouver’s typography <br />
               speaker series, returns
             </span><br/>
-            <span className="onum">November 1, 2024</span>
+            <span className="onum">December 10, 2024</span>
           </h1>
           <p></p>
           <div>
