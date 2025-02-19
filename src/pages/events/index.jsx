@@ -14,16 +14,24 @@ const EventsPage = props => {
         <ul style={{ margin: 0, padding: 0, listStyle: "none" }}>
           {data.map((event, index) => {
             let date = ""
+            let location = ""
             if (event.date && event.date !== "") {
               date = new Date(event.date)
               date = format(date, "DD MMMM, YYYY")
+            }
+
+            if (typeof event.location !== "undefined" && event.location) {
+              location = event.location
             }
 
             let label = (
               <Fragment>
                 {event.number ? `Type Brigade №${event.number} ` : ""}
                 <span>{event.title}</span>
-                <time style={{ display: "block", opacity: 0.5 }}>{date}</time>
+                <div style={{ opacity: 0.5 }}>
+                  <time style={{ display: "block" }}>{date}</time>
+                  <div>{location}</div>
+                </div>
               </Fragment>
             )
 
