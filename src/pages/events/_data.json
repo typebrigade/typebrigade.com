@@ -1,6 +1,23 @@
 [
   {
     "title": "",
+    "number": 55,
+    "url": "https://www.meetup.com/typebrigade/events/305886330/",
+    "location": "BCIT Downtown Campus",
+    "address": "555 Seymour St, Vancouver, BC",
+    "date": "20 February 2025"
+  },
+  {
+    "title": "× The Pop-Up Type Museum",
+    "format": "collaboration",
+    "number": 54,
+    "url": "https://www.meetup.com/typebrigade/events/304834088/",
+    "location": "Emily Carr University of Art + Design",
+    "address": "520 E 1st Ave, Vancouver, BC V5T 0H2",
+    "date": "10 December 2024"
+  },
+  {
+    "title": "",
     "number": 53,
     "url": "https://www.meetup.com/typebrigade/events/304061277/?eventOrigin=group_upcoming_events",
     "location": "BCIT Downtown Campus",
