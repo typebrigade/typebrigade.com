@@ -39,7 +39,7 @@ Thank you for understanding, and for being part of Type Brigade.
 <table>
 <thead>
 <tr>
-  <th style={{ width: '20%' }}>Date</th>
+  <th style={{ width: '30%' }}>Date</th>
   <th>Details</th>
 </tr>
 </thead>
