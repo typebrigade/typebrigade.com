@@ -28,7 +28,6 @@
     "deploy:ci": "surge ./public typebrigade.com"
   },
   "dependencies": {
-    "@kennethormandy/react-fittext": "^0.6.0",
     "fecha": "^4.2.0",
     "gatsby": "^4.0.0",
     "gatsby-plugin-image": "^2.0.0",

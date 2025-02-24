@@ -1,5 +1,5 @@
-import React, { Fragment, Component } from "react"
-import FitText from "@kennethormandy/react-fittext"
+import React, { Component } from "react"
+// import div from "@kennethormandy/react-fittext"
 import Carousel from "nuka-carousel"
 // import shuffle from "lodash.shuffle"
 
@@ -95,7 +95,10 @@ class Banner extends Component {
               }}
             >
               <div>
-                <FitText compressor={2.4}>{this.props.children}</FitText>
+                <div style={{
+                  fontSize: `clamp(18px, 7.7vw, 101.75px)`,
+                  lineHeight: '1.1',
+                }}>{this.props.children}</div>
               </div>
             </div>
             <div
