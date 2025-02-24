@@ -42,8 +42,7 @@ tito-button .tito-tickets-button-inner {
   border: 2px solid var(--pink);
   color: #000;
   white-space: nowrap;
-  text-decoration: none; 
-
+  text-decoration: none;
 }
 
 .Button--small,
