@@ -38,11 +38,10 @@ class NewsletterForm extends React.Component {
             padding: "2rem",
             display: "block",
             borderRadius: "8px",
-            maxWidth: "500px",
+            maxWidth: "616px",
             margin: "0 auto 1.5rem auto",
             textAlign: "center",
           }}
-          className="block rounded bg-silver max-width-2 mx-auto mt0 mb3 clearfix center"
         >
           <div className="p2 sm-p3 block mx-auto">
             <div>

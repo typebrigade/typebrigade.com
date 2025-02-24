@@ -44,21 +44,21 @@ const IndexPage = () => (
       </div>
     </div>
     {/*
-    <Wrapper>
+    <Wrapper width="regular">
       <h2>Schedule</h2>
       <Schedule />
     </Wrapper>
     <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
-      <Wrapper>
+      <Wrapper width="regular">
         <h2>Speakers</h2>
       </Wrapper>
-      <Wrapper wide>
+      <Wrapper width="regular">
         <Speakers />
       </Wrapper>
     </div>
     */}
     <div style={{ zIndex: 2, position: "relative" }}>
-      <Wrapper>
+      <Wrapper width="regular">
         <div style={{ marginTop: "5rem", marginBottom: "5rem" }}>
           <h2>Sponsors & Partners</h2>
           <Sponsors />

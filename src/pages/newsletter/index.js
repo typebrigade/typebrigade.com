@@ -9,7 +9,26 @@ const EventsPage = props => {
     <Fragment>
       <Seo title="Newsletter" />
       <Wrapper>
-        <h1 style={{ display: 'none'}}>Newsletter</h1>
+        <article>
+          <h1 style={{ display: "none" }}>Newsletter</h1>
+          <h2>Meetup.com</h2>
+          <p>
+            We currently run our events through Meetup.com. Join our group there
+            to register for events, or see our archive of 50+ events over the
+            last decade and counting:
+          </p>
+          <p>
+            <a href="https://meetup.com/typebrigade" target="_blank">
+              Type Brigade on Meetup.com
+            </a>
+          </p>
+          <h2>Newsletter</h2>
+          <p>
+            We’ll still announce events through Meetup.com, but we’re excited to
+            share that our newsletter will be the new way we announce events
+            first:
+          </p>
+        </article>
         <NewsletterForm />
       </Wrapper>
     </Fragment>

@@ -36,13 +36,13 @@ const Layout = ({ children, fullWidth }) => {
       </Seo>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}
-      <Wrapper>
+      <Wrapper width="regular">
         <footer
           style={{
             marginTop: "3rem",
             marginBottom: "4rem",
             paddingTop: "3rem",
-            borderTop: "1px solid rgba(255, 255, 255, 0.5)",
+            borderTop: "2px solid white",
           }}
         >
           <p>

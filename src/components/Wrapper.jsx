@@ -3,20 +3,26 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const Wrapper = props => {
+  const widthMap = {
+    article: '',
+    regular: 'Wrapper--regular',
+    wide: 'Wrapper--wide',
+  }
+
   return (
     <div
-      className={`Wrapper ${props.wide ? `Wrapper--wide` : ""}`}
+      className={`Wrapper ${widthMap[props.width] || ''}`}
       {...props}
     />
   )
 }
 
 Wrapper.defaultProps = {
-  wide: false,
+  width: 'article',
 }
 
 Wrapper.propTypes = {
-  wide: PropTypes.bool,
+  width: PropTypes.oneOf(['article', 'regular', 'wide']),
 }
 
 export default Wrapper

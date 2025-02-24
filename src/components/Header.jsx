@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <Wrapper>
+    <Wrapper width="regular">
       <Flexbox>
         <div style={{ width: "180px" }}>
           <LinkDuo

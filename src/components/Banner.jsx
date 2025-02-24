@@ -85,7 +85,7 @@ class Banner extends Component {
 
     return (
       <div style={{ marginBottom: "10vh", width: "100%" }}>
-        <Wrapper wide>
+        <Wrapper width="wide">
           <div style={{ position: "relative" }}>
             <div
               style={{

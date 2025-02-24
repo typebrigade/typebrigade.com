@@ -3,7 +3,7 @@
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;    
-  max-width: 50rem;
+  max-width: 50ch;
 }
 
 @media (min-width: 900px) {
@@ -13,8 +13,10 @@
   }
 }
 
-@media (min-width: 900px) {
-  .Wrapper--wide {
-    max-width: 75rem;
-  }
+.Wrapper--regular {
+  max-width: 50rem;
+}
+
+.Wrapper--wide {
+  max-width: 75rem;
 }
