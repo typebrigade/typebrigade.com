@@ -33,12 +33,6 @@ const Layout = ({ children, fullWidth }) => {
   return (
     <Fragment>
       <Seo title="Type Brigade">
-        <script src="https://js.tito.io/v1" async></script>
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://css.tito.io/v1.1"
-        />
       </Seo>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}
@@ -54,18 +48,18 @@ const Layout = ({ children, fullWidth }) => {
           <p>
             <Link to="/">Type Brigade</Link>
             <br />
+            <Link to="/newsletter">Newsletter</Link>
+            <br />
+            <Link to="https://meetup.com/typebrigade">Meetup</Link>
+            <br />
             <Link to="/code-of-conduct">Code of Conduct</Link>
-            <br />
-            <Link to="/blog">Blog</Link>
-            <br />
-            <Link to="/events">Events</Link>
             <br />
             <Link to="https://instagram.com/typebrigade">
               @typebrigade on Instagram
             </Link>
             <br />
-            <Link to="https://twitter.com/typebrigade">
-              @typebrigade on Twitter
+            <Link to="https://youtube.com/@typebrigade">
+              @typebrigade on YouTube
             </Link>
             <br />
           </p>

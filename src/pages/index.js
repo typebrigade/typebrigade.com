@@ -7,6 +7,7 @@ import LinkDuo from "../components/LinkDuo"
 // import Speakers from "../components/Speakers"
 import Sponsors from "../components/Sponsors"
 import "../components/Button.css"
+import NewsletterForm from "../components/NewsletterForm"
 
 const IndexPage = () => (
   <Fragment>
@@ -31,13 +32,16 @@ const IndexPage = () => (
             </p>
             */}
             <p style={{ fontSize: '1em', lineHeight: 'inherit' }}>
-              <LinkDuo className="Button" to="https://meetup.com/typebrigade">
+              <LinkDuo className="Button" to="/newsletter">
                 Join Type Brigade
               </LinkDuo>
             </p>
           </div>
         </div>
       </Banner>
+      <div style={{ margin: '3rem 0' }}>
+        <NewsletterForm />
+      </div>
     </div>
     {/*
     <Wrapper>

@@ -10,7 +10,8 @@ const navItems = [
   // { to: "/", label: "Home" },
   // { to: "/about", label: "About" },
   // { to: "/blog", label: "Blog" },
-  // { to: "https://meetup.com/typebrigade", label: "Meetup" },
+  { to: "https://meetup.com/typebrigade", label: "Meetup" },
+  // { to: "/newsletter", label: "Newsletter" },
 ]
 
 const Flexbox = props => {
@@ -76,7 +77,10 @@ const Header = ({ siteTitle }) => (
               : null}
             <LinkDuo
               className="Button Button--small Button--outline"
-              to="https://meetup.com/typebrigade"
+              style={{
+                marginLeft: '0.25rem',
+              }}
+              to="/newsletter"
             >
               Join Type Brigade
             </LinkDuo>

@@ -71,7 +71,7 @@ const SponsorsLayout = props => {
 
           return (
             <Link
-              to={obj.url}
+              to={`${obj.url}?utm_source=Type+Brigade&utm_medium=affiliate&utm_campaign=Type+Brigade`}
               key={`Sponsor_${index}`}
               style={{
                 display: "flex",
