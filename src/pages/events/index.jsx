@@ -2,7 +2,7 @@ import React, { Fragment } from "react"
 import data from "./_data.json"
 import { format } from "fecha"
 
-import Seo from "../../components/SEO"
+import Seo from "../../components/Seo"
 import LinkDuo from "../../components/LinkDuo"
 import Wrapper from "../../components/Wrapper"
 

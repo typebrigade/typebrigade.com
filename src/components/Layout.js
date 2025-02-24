@@ -14,7 +14,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
 import Wrapper from "./Wrapper"
-import SEO from "./SEO"
+import Seo from "./Seo"
 import Link from "./LinkDuo"
 
 const Layout = ({ children, fullWidth }) => {
@@ -32,14 +32,14 @@ const Layout = ({ children, fullWidth }) => {
 
   return (
     <Fragment>
-      <SEO title="Type Brigade">
+      <Seo title="Type Brigade">
         <script src="https://js.tito.io/v1" async></script>
         <link
           rel="stylesheet"
           type="text/css"
           href="https://css.tito.io/v1.1"
         />
-      </SEO>
+      </Seo>
       <Header siteTitle={data.site.siteMetadata.title} />
       {content}
       <Wrapper>

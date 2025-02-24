@@ -74,7 +74,6 @@ const SponsorsLayout = props => {
               to={obj.url}
               key={`Sponsor_${index}`}
               style={{
-                display: "block",
                 display: "flex",
                 alignItems: "center",
                 width: "200px",
