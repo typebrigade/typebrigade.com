@@ -24,7 +24,7 @@ const EventsPage = props => {
           </p>
           <h2>Newsletter</h2>
           <p>
-            We’ll still announce events through Meetup.com, but we’re excited to
+            We’ll still announce events through Meetup.com, but starting in June, 2025, we’re excited to
             share that our newsletter will be the new way we announce events
             first:
           </p>
