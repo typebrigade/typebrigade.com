@@ -1,0 +1,31 @@
+.NewsletterForm-outer {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.NewsletterForm-email {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
+
+@media (min-width: 720px) {
+  .NewsletterForm-outer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .NewsletterForm-email {
+    margin: 0;
+  }
+
+  .NewsletterForm-inputs {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 0;
+  }
+
+  .NewsletterForm-action {
+    margin-left: 0.5rem;
+    max-width: 40%;
+  }
+}

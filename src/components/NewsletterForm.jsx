@@ -1,4 +1,5 @@
 import React from "react"
+import "./NewsletterForm.css"
 
 const Button = function(props) {
   return <button {...props}>{props.value}</button>
@@ -22,11 +23,7 @@ class NewsletterForm extends React.Component {
     const props = this.props
 
     return (
-      <div
-        className={`NewsletterForm print-none ${
-          props.fullWidth ? "mx2 my4 clearfix" : ""
-        }`}
-      >
+      <div className="NewsletterForm-outer">
         <form // eslint-disable-line jsx-a11y/no-noninteractive-element-interactions, jsx-a11y/click-events-have-key-events
           onClick={this.handleOnClickContainer}
           action="https://app.convertkit.com/forms/2846910/subscriptions"
@@ -67,26 +64,24 @@ class NewsletterForm extends React.Component {
               Email Address
             </label>
             <div
+              className="NewsletterForm-inputs"
               style={{
                 minHeight: "3rem",
-                display: "flex",
-                alignItems: "stretch",
               }}
             >
               <input
+                className="NewsletterForm-email"
                 ref={el => (this.inputEmail = el)}
                 type="email"
                 id="email_address"
                 name="email_address"
                 placeholder=""
                 required
-                className=""
                 style={{
                   flex: "auto",
                   height: "50px",
                   paddingLeft: "0.5rem",
                   paddingRight: "0.5rem",
-                  marginBottom: "0",
                   borderRadius: "8px",
                   animation: "cycle-border 10s infinite",
                   border: "2px solid var(--purple)",
@@ -102,7 +97,7 @@ class NewsletterForm extends React.Component {
           </div>`,
                 }}
               />
-              <div style={{ marginLeft: "0.5rem", maxWidth: "40%" }}>
+              <div class="NewsletterForm-action">
                 <Button
                   style={{ width: "100%", background: `#1E1E1E` }}
                   className="Button Button--small Button--outline"
@@ -129,7 +124,6 @@ class NewsletterForm extends React.Component {
 }
 
 NewsletterForm.defaultProps = {
-  fullWidth: true,
   title: "Get Type Brigade notifications first.",
   children: (
     <React.Fragment>
