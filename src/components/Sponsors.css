@@ -1,0 +1,10 @@
+.Sponsors-container {
+  display: flex;
+}
+
+@media (min-width: 720px) {
+  .Sponsors-container {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+}

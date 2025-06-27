@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "./LinkDuo"
+import './Sponsors.css'
 
 const textSponsors = [
   // {
@@ -63,9 +64,7 @@ const sponsors = [
 const SponsorsLayout = props => {
   return (
     <div>
-      <div
-        style={{ display: "flex", marginLeft: "-2rem", marginRight: "-2rem" }}
-      >
+      <div className="Sponsors-container">
         {sponsors.map((obj, index) => {
           const Logo = obj.svg
 
