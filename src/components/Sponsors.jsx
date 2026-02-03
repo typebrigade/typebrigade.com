@@ -22,7 +22,7 @@ const textSponsors = [
 
 const sponsors = [
   {
-    url: "https://www.bcit.ca/",
+    url: "https://www.bcit.ca/business-media/study/digital-arts/",
     svg: props => (
       <svg viewBox="0 0 95 85" xmlns="http://www.w3.org/2000/svg">
         <path fill="white" d="M0 0h84.8v84.8H0z"></path>
