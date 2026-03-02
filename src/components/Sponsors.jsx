@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "./LinkDuo"
-import './Sponsors.css'
+import "./Sponsors.css"
 
 const textSponsors = [
   // {
@@ -12,6 +12,7 @@ const textSponsors = [
   { url: "https://kennethormandy.com", label: "Kenneth Ormandy" },
   { url: "https://alannamunro.com", label: "Alanna Munro" },
   { url: "http://nancywudesign.com/", label: "Nancy Wu Design" },
+  { url: "https://www.jordytbd.com/", label: "Jordan Beaumont" },
   // { url: "https://joshuamann.ca/", label: "Joshua Mann" },
   // { url: "https://mitchellpress.com/", label: "Mitchell Press" },
   // { url: "https://www.spicers.ca/", label: "Spicers" },
