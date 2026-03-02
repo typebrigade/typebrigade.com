@@ -11,25 +11,26 @@ const EventsPage = props => {
       <Wrapper>
         <article>
           <h1 style={{ display: "none" }}>Newsletter</h1>
-          <h2>Meetup.com</h2>
           <p>
-            We currently run our events through Meetup.com. Join our group there
-            to register for events, or see our archive of 50+ events over the
-            last decade and counting:
+            We currently run our events through{" "}
+            <a href="https://meetup.com/typebrigade" target="_blank">
+              Meetup.com
+            </a>
+            , but announce them first to our own email list:
+          </p>
+          <NewsletterForm />
+          <p>
+            When we announce a new event, you’ll need to register for a free
+            Meetup.com account, or use your existing account.
           </p>
           <p>
+            Join our group there to register for events, or see our archive of
+            50+ events over the last decade and counting:{" "}
             <a href="https://meetup.com/typebrigade" target="_blank">
               Type Brigade on Meetup.com
             </a>
           </p>
-          <h2>Newsletter</h2>
-          <p>
-            We’ll still announce events through Meetup.com, but starting in June, 2025, we’re excited to
-            share that our newsletter will be the new way we announce events
-            first:
-          </p>
         </article>
-        <NewsletterForm />
       </Wrapper>
     </Fragment>
   )
