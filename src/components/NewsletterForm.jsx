@@ -31,7 +31,7 @@ class NewsletterForm extends React.Component {
           data-sv-form="2846910"
           data-uid="417bf7ee6b"
           style={{
-            background: "#1E1E1E",
+            background: "#111",
             padding: "2rem",
             display: "block",
             borderRadius: "8px",
@@ -57,7 +57,7 @@ class NewsletterForm extends React.Component {
                 fontSize: "0.75rem",
                 marginBottom: "0.3rem",
                 fontWeight: "normal",
-                color: "#555",
+                color: "#888",
               }}
               htmlFor="email_address"
             >
@@ -99,8 +99,8 @@ class NewsletterForm extends React.Component {
               />
               <div class="NewsletterForm-action">
                 <Button
-                  style={{ width: "100%", background: `#1E1E1E` }}
-                  className="Button Button--small Button--outline"
+                  style={{ width: "100%" }}
+                  className="Button Button--small"
                   type="submit"
                   value="Subscribe"
                 />
