@@ -3,7 +3,10 @@ import React, { Component } from "react"
 import Carousel from "nuka-carousel"
 // import shuffle from "lodash.shuffle"
 
-import image22 from '../images/event-22.jpg'
+import image1 from '../images/banner-1.jpg'
+import image2 from '../images/banner-2.jpg'
+import image3 from '../images/banner-3.jpg'
+import image4 from '../images/banner-4.jpg'
 
 import Wrapper from "./Wrapper"
 // import Image from "./Image"
@@ -73,14 +76,24 @@ class Banner extends Component {
       // },
       {
         // description: "Type Brigade №22",
-        alt: "",
-        src: image22,
+        alt: "A speaker at the podium at Type Brigade",
+        src: image1,
       },
-      // {
-      //   description: "Type Brigade №41",
-      //   alt: "",
-      //   src: require("../images/event-41.jpg"),
-      // },
+      {
+        // description: "Type Brigade №22",
+        alt: "A speaker and the audience at Type Brigade",
+        src: image2,
+      },
+      {
+        // description: "Type Brigade №22",
+        alt: "A speaker and a wider view of the audience at Type Brigade",
+        src: image3,
+      },
+      {
+        // description: "Type Brigade №22",
+        alt: "The audience at Type Brigade seeing a slide of previous events",
+        src: image4,
+      },
     ]
 
     return (
