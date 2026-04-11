@@ -3,6 +3,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const Wrapper = props => {
+  const { width, ...remainingProps } = props
   const widthMap = {
     article: '',
     regular: 'Wrapper--regular',
@@ -11,8 +12,8 @@ const Wrapper = props => {
 
   return (
     <div
-      className={`Wrapper ${widthMap[props.width] || ''}`}
-      {...props}
+      className={`Wrapper ${widthMap[width] || ''}`}
+      {...remainingProps}
     />
   )
 }

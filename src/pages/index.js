@@ -16,27 +16,32 @@ const IndexPage = () => (
         <div>
           <h1 style={{ fontSize: '1em', lineHeight: 'inherit' }}>
             Type Brigade,<br/>
-            <span>
+            {/* <span>
               <span style={{ fontWeight: "normal" }}>
               Vancouver’s typography <br />
               speaker series
               </span>
-            </span>
-            {/* <span>
+            </span> */}
+            <span>
               <span style={{ fontWeight: "normal" }}>
                 Vancouver’s typography <br />
                 speaker series, returns
               </span><br/>
-              <span className="onum">February 20, 2026</span>
-            </span> */}
+              <span className="onum">April 10, 2026</span>
+            </span>
           </h1>
           <p></p>
           <div>
             <p style={{ fontSize: '1em', lineHeight: 'inherit' }}>
+              <LinkDuo className="Button" to="https://www.meetup.com/typebrigade/events/313988115">
+                Register for Type Brigade
+              </LinkDuo>
+            </p>
+            {/* <p style={{ fontSize: '1em', lineHeight: 'inherit' }}>
               <LinkDuo className="Button" to="/newsletter">
                 Join Type Brigade
               </LinkDuo>
-            </p>
+            </p> */}
           </div>
         </div>
       </Banner>
