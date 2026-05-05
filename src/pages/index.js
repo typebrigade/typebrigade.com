@@ -27,13 +27,13 @@ const IndexPage = () => (
                 Vancouver’s typography <br />
                 speaker series, returns
               </span><br/>
-              <span className="onum">April 10, 2026</span>
+              <span className="onum">May 28, 2026</span>
             </span>
           </h1>
           <p></p>
           <div>
             <p style={{ fontSize: '1em', lineHeight: 'inherit' }}>
-              <LinkDuo className="Button" to="https://www.meetup.com/typebrigade/events/313988115">
+              <LinkDuo className="Button" to="https://www.meetup.com/typebrigade/events/314630422">
                 Register for Type Brigade
               </LinkDuo>
             </p>
